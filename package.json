@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "A sample package.json",
   "dependencies": {
-    "@Amplitude/unified": "latest",
+    "@amplitude/unified": "latest",
     "@primer/css": "17.0.1"
   },
   "license": "MIT"
