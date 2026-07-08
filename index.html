@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Viligans Command Corp DNS Setup</title>
+    <title>VILIGANS COMMAND CORPORATION | DOCS NREMT & Logistics</title>
     <style>
       :root {
         color-scheme: light dark;
@@ -28,6 +28,8 @@
         }
       }
 
+      * { box-sizing: border-box; }
+
       body {
         margin: 0;
         background: var(--bg);
@@ -37,7 +39,7 @@
       }
 
       main {
-        max-width: 920px;
+        max-width: 980px;
         margin: 0 auto;
         padding: 48px 20px;
       }
@@ -52,9 +54,7 @@
         padding: 28px;
       }
 
-      h1,
-      h2,
-      h3 {
+      h1, h2, h3 {
         line-height: 1.2;
         margin-top: 0;
       }
@@ -69,7 +69,8 @@
         padding-bottom: 12px;
       }
 
-      a {
+      a,
+      button {
         color: var(--accent);
       }
 
@@ -77,6 +78,19 @@
         background: color-mix(in srgb, var(--muted) 12%, transparent);
         border-radius: 6px;
         padding: 0.15rem 0.35rem;
+      }
+
+      .grid {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      }
+
+      .card {
+        border: 1px solid var(--border);
+        border-left: 4px solid var(--accent);
+        border-radius: 12px;
+        padding: 16px;
       }
 
       .status-list {
@@ -96,140 +110,112 @@
         color: var(--success);
       }
 
-      .dns-records {
-        display: grid;
-        gap: 16px;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      .button-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 18px;
       }
 
-      .record {
-        border-left: 4px solid var(--accent);
-        background: color-mix(in srgb, var(--accent) 8%, transparent);
+      .button-row a,
+      .button-row button {
+        border: 1px solid var(--border);
         border-radius: 10px;
-        padding: 16px;
+        background: transparent;
+        cursor: pointer;
+        font: inherit;
+        padding: 10px 14px;
+        text-decoration: none;
       }
 
-      .record dl {
-        margin: 0;
-      }
-
-      .record dt {
-        color: var(--muted);
-        font-size: 0.85rem;
-        font-weight: 700;
-        text-transform: uppercase;
-      }
-
-      .record dd {
-        margin: 0 0 10px;
-        overflow-wrap: anywhere;
-      }
-
-      .note {
-        color: var(--muted);
-      }
+      .note { color: var(--muted); }
     </style>
   </head>
   <body>
     <main>
       <div class="hero">
-        <h1>Viligans Command Corp DNS Setup</h1>
+        <h1>VILIGANS COMMAND CORPORATION</h1>
         <p>
-          Use this checklist to finish linking <strong>viliganscommandcorp.com</strong>
-          with Google Workspace Gmail while keeping website hosting separate.
+          DOCS NREMT & Logistics supports Wyoming non-emergency medical transportation,
+          rural health access, logistics readiness, and veteran-founded business infrastructure.
         </p>
+        <div class="button-row">
+          <a href="https://viliganscommandcorp.com" data-vcc-event="VCC Website Clicked">Company Website</a>
+          <button type="button" data-vcc-event="VCC Service Area Interest">Track Service Area Interest</button>
+          <button type="button" data-vcc-event="VCC Funding Interest">Track Funding Interest</button>
+        </div>
       </div>
 
-      <section aria-labelledby="current-status">
-        <h2 id="current-status">Current DNS Status</h2>
+      <section aria-labelledby="system-status">
+        <h2 id="system-status">Codex + GitHub + Amplitude Status</h2>
         <ul class="status-list">
-          <li><strong>Google verification:</strong> TXT record is present.</li>
-          <li><strong>OpenAI verification:</strong> TXT record is present.</li>
-          <li><strong>Gmail MX:</strong> points to <code>smtp.google.com</code> with priority <code>1</code>.</li>
-          <li><strong>Website root:</strong> still points to <code>66.223.49.89</code>.</li>
-          <li><strong>www host:</strong> <code>www.viliganscommandcorp.com</code> does not currently have a CNAME.</li>
+          <li><strong>Repository identity:</strong> aligned to VCC and DOCS NREMT & Logistics.</li>
+          <li><strong>Codex context:</strong> repository instructions are stored in <code>AGENTS.md</code>.</li>
+          <li><strong>Amplitude package:</strong> <code>@amplitude/unified</code> is listed in <code>package.json</code>.</li>
+          <li><strong>Client analytics:</strong> this page initializes Amplitude once in browser-only code.</li>
         </ul>
       </section>
 
-      <section aria-labelledby="gmail-setup">
-        <h2 id="gmail-setup">Finish Google Workspace Gmail</h2>
-        <ol>
-          <li>In Google Admin, go to <code>Domains &gt; Manage domains</code> and confirm the domain is verified.</li>
-          <li>Activate Gmail for <code>viliganscommandcorp.com</code>.</li>
-          <li>Keep the Google Workspace MX record shown below.</li>
-          <li>Update SPF so there is only one SPF TXT record for the root domain.</li>
-        </ol>
-
-        <div class="dns-records">
-          <article class="record">
-            <h3>Required MX</h3>
-            <dl>
-              <dt>Type</dt>
-              <dd>MX</dd>
-              <dt>Host</dt>
-              <dd>@</dd>
-              <dt>Priority</dt>
-              <dd>1</dd>
-              <dt>Value</dt>
-              <dd><code>smtp.google.com</code></dd>
-            </dl>
+      <section aria-labelledby="company-focus">
+        <h2 id="company-focus">Company Focus</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>NEMT</h3>
+            <p>Non-emergency medical transportation planning and service-readiness for Wyoming communities.</p>
           </article>
-
-          <article class="record">
-            <h3>Google-only SPF</h3>
-            <dl>
-              <dt>Type</dt>
-              <dd>TXT</dd>
-              <dt>Host</dt>
-              <dd>@</dd>
-              <dt>Value</dt>
-              <dd><code>v=spf1 include:_spf.google.com ~all</code></dd>
-            </dl>
+          <article class="card">
+            <h3>Rural Health Access</h3>
+            <p>Transportation infrastructure aligned with rural healthcare access needs.</p>
           </article>
-
-          <article class="record">
-            <h3>Google + Postal SPF</h3>
-            <dl>
-              <dt>Use when</dt>
-              <dd>Mail is still sent through <code>postal.businessidentity.llc</code>.</dd>
-              <dt>Value</dt>
-              <dd><code>v=spf1 include:_spf.google.com include:spf.postal.businessidentity.llc ~all</code></dd>
-            </dl>
+          <article class="card">
+            <h3>Automation</h3>
+            <p>Codex, GitHub Actions, and analytics workflows for operational readiness.</p>
           </article>
         </div>
       </section>
 
-      <section aria-labelledby="website-setup">
-        <h2 id="website-setup">Website Hosting Options</h2>
+      <section aria-labelledby="analytics-status">
+        <h2 id="analytics-status">Amplitude Analytics</h2>
         <p>
-          Do not point the domain to Google unless the website is hosted on Google Sites.
-          Google Workspace DNS for mail can coexist with a website hosted elsewhere.
+          Amplitude is initialized from client-side browser code with autocapture and Session Replay enabled.
+          Custom VCC events are emitted for page view, website click, service-area interest, and funding interest.
         </p>
-
-        <h3>When using Google Sites</h3>
-        <ul>
-          <li>Add the custom domain in Google Sites or Google Admin.</li>
-          <li>Add a CNAME record with host <code>www</code> and value <code>ghs.googlehosted.com</code>.</li>
-          <li>Forward <code>viliganscommandcorp.com</code> to <code>https://www.viliganscommandcorp.com</code>.</li>
-        </ul>
-
-        <h3>When using OpenAI Sites</h3>
-        <p>
-          Keep the Google TXT and MX records for email only. Website DNS should use
-          the OpenAI Sites custom-domain records rather than <code>ghs.googlehosted.com</code>.
-          The OpenAI TXT record is already present, but the custom domain still needs to be attached in OpenAI Sites.
+        <p class="note">
+          Start the page, click one of the buttons above, and verify the event in Amplitude.
         </p>
-      </section>
-
-      <section aria-labelledby="references">
-        <h2 id="references">Official References</h2>
-        <ul>
-          <li><a href="https://knowledge.workspace.google.com/admin/domains/set-up-mx-records-for-google-workspace">Google Workspace MX setup</a></li>
-          <li><a href="https://knowledge.workspace.google.com/admin/domains/verify-your-domain-with-a-txt-record">Google Workspace TXT verification</a></li>
-          <li><a href="https://support.google.com/sites/answer/9068867">Google Sites custom domain</a></li>
-          <li><a href="https://knowledge.workspace.google.com/admin/support/troubleshooting/cname-record-values">Google CNAME values</a></li>
-        </ul>
       </section>
     </main>
+
+    <script type="module">
+      import * as amplitude from "https://cdn.jsdelivr.net/npm/@amplitude/unified/+esm";
+
+      const AMPLITUDE_API_KEY = "8ea17b30e1283120fab527855172550d";
+      const INIT_FLAG = "__VCC_AMPLITUDE_INITIALIZED__";
+
+      if (typeof window !== "undefined" && !window[INIT_FLAG]) {
+        amplitude.initAll(AMPLITUDE_API_KEY, {
+          analytics: { autocapture: true },
+          sessionReplay: { sampleRate: 1 },
+        });
+
+        window[INIT_FLAG] = true;
+
+        amplitude.track("VCC Page Viewed", {
+          page_title: document.title,
+          page_path: window.location.pathname,
+          company: "VILIGANS COMMAND CORPORATION",
+          division: "DOCS NREMT & Logistics",
+        });
+      }
+
+      document.querySelectorAll("[data-vcc-event]").forEach((element) => {
+        element.addEventListener("click", () => {
+          amplitude.track(element.dataset.vccEvent, {
+            label: element.textContent.trim(),
+            page_path: window.location.pathname,
+          });
+        });
+      });
+    </script>
   </body>
 </html>
