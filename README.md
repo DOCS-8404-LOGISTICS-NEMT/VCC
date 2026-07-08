@@ -16,9 +16,12 @@ The project is used to develop and validate web, analytics, automation, and oper
 - Veteran-founded business infrastructure
 - Automation, analytics, and operational readiness
 
-## Website
+## Website and contact identity
 
-https://viliganscommandcorp.com
+- Website: https://viliganscommandcorp.com
+- Corporate email: aldavis@viliganscommandcorp.com
+
+Use the corporate email as the business identity for VCC-related platform accounts, analytics ownership, contact metadata, and operational follow-up.
 
 ## Repository purpose
 
