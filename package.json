@@ -1,7 +1,7 @@
 {
-  "name": "demo-repo",
+  "name": "vcc-docs-nremt-logistics",
   "version": "0.2.0",
-  "description": "A sample package.json",
+  "description": "VILIGANS COMMAND CORPORATION repository for DOCS NREMT & Logistics, Amplitude analytics, and Codex-assisted automation.",
   "dependencies": {
     "@amplitude/unified": "latest",
     "@primer/css": "17.0.1"
