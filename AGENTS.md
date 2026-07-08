@@ -6,6 +6,12 @@ This repository belongs to VILIGANS COMMAND CORPORATION (VCC) and supports DOCS 
 
 Do not treat this repository as a generic GitHub demo. All changes should preserve the VCC / DOCS NREMT & Logistics business context.
 
+## Corporate identity
+
+Use `aldavis@viliganscommandcorp.com` as the VCC corporate email identity for business-context metadata, contact references, analytics ownership context, and platform setup guidance.
+
+Do not treat this email as a secret. It is a corporate contact identity. Do not hard-code passwords, tokens, private keys, API secrets, or personal credentials.
+
 ## Primary goal
 
 Keep Codex, GitHub, and Amplitude working together as one system:
@@ -21,6 +27,7 @@ Keep Codex, GitHub, and Amplitude working together as one system:
 - Amplitude code must run client-side only.
 - Never initialize Amplitude in server-side code.
 - Keep Session Replay enabled only from client-side browser code.
+- Include VCC business identity metadata in analytics events where appropriate, including company, division, website, and corporate email.
 - When adding analytics events, prefer business-relevant names tied to VCC operations, funding, contact, and service-readiness flows.
 
 Recommended initialization shape:
@@ -56,6 +63,7 @@ Use clear, stable event names such as:
 - Private visibility should not block browser-side Amplitude tracking in a deployed page.
 - Codex and GitHub integrations must have explicit access to this repository through the installed GitHub app or selected repository access.
 - The public company website is `https://viliganscommandcorp.com`.
+- The corporate email identity is `aldavis@viliganscommandcorp.com`.
 
 ## Business context to preserve
 
