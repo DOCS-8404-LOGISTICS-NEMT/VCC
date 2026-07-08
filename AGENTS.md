@@ -1,0 +1,65 @@
+# Codex Instructions for VCC Repository
+
+## Repository identity
+
+This repository belongs to VILIGANS COMMAND CORPORATION (VCC) and supports DOCS NREMT & Logistics, a Wyoming-focused non-emergency medical transportation (NEMT), logistics, and rural health access initiative.
+
+Do not treat this repository as a generic GitHub demo. All changes should preserve the VCC / DOCS NREMT & Logistics business context.
+
+## Primary goal
+
+Keep Codex, GitHub, and Amplitude working together as one system:
+
+1. Codex maintains the repository and proposes safe code changes.
+2. GitHub stores the source of truth and runs workflows.
+3. Amplitude tracks client-side product, website, and funnel behavior.
+
+## Amplitude rules
+
+- Use the lowercase npm package name: `@amplitude/unified`.
+- Initialize Amplitude only once per browser lifecycle.
+- Amplitude code must run client-side only.
+- Never initialize Amplitude in server-side code.
+- Keep Session Replay enabled only from client-side browser code.
+- When adding analytics events, prefer business-relevant names tied to VCC operations, funding, contact, and service-readiness flows.
+
+Recommended initialization shape:
+
+```js
+amplitude.initAll(AMPLITUDE_API_KEY, {
+  analytics: { autocapture: true },
+  sessionReplay: { sampleRate: 1 }
+});
+```
+
+## Suggested event naming
+
+Use clear, stable event names such as:
+
+- `VCC Page Viewed`
+- `VCC CTA Clicked`
+- `VCC Contact Intent`
+- `VCC Funding Interest`
+- `VCC Service Area Interest`
+- `VCC Capability Statement Interest`
+
+## Git rules
+
+- Do not commit `node_modules/`.
+- Keep `package-lock.json` committed when npm dependencies change.
+- Keep workflows in `.github/workflows/`.
+- Keep custom GitHub Action metadata in `action.yml` or `action.yaml` only if this repository becomes a custom action.
+
+## Current repository notes
+
+- The repo is private during VCC infrastructure development.
+- Private visibility should not block browser-side Amplitude tracking in a deployed page.
+- Codex and GitHub integrations must have explicit access to this repository through the installed GitHub app or selected repository access.
+- The public company website is `https://viliganscommandcorp.com`.
+
+## Business context to preserve
+
+- Wyoming-based NEMT and logistics operations
+- Rural health transportation access
+- Veteran-founded business infrastructure
+- Automation, analytics, compliance, and operational readiness
