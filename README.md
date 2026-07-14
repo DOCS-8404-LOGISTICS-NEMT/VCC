@@ -1,45 +1,74 @@
 ![Auto Assign](https://github.com/DOCS-8404-LOGISTICS-NEMT/demo-repository/actions/workflows/auto-assign.yml/badge.svg)
 
-![Proof HTML](https://github.com/DOCS-8404-LOGISTICS-NEMT/demo-repository/actions/workflows/proof-html.yml/badge.svg)
+![Vite Build](https://github.com/DOCS-8404-LOGISTICS-NEMT/demo-repository/actions/workflows/proof-html.yml/badge.svg)
 
 # VILIGANS COMMAND CORPORATION - DOCS NREMT & Logistics
 
-This repository supports VILIGANS COMMAND CORPORATION (VCC) and DOCS NREMT & Logistics, a Wyoming-based non-emergency medical transportation (NEMT), logistics, and rural health access initiative focused on serving communities across Wyoming.
+This repository supports VILIGANS COMMAND CORPORATION (VCC) and DOCS NREMT & Logistics, a Wyoming-based non-emergency medical transportation (NEMT), logistics, and rural health access initiative.
 
-The project is used to develop and validate web, analytics, automation, and operational tooling for VCC, including GitHub Actions workflows, JavaScript dependencies, Amplitude analytics integration, and Codex-assisted repository maintenance.
+The application provides a working Vite foundation for Amplitude analytics, Codex-assisted repository maintenance, GitHub Actions validation, and future VCC operational tooling.
 
-## Company focus
-
-- Non-emergency medical transportation (NEMT)
-- Rural health access and transportation logistics
-- Wyoming community service operations
-- Veteran-founded business infrastructure
-- Automation, analytics, and operational readiness
-
-## Website and contact identity
+## Corporate identity
 
 - Website: https://viliganscommandcorp.com
 - Corporate email: aldavis@viliganscommandcorp.com
+- Company: VILIGANS COMMAND CORPORATION
+- Division: DOCS NREMT & Logistics
 
-Use the corporate email as the business identity for VCC-related platform accounts, analytics ownership, contact metadata, and operational follow-up.
+## Application structure
 
-## Repository purpose
+- `index.html` - Vite bootstrap page
+- `src/main.js` - application UI and Amplitude initialization
+- `src/config.js` - centralized VCC and analytics configuration
+- `src/styles.css` - shared application styling
+- `AGENTS.md` - Codex operating instructions
+- `.github/workflows/proof-html.yml` - Vite production build validation
+- `.env.example` - optional local environment override template
 
-This repository is intended to provide a clean working base for VCC technical operations, including:
+## Local development
 
-- JavaScript package management
-- Amplitude Analytics and Session Replay setup
-- GitHub Actions automation
-- Codex-compatible repository maintenance
-- Public-facing web proof-of-concept files
+```bash
+npm install
+npm run dev
+```
 
-## Current technical stack
+Vite will print a local URL, normally `http://localhost:5173`.
 
-- HTML/CSS proof page
-- Node/npm dependency management
-- `@amplitude/unified` for Amplitude instrumentation
-- GitHub Actions workflows for repository automation
+## Production build
+
+```bash
+npm run build
+npm run preview
+```
+
+The production output is written to `dist/`.
+
+## Amplitude events
+
+The application currently emits:
+
+- `VCC Page Viewed`
+- `VCC Website Clicked`
+- `VCC Contact Intent`
+- `VCC Service Area Interest`
+- `VCC Funding Interest`
+
+Each event includes the shared VCC company, division, corporate email, and website context.
+
+## Environment configuration
+
+The browser SDK may read `VITE_AMPLITUDE_API_KEY` from `.env.local`. The Amplitude project API key is client-visible by design; passwords, GitHub tokens, OpenAI API keys, and other private credentials must never be committed.
+
+## GitHub Actions
+
+The workflow stored at `.github/workflows/proof-html.yml` now performs the following checks on pushes and pull requests to `main`:
+
+1. Checks out the repository.
+2. Sets up Node.js 22.
+3. Installs npm dependencies.
+4. Runs `npm run build`.
+5. Confirms that `dist/index.html` exists.
 
 ## Repository status
 
-This repository is private while VCC develops internal business and technical infrastructure. Private visibility should not prevent Amplitude from working in the deployed client application, but Codex and GitHub integrations must have explicit access to this repository through the connected GitHub account or installed GitHub app.
+The repository remains private while VCC develops internal business and technical infrastructure. Private visibility does not prevent browser-side Amplitude event ingestion, but GitHub and Codex integrations require explicit repository access.
