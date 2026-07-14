@@ -134,13 +134,17 @@
   <body>
     <main>
       <div class="hero">
-        <h1>VILIGANS COMMAND CORPORATION</h1>
+        <h1 id="company-name">VILIGANS COMMAND CORPORATION</h1>
         <p>
           DOCS NREMT & Logistics supports Wyoming non-emergency medical transportation,
           rural health access, logistics readiness, and veteran-founded business infrastructure.
         </p>
+        <p>
+          Corporate contact identity:
+          <a id="corporate-email" data-vcc-event="VCC Contact Intent"></a>
+        </p>
         <div class="button-row">
-          <a href="https://viliganscommandcorp.com" data-vcc-event="VCC Website Clicked">Company Website</a>
+          <a id="company-website" data-vcc-event="VCC Website Clicked">Company Website</a>
           <button type="button" data-vcc-event="VCC Service Area Interest">Track Service Area Interest</button>
           <button type="button" data-vcc-event="VCC Funding Interest">Track Funding Interest</button>
         </div>
@@ -150,7 +154,9 @@
         <h2 id="system-status">Codex + GitHub + Amplitude Status</h2>
         <ul class="status-list">
           <li><strong>Repository identity:</strong> aligned to VCC and DOCS NREMT & Logistics.</li>
+          <li><strong>Corporate email:</strong> <code id="corporate-email-status"></code>.</li>
           <li><strong>Codex context:</strong> repository instructions are stored in <code>AGENTS.md</code>.</li>
+          <li><strong>Client configuration:</strong> VCC and Amplitude values are centralized in <code>config.js</code>.</li>
           <li><strong>Amplitude package:</strong> <code>@amplitude/unified</code> is listed in <code>package.json</code>.</li>
           <li><strong>Client analytics:</strong> this page initializes Amplitude once in browser-only code.</li>
         </ul>
@@ -178,7 +184,7 @@
         <h2 id="analytics-status">Amplitude Analytics</h2>
         <p>
           Amplitude is initialized from client-side browser code with autocapture and Session Replay enabled.
-          Custom VCC events are emitted for page view, website click, service-area interest, and funding interest.
+          Custom VCC events are emitted for page view, website click, contact intent, service-area interest, and funding interest.
         </p>
         <p class="note">
           Start the page, click one of the buttons above, and verify the event in Amplitude.
@@ -188,14 +194,27 @@
 
     <script type="module">
       import * as amplitude from "https://cdn.jsdelivr.net/npm/@amplitude/unified/+esm";
+      import { VCC_CONFIG, VCC_ANALYTICS_CONTEXT } from "./config.js";
 
-      const AMPLITUDE_API_KEY = "8ea17b30e1283120fab527855172550d";
       const INIT_FLAG = "__VCC_AMPLITUDE_INITIALIZED__";
 
+      const companyName = document.querySelector("#company-name");
+      const corporateEmail = document.querySelector("#corporate-email");
+      const corporateEmailStatus = document.querySelector("#corporate-email-status");
+      const companyWebsite = document.querySelector("#company-website");
+
+      companyName.textContent = VCC_CONFIG.company;
+      corporateEmail.textContent = VCC_CONFIG.corporateEmail;
+      corporateEmail.href = `mailto:${VCC_CONFIG.corporateEmail}`;
+      corporateEmailStatus.textContent = VCC_CONFIG.corporateEmail;
+      companyWebsite.href = VCC_CONFIG.website;
+
       if (typeof window !== "undefined" && !window[INIT_FLAG]) {
-        amplitude.initAll(AMPLITUDE_API_KEY, {
-          analytics: { autocapture: true },
-          sessionReplay: { sampleRate: 1 },
+        amplitude.initAll(VCC_CONFIG.amplitude.apiKey, {
+          analytics: { autocapture: VCC_CONFIG.amplitude.autocapture },
+          sessionReplay: {
+            sampleRate: VCC_CONFIG.amplitude.sessionReplaySampleRate,
+          },
         });
 
         window[INIT_FLAG] = true;
@@ -203,8 +222,7 @@
         amplitude.track("VCC Page Viewed", {
           page_title: document.title,
           page_path: window.location.pathname,
-          company: "VILIGANS COMMAND CORPORATION",
-          division: "DOCS NREMT & Logistics",
+          ...VCC_ANALYTICS_CONTEXT,
         });
       }
 
@@ -213,6 +231,7 @@
           amplitude.track(element.dataset.vccEvent, {
             label: element.textContent.trim(),
             page_path: window.location.pathname,
+            ...VCC_ANALYTICS_CONTEXT,
           });
         });
       });
