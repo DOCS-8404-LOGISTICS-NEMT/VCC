@@ -1,10 +1,20 @@
 {
   "name": "vcc-docs-nremt-logistics",
-  "version": "0.2.0",
-  "description": "VILIGANS COMMAND CORPORATION repository for DOCS NREMT & Logistics, Amplitude analytics, and Codex-assisted automation.",
+  "version": "0.3.0",
+  "private": true,
+  "description": "VILIGANS COMMAND CORPORATION application for DOCS NREMT & Logistics, Amplitude analytics, and Codex-assisted automation.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@amplitude/unified": "latest",
     "@primer/css": "17.0.1"
+  },
+  "devDependencies": {
+    "vite": "latest"
   },
   "license": "MIT"
 }
