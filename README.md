@@ -78,7 +78,7 @@ The workflow stored at `.github/workflows/proof-html.yml` now performs the follo
 
 1. Checks out the repository.
 2. Sets up Node.js 22.
-3. Installs locked npm dependencies with `npm ci`.
+3. Installs npm dependencies with `npm install`.
 4. Runs `npm run build`.
 5. Confirms that `dist/index.html` exists.
 
