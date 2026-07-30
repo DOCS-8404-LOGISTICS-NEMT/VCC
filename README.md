@@ -6,7 +6,7 @@
 
 This repository supports VILIGANS COMMAND CORPORATION (VCC) and DOCS NREMT & Logistics, a Wyoming-based non-emergency medical transportation (NEMT), logistics, and rural health access initiative.
 
-The application provides a working Vite foundation for Amplitude analytics, Codex-assisted repository maintenance, GitHub Actions validation, and future VCC operational tooling.
+The application provides a working Vite dashboard for executive operations, grant strategy, compliance readiness, RV acquisition governance, revenue development, Amplitude analytics, Codex-assisted repository maintenance, and GitHub Actions validation.
 
 ## Corporate identity
 
@@ -55,6 +55,19 @@ The application currently emits:
 
 Each event includes the shared VCC company, division, corporate email, and website context.
 
+## Executive operations workspace
+
+The current workspace includes:
+
+- July 30, 2026 executive operations review
+- Immediate action list ranked by estimated impact
+- Open and actionable funding pipeline for ICAM, ATTAIN, WYDOT transit funding, and local service contracts
+- Wyoming compliance requirements and business risk notes
+- Private-party RV purchase risk gate and asset acquisition plan
+- Revenue opportunity tracker for county, clinic, employer, and sponsor channels
+- Partnership pipeline for WYDOT, counties, clinics, senior/disability organizations, employers, and civic groups
+- 90-day launch plan for the Wyoming rural special-needs transportation pilot
+
 ## Environment configuration
 
 The browser SDK may read `VITE_AMPLITUDE_API_KEY` from `.env.local`. The Amplitude project API key is client-visible by design; passwords, GitHub tokens, OpenAI API keys, and other private credentials must never be committed.
@@ -65,7 +78,7 @@ The workflow stored at `.github/workflows/proof-html.yml` now performs the follo
 
 1. Checks out the repository.
 2. Sets up Node.js 22.
-3. Installs npm dependencies.
+3. Installs locked npm dependencies with `npm ci`.
 4. Runs `npm run build`.
 5. Confirms that `dist/index.html` exists.
 
