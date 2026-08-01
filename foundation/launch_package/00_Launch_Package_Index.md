@@ -31,23 +31,34 @@ These files are not executed records. They should not be represented as final co
 | `09_Outreach_Scripts_DRAFT.md` | Email and phone scripts for partner, sponsor, and funder outreach. |
 | `10_Grant_Calendar_and_Funding_Path_DRAFT.md` | Funding calendar and fastest path to a funded pilot. |
 | `11_Evidence_Register.csv` | Source-proof tracker for every requirement. |
+| `12_Source_Proof_Status_2026-08-01.md` | Current source-proof status for VCC corporate records. |
+| `13_VCC_Bylaws_DRAFT.md` | VCC-specific bylaws draft for review and approval. |
+| `14_VCC_Initial_Board_Consent_DRAFT.md` | Initial board consent and authorization draft. |
+| `15_Stock_Ledger_and_Cap_Table_DRAFT.md` | Stock ledger and capitalization draft for ownership/control readiness. |
+| `16_Google_Workspace_Admin_Foundation_DRAFT.md` | Google Workspace domain, email, Drive, security, and compliance setup draft. |
+| `17_Ranked_90_Day_Launch_Plan_2026-08-01.md` | Ranked 90-day launch plan with priorities, funding path, marketing, staffing, and risk controls. |
+| `18_90_Day_Launch_Task_Tracker.csv` | Execution tracker for ranked 90-day launch tasks. |
+| `17_Ranked_90_Day_Launch_Plan_2026-08-01.md` | Ranked 90-day Wyoming rural special-needs transportation pilot launch plan. |
+| `18_90_Day_Launch_Task_Tracker.csv` | CSV execution tracker with dates, owners, impact scores, gates, and dependencies. |
 
 ## Immediate Completion Order
 
-1. Reconnect or copy the VCC corporate binder into an accessible folder.
-2. Populate the evidence register with official source records.
-3. Confirm VCC and DOCS 8404 legal names/status using Wyoming Secretary of State records.
-4. Finalize governance and ownership/control records.
-5. Complete SAM/UEI and Grants.gov readiness.
-6. Confirm WYDOT operating authority path.
-7. Obtain insurance quotes.
-8. Select the pilot vehicle and service area.
-9. Send partner outreach using the MOU and scripts.
-10. Convert approved summary/capability statement into PDF.
+1. Confirm Google Workspace admin access and domain/email security controls.
+2. Reconnect or copy the VCC corporate binder into an accessible folder.
+3. Populate the evidence register with official source records.
+4. Confirm VCC and DOCS 8404 legal names/status using Wyoming Secretary of State records.
+5. Finalize governance and ownership/control records.
+6. Complete SAM/UEI and Grants.gov readiness.
+7. Confirm WYDOT operating authority path.
+8. Obtain insurance quotes.
+9. Select the pilot vehicle and service area.
+10. Send partner outreach using the MOU and scripts.
+11. Convert approved summary/capability statement into PDF.
 
 ## Approval Required Before Execution
 
 - State filings
+- DNS, MX, SPF, DKIM, DMARC, or Workspace admin changes
 - Stock issuance
 - Board/shareholder approvals
 - SAM/Grants.gov representations

@@ -154,6 +154,109 @@ const dashboardCards = [
   },
 ];
 
+const workspaceReadiness = [
+  {
+    step: "Admin identity",
+    status: "Verify",
+    owner: "CEO / Admin",
+    next: "Confirm aldavis@viliganscommandcorp.com has super-admin access and recovery options.",
+  },
+  {
+    step: "Domain verification",
+    status: "Partial",
+    owner: "Admin",
+    next: "Public DNS has Google verification; confirm Google Admin shows viliganscommandcorp.com as verified.",
+  },
+  {
+    step: "Gmail routing",
+    status: "Partial",
+    owner: "Admin",
+    next: "Public DNS has Google MX; confirm Gmail activation and mailbox send/receive tests.",
+  },
+  {
+    step: "Sender authentication",
+    status: "Review",
+    owner: "Compliance",
+    next: "Review SPF, generate Google DKIM, and confirm DMARC reports are monitored.",
+  },
+  {
+    step: "Operating groups",
+    status: "Draft",
+    owner: "Operations",
+    next: "Create groups for grants, legal, compliance, operations, partners, billing, and DMARC.",
+  },
+  {
+    step: "Shared Drives",
+    status: "Draft",
+    owner: "Operations",
+    next: "Create corporation-owned drives for governance, grants, contracts, compliance, assets, and finance.",
+  },
+  {
+    step: "HIPAA/BAA guardrail",
+    status: "Missing",
+    owner: "Compliance / Counsel",
+    next: "Do not store PHI or rider medical details until BAA and sharing controls are approved.",
+  },
+];
+
+const workspaceDnsRecords = [
+  ["Domain verification", "TXT", "@", "google-site-verification value present in DNS", "Confirm in Google Admin"],
+  ["Gmail inbound mail", "MX", "@", "smtp.google.com, priority 1", "Confirm Gmail active"],
+  ["SPF", "TXT", "@", "Current SPF uses a/mx plus BusinessIdentity sender", "Review before outreach"],
+  ["DKIM", "TXT", "[selector]._domainkey", "Common selectors not found", "Generate/publish in Google Admin"],
+  ["DMARC", "TXT", "_dmarc", "p=quarantine with BusinessIdentity reports", "Confirm report access"],
+  ["Website", "A / CNAME", "@ and www", "Apex 66.223.49.89; www ghs.googlehosted.com", "Separate from mail changes"],
+];
+
+const workspaceGroups = [
+  ["info@", "Public website and general inquiries"],
+  ["grants@", "SAM.gov, Grants.gov, WYDOT, foundations, and funding partners"],
+  ["legal@", "Governance, contracts, notices, filings, and legal review"],
+  ["compliance@", "Insurance, WYDOT, Medicaid readiness, privacy, safety, incidents"],
+  ["operations@", "Dispatch planning, vehicle readiness, staffing, and launch execution"],
+  ["transportation@", "Transportation and mobility partner communications"],
+  ["partners@", "Clinics, counties, VSOs, senior centers, sponsors, and employers"],
+  ["billing@", "Invoices, sponsor payments, service contracts, and future claim workflow"],
+  ["dmarc@", "Sender-authentication reports if not handled by an approved vendor"],
+];
+
+const workspaceDrives = [
+  ["Corporate Governance", "Articles, good standing, bylaws, consents, stock ledger, annual reports"],
+  ["Grants and Funding", "SAM, Grants.gov, NOFOs, budgets, narratives, submissions, awards"],
+  ["Transportation Operations", "Authority, driver files, training, dispatch, trip logs, route plans"],
+  ["Vehicles and Assets", "Titles, inspections, maintenance, insurance, equipment, asset ledger"],
+  ["Insurance and Compliance", "Policies, COIs, claims, privacy, incidents, Medicaid readiness"],
+  ["Contracts and Legal", "MOUs, service agreements, sponsorships, vendors, notices"],
+  ["Marketing and Partnerships", "Capability statements, outreach lists, support letters, sponsor assets"],
+  ["Finance and Investor Readiness", "Budgets, forecasts, lender packets, board approvals, funding sources"],
+];
+
+const workspaceSources = [
+  {
+    name: "Google Workspace domain verification",
+    source:
+      "https://knowledge.workspace.google.com/admin/domains/verify-your-domain-with-a-txt-record",
+  },
+  {
+    name: "Google Workspace MX setup",
+    source:
+      "https://knowledge.workspace.google.com/admin/domains/set-up-mx-records-for-google-workspace",
+  },
+  {
+    name: "Google Workspace SPF setup",
+    source: "https://knowledge.workspace.google.com/admin/security/set-up-spf",
+  },
+  {
+    name: "Google Workspace DMARC setup",
+    source: "https://knowledge.workspace.google.com/admin/security/set-up-dmarc",
+  },
+  {
+    name: "Google Workspace HIPAA implementation guide",
+    source:
+      "https://cloud.google.com/security/compliance/workspace_cloud_identity_hipaa_implementation_guide_workspace_whitepaper",
+  },
+];
+
 const activeContracts = [
   {
     target: "County health / human services",
@@ -714,6 +817,7 @@ app.innerHTML = `
       </div>
       <nav class="command-nav" aria-label="Command centers">
         <a href="#executive" data-vcc-event="VCC Command Center Opened" data-label="Executive Dashboard">Executive</a>
+        <a href="#workspace" data-vcc-event="VCC Command Center Opened" data-label="Google Workspace Foundation">Workspace</a>
         <a href="#grants" data-vcc-event="VCC Command Center Opened" data-label="Grant Command Center">Grants</a>
         <a href="#legal" data-vcc-event="VCC Command Center Opened" data-label="Legal Contract Center">Legal</a>
         <a href="#marketing" data-vcc-event="VCC Command Center Opened" data-label="Marketing Growth Center">Growth</a>
@@ -724,6 +828,40 @@ app.innerHTML = `
         <a href="mailto:${VCC_CONFIG.corporateEmail}" data-vcc-event="VCC Contact Intent" data-label="Email VCC">Email VCC</a>
         <button type="button" data-vcc-event="VCC Funding Interest" data-label="Funding action">Track Funding Interest</button>
         <button type="button" data-vcc-event="VCC Service Area Interest" data-label="Service area action">Track Service Area Interest</button>
+      </div>
+    </section>
+
+    <section id="workspace" aria-labelledby="workspace-title">
+      ${renderCommandIntro(
+        "0. Google Workspace Foundation",
+        "Domain, Gmail, sender security, role groups, Shared Drives, and PHI guardrails",
+        "VCC should operate Workspace under aldavis@viliganscommandcorp.com while keeping DNS changes, admin changes, and medical-adjacent data controls behind approval gates.",
+      )}
+      <div class="notice">
+        Workspace setup is an operating-control project. Do not change MX, SPF, DKIM, DMARC, admin roles, sharing rules,
+        or PHI storage practices without CEO approval and a rollback plan.
+      </div>
+      <h3 class="block-title">Readiness tracker</h3>
+      ${table(
+        ["Step", "Status", "Owner", "Next action"],
+        workspaceReadiness.map((item) => [
+          item.step,
+          `<span class="pill ${statusClass(item.status)}">${item.status}</span>`,
+          item.owner,
+          item.next,
+        ]),
+      )}
+      <h3 class="block-title">DNS and mail controls</h3>
+      ${table(["Control", "Type", "Host", "Current / target", "Action"], workspaceDnsRecords)}
+      <div class="grid two">
+        <div>
+          <h3 class="block-title">Operating groups</h3>
+          ${table(["Address", "Use"], workspaceGroups)}
+        </div>
+        <div>
+          <h3 class="block-title">Shared Drive map</h3>
+          ${table(["Drive", "Records"], workspaceDrives)}
+        </div>
       </div>
     </section>
 
@@ -980,6 +1118,9 @@ app.innerHTML = `
         ${card("Wyoming annual report", "Good standing and annual report due-date verification.", sourceLink(complianceTasks[0]))}
         ${card("WYDOT operating authority", "Intrastate authority and insurance filing reference.", sourceLink(complianceTasks[1]))}
         ${card("Wyoming Medicaid", "Provider enrollment and billing path reference.", sourceLink(complianceTasks[3]))}
+        ${workspaceSources
+          .map((item) => card(item.name, "Google Workspace setup and compliance reference.", sourceLink(item)))
+          .join("")}
       </div>
     </section>
   </main>

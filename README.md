@@ -22,6 +22,7 @@ The application provides a complete startup operations workspace for executive o
 - `src/config.js` - centralized VCC and analytics configuration
 - `src/styles.css` - responsive operations workspace styling
 - `AGENTS.md` - Codex operating instructions
+- `foundation/google-workspace-foundation.md` - Google Workspace domain, email, Drive, and security foundation
 - `.github/workflows/proof-html.yml` - Vite production build validation
 - `.env.example` - optional local environment override template
 
@@ -45,8 +46,9 @@ The production output is written to `dist/`.
 
 ## Startup operations workspace
 
-The August 1, 2026 workspace includes five command centers:
+The August 1, 2026 workspace includes six command centers:
 
+- Google Workspace Foundation: domain, Gmail, sender authentication, role groups, Shared Drives, and HIPAA/BAA guardrails.
 - Executive Dashboard: funding pipeline, open grants, active contracts, compliance tasks, marketing tasks, and vehicle acquisition status.
 - Grant Command Center: grant tracker, application calendar, required documents checklist, and funding opportunity database.
 - Legal & Contract Center: bylaws repository, contract review workflow, vehicle acquisition documents, and risk assessment tracker.
@@ -60,6 +62,13 @@ The August 1, 2026 workspace includes five command centers:
 - Complete corporate, insurance, operating authority, vehicle, and driver readiness gates before launch.
 - Preserve legal controls so VCC does not create obligations before executive authorization.
 - Track launch metrics: trips, denials, cost per trip, revenue, safety incidents, support letters, and partner referrals.
+- Finish Google Workspace controls: DKIM, sender review, operating groups, Shared Drives, and compliance sharing rules.
+
+## Google Workspace foundation
+
+Use `aldavis@viliganscommandcorp.com` as the official corporate admin/officer identity for project metadata, public contact, grant readiness, and Workspace setup. Keep the Workspace runbook in `foundation/google-workspace-foundation.md` and the launch-package draft in `foundation/launch_package/16_Google_Workspace_Admin_Foundation_DRAFT.md`.
+
+Public DNS already shows Google Workspace MX and domain verification records. SPF, DKIM, DMARC reporting, Shared Drives, and HIPAA/BAA controls must be verified before high-volume outreach or any medical-adjacent rider records.
 
 ## Amplitude events
 

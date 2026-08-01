@@ -20,6 +20,15 @@ Keep Codex, GitHub, and Amplitude working together as one system:
 2. GitHub stores the source of truth and runs workflows.
 3. Amplitude tracks client-side product, website, and funnel behavior.
 
+## Google Workspace rules
+
+- Treat `viliganscommandcorp.com` as the VCC corporate Google Workspace domain.
+- Treat `aldavis@viliganscommandcorp.com` as the operating corporate admin/officer identity for setup guidance, Drive ownership context, public contact metadata, and grant/partner readiness.
+- Do not store Google passwords, recovery codes, OAuth secrets, API keys, DKIM private material, bank data, SSNs, VA records, rider medical records, or PHI in this repository.
+- Prefer Google Shared Drives for corporate binders and launch records so files are owned by VCC rather than a personal account.
+- Before storing rider medical, Medicaid, disability, or trip-purpose health information in Workspace, require HIPAA/BAA and sharing-control review.
+- Keep Workspace setup evidence in `foundation/google-workspace-foundation.md`, `foundation/launch_package/16_Google_Workspace_Admin_Foundation_DRAFT.md`, and `foundation/launch_package/11_Evidence_Register.csv`.
+
 ## Amplitude rules
 
 - Use the lowercase npm package name: `@amplitude/unified`.
