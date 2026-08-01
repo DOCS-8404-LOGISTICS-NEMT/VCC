@@ -41,7 +41,7 @@ const priorityActions = [
   },
   {
     rank: 4,
-    action: "Close vehicle acquisition diligence",
+    action: "Close vehicle/RV acquisition diligence",
     owner: "Legal / Operations",
     due: "7 days",
     impact: 92,
@@ -251,7 +251,7 @@ const marketingTasks = [
 
 const vehicleStatus = [
   {
-    item: "Primary vehicle acquisition",
+    item: "Primary vehicle/RV acquisition",
     status: "Diligence",
     gate: "Title, lien, inspection, use classification, insurance quote, and board authorization.",
   },
@@ -361,7 +361,7 @@ const legalRepository = [
     gate: "Legal review before sending; no service promises beyond insured and authorized capacity.",
   },
   {
-    folder: "Vehicle Acquisition",
+    folder: "Vehicle / RV Acquisition",
     docs: "Purchase agreement, title, lien release, VIN report, inspection report, financing quote, insurance bindability memo.",
     gate: "No obligation until title, insurance, inspection, authority, and executive approval are complete.",
   },
@@ -380,7 +380,7 @@ const contractWorkflow = [
   ["Execution and control", "Signed copy, renewal date, deliverables, insurance certificate, and operating owner are logged."],
 ];
 
-const vehicleDocuments = [
+const rvDocuments = [
   "Seller identity and authority to sell",
   "Clean title, VIN, odometer, lien release, and brand/salvage check",
   "Independent mechanical, tire, brake, roof, electrical, generator, propane, and habitability inspection",
@@ -522,7 +522,7 @@ const launchPlan = [
   {
     phase: "Days 15-45",
     priority: 93,
-    task: "Vehicle acquisition decision",
+    task: "Vehicle/RV acquisition decision",
     output: "Title/inspection/insurance file, asset-use memo, financing options, and approval record.",
   },
   {
@@ -571,7 +571,7 @@ const equipmentRequirements = [
 
 const budgetProjection = [
   {
-    line: "Vehicle acquisition or lease",
+    line: "Vehicle/RV acquisition or lease",
     low: "$35k",
     high: "$120k",
     note: "Use financing only after title, inspection, insurance, and corporate approval gates.",
@@ -847,7 +847,7 @@ app.innerHTML = `
     <section id="legal" aria-labelledby="legal-title">
       ${renderCommandIntro(
         "3. Legal & Contract Center",
-        "Bylaws repository, contract workflow, vehicle acquisition file, and risk tracker",
+        "Bylaws repository, contract workflow, RV acquisition file, and risk tracker",
         "This center prevents unfunded, uninsured, unauthorized, or misclassified obligations before pilot launch.",
       )}
       <div class="notice">
@@ -868,8 +868,8 @@ app.innerHTML = `
           </ol>
         </div>
         <div>
-          <h3 class="block-title">Vehicle acquisition documents</h3>
-          ${renderChecklist(vehicleDocuments)}
+          <h3 class="block-title">RV acquisition documents</h3>
+          ${renderChecklist(rvDocuments)}
         </div>
       </div>
       <h3 class="block-title">Risk assessment tracker</h3>

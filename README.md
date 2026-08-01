@@ -6,7 +6,7 @@
 
 This repository supports VILIGANS COMMAND CORPORATION (VCC) and DOCS NREMT & Logistics, a Wyoming-based non-emergency medical transportation (NEMT), logistics, and rural health access initiative.
 
-The application provides a complete startup operations workspace for executive operations, funding, legal strategy, contract control, marketing, vehicle acquisition governance, Wyoming compliance, and the first rural special-needs mobility pilot.
+The application provides a complete startup operations workspace for executive operations, funding, legal strategy, contract control, marketing, vehicle/RV acquisition governance, Wyoming compliance, and the first rural special-needs mobility pilot.
 
 ## Corporate identity
 
@@ -49,7 +49,7 @@ The August 1, 2026 workspace includes five command centers:
 
 - Executive Dashboard: funding pipeline, open grants, active contracts, compliance tasks, marketing tasks, and vehicle acquisition status.
 - Grant Command Center: grant tracker, application calendar, required documents checklist, and funding opportunity database.
-- Legal & Contract Center: bylaws repository, contract review workflow, vehicle acquisition documents, and risk assessment tracker.
+- Legal & Contract Center: bylaws repository, contract review workflow, vehicle/RV acquisition documents, and risk assessment tracker.
 - Marketing & Growth Center: ad campaign planner, community outreach tracker, partnership pipeline, and social media content calendar.
 - Pilot Launch Command Center: 90-day plan, Wyoming compliance checklist, NEMT readiness checklist, vehicle/equipment requirements, and budget/revenue projections.
 
