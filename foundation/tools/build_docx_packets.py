@@ -199,6 +199,7 @@ def build_board_packet():
         [1.65, 2.4, 2.45],
     )
 
+    doc.add_page_break()
     add_h1(doc, "Source-Proof Status")
     add_table(
         doc,
@@ -215,6 +216,7 @@ def build_board_packet():
         fills={1: OK_FILL, 2: OK_FILL, 3: RISK_FILL, 4: RISK_FILL, 5: RISK_FILL, 6: RISK_FILL},
     )
 
+    doc.add_page_break()
     add_h1(doc, "Draft Resolutions")
     resolutions = [
         ("Resolution 001 - Active Control Structure", "The corporation confirms the active external-facing launch structure as Alawndus Davis -> VILIGANS COMMAND CORPORATION -> DOCS 8404 Logistics & NEMT LLC, subject to verification of DOCS 8404 state records and counsel/CPA review where required."),
@@ -228,6 +230,7 @@ def build_board_packet():
         add_h2(doc, title)
         add_para(doc, body)
 
+    doc.add_page_break()
     add_h1(doc, "Launch Gate Checklist")
     add_table(
         doc,
@@ -310,6 +313,7 @@ def build_partner_packet():
     add_para(doc, "VILIGANS COMMAND CORPORATION is preparing DOCS 8404 Logistics & NEMT LLC as a Wyoming rural transportation operator with a veteran-led mission and SBA VetCert readiness work underway.")
     add_para(doc, "We understand that some veteran transportation grants require a qualified VSO or State Veterans Service Agency lead applicant. VCC is not assuming direct eligibility where a qualified VSO/SVSA is required. Instead, we are preparing an operator/subrecipient packet for eligible partners that need rural transportation capacity.")
     add_para(doc, "Could we discuss whether your organization has veteran ride needs, grant-readiness needs, or interest in a future MOU or letter of support?")
+    doc.add_page_break()
     add_h1(doc, "MOU Skeleton")
     add_table(
         doc,

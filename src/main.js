@@ -251,7 +251,7 @@ const marketingTasks = [
 
 const vehicleStatus = [
   {
-    item: "Primary vehicle/RV acquisition",
+    item: "Primary vehicle acquisition",
     status: "Diligence",
     gate: "Title, lien, inspection, use classification, insurance quote, and board authorization.",
   },
@@ -361,7 +361,7 @@ const legalRepository = [
     gate: "Legal review before sending; no service promises beyond insured and authorized capacity.",
   },
   {
-    folder: "Vehicle / RV Acquisition",
+    folder: "Vehicle Acquisition",
     docs: "Purchase agreement, title, lien release, VIN report, inspection report, financing quote, insurance bindability memo.",
     gate: "No obligation until title, insurance, inspection, authority, and executive approval are complete.",
   },
@@ -380,7 +380,7 @@ const contractWorkflow = [
   ["Execution and control", "Signed copy, renewal date, deliverables, insurance certificate, and operating owner are logged."],
 ];
 
-const rvDocuments = [
+const vehicleDocuments = [
   "Seller identity and authority to sell",
   "Clean title, VIN, odometer, lien release, and brand/salvage check",
   "Independent mechanical, tire, brake, roof, electrical, generator, propane, and habitability inspection",
@@ -402,7 +402,7 @@ const riskTracker = [
     mitigation: "Use partner/subrecipient route when direct eligibility is uncertain; document match and public benefit.",
   },
   {
-    risk: "RV used outside insured or approved purpose",
+    risk: "Vehicle used outside insured or approved purpose",
     severity: "High",
     mitigation: "Separate mobile outreach asset use from passenger transport unless specifically insured and authorized.",
   },
@@ -522,7 +522,7 @@ const launchPlan = [
   {
     phase: "Days 15-45",
     priority: 93,
-    task: "Vehicle/RV acquisition decision",
+    task: "Vehicle acquisition decision",
     output: "Title/inspection/insurance file, asset-use memo, financing options, and approval record.",
   },
   {
@@ -571,7 +571,7 @@ const equipmentRequirements = [
 
 const budgetProjection = [
   {
-    line: "Vehicle/RV acquisition or lease",
+    line: "Vehicle acquisition or lease",
     low: "$35k",
     high: "$120k",
     note: "Use financing only after title, inspection, insurance, and corporate approval gates.",
@@ -847,7 +847,7 @@ app.innerHTML = `
     <section id="legal" aria-labelledby="legal-title">
       ${renderCommandIntro(
         "3. Legal & Contract Center",
-        "Bylaws repository, contract workflow, RV acquisition file, and risk tracker",
+        "Bylaws repository, contract workflow, vehicle acquisition file, and risk tracker",
         "This center prevents unfunded, uninsured, unauthorized, or misclassified obligations before pilot launch.",
       )}
       <div class="notice">
@@ -868,8 +868,8 @@ app.innerHTML = `
           </ol>
         </div>
         <div>
-          <h3 class="block-title">RV acquisition documents</h3>
-          ${renderChecklist(rvDocuments)}
+          <h3 class="block-title">Vehicle acquisition documents</h3>
+          ${renderChecklist(vehicleDocuments)}
         </div>
       </div>
       <h3 class="block-title">Risk assessment tracker</h3>
