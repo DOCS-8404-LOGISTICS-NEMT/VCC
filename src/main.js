@@ -76,12 +76,12 @@ const immediateActions = [
       "Ask about 5310, 5311, 5339, Transportation Enterprise Fund, coordinated plan status, match, and private operator role.",
   },
   {
-    title: "Lock RV acquisition stop/go gate",
-    owner: "Board / Legal",
+    title: "Lock vehicle readiness stop/go gate",
+    owner: "Operations / Legal",
     impact: 94,
     due: "72 hours",
     detail:
-      "No deposit, purchase agreement, title transfer, loan, or insurance bind until title, lien, inspection, authority, and board consent are complete.",
+      "No public service launch until vehicle inspection, insurance bindability, operating authority, driver files, and executive consent are complete.",
   },
   {
     title: "Package first revenue offer",
@@ -89,7 +89,7 @@ const immediateActions = [
     impact: 91,
     due: "5 days",
     detail:
-      "Create clinic, county, employer, and sponsor offers around missed-care reduction, disability mobility, workforce access, and outreach RV days.",
+      "Create clinic, county, employer, and sponsor offers around missed-care reduction, disability mobility, workforce access, and community outreach days.",
   },
   {
     title: "Finish compliance readiness file",
@@ -130,15 +130,6 @@ const complianceTasks = [
     risk: "Overpromising accessible transport before vehicle and training readiness creates civil rights and safety exposure.",
     url: "https://www.transit.dot.gov/funding/grants/enhanced-mobility-seniors-individuals-disabilities-section-5310",
   },
-];
-
-const rvAcquisitionPlan = [
-  "Board resolution authorizing asset review, price ceiling, financing ceiling, signer, and final approval gate.",
-  "Seller identity, clean title, VIN, lien release, odometer, salvage/flood history, and delivery terms.",
-  "Independent mechanical, safety, tire, roof, electrical, propane, generator, and habitability inspection.",
-  "Insurance quote for commercial auto, physical damage, general liability, umbrella, and transport-specific exposure.",
-  "Decision memo classifying RV as outreach/mobile intake asset or passenger transport asset before purchase.",
-  "Corporate asset ledger, use policy, mileage log, maintenance schedule, storage plan, and no-personal-use rule.",
 ];
 
 const revenueOpportunities = [
@@ -187,9 +178,9 @@ const launchPlan = [
   },
   {
     phase: "Days 1-30",
-    task: "RV acquisition diligence",
+    task: "Vehicle readiness and insurance",
     impact: 94,
-    output: "Board consent package, title/inspection packet, insurance quote, and asset-use decision.",
+    output: "Vehicle inspection standard, commercial coverage quote, driver file checklist, and launch consent gate.",
   },
   {
     phase: "Days 15-45",
@@ -254,7 +245,7 @@ app.innerHTML = `
       <h1 id="page-title">${VCC_CONFIG.company}</h1>
       <p class="lead">
         ${VCC_CONFIG.division} command workspace for Wyoming NEMT, rural special-needs mobility,
-        grant readiness, RV acquisition governance, revenue generation, and launch execution.
+        grant readiness, compliance governance, revenue generation, and launch execution.
       </p>
       <div class="identity-grid">
         <div><span>Corporate email</span><strong>${VCC_CONFIG.corporateEmail}</strong></div>
@@ -333,20 +324,6 @@ app.innerHTML = `
           )
           .join("")}
       </div>
-    </section>
-
-    <section aria-labelledby="rv-acquisition">
-      <div class="section-heading">
-        <p class="eyebrow">Private Party RV Purchase</p>
-        <h2 id="rv-acquisition">Asset acquisition strategy</h2>
-      </div>
-      <ol class="numbered">
-        ${rvAcquisitionPlan.map((item) => `<li>${item}</li>`).join("")}
-      </ol>
-      <p class="notice">
-        Executive control: do not create a legal, financial, contractual, regulatory, or ownership obligation
-        until board authority, insurance bindability, title review, and operating-use analysis are complete.
-      </p>
     </section>
 
     <section aria-labelledby="revenue">
