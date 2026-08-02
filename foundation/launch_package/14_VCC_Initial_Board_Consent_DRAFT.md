@@ -36,7 +36,7 @@ RESOLVED, that the following officers are appointed, subject to confirmation bef
 | Office | Name |
 |---|---|
 | President / CEO | Alawndus Davis |
-| Treasurer | `[insert or confirm]` |
+| Treasurer | `[Cariann Bodendorfor - confirm legal name spelling before signature]` |
 | Secretary | `[insert or confirm]` |
 | Other officer | `[insert or confirm]` |
 

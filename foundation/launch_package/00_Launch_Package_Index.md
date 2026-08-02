@@ -39,6 +39,7 @@ These files are not executed records. They should not be represented as final co
 | `17_Ranked_90_Day_Launch_Plan_2026-08-01.md` | Ranked 90-day launch plan with priorities, funding path, marketing, staffing, and risk controls. |
 | `18_90_Day_Launch_Task_Tracker.csv` | Execution tracker for ranked 90-day launch tasks. |
 | `19_Private_Party_RV_Purchase_Action_Plan_2026-08-02.md` | RV acquisition legal, financing, insurance, ownership, grant-fit, and Wyoming compliance action plan. |
+| `20_Filing_Authority_and_Submission_Queue_2026-08-02.md` | Filing authority, signature queue, and controlled submission order for corporate, grant, WYDOT, SAM, annual-report, and RV-related filings. |
 
 ## Immediate Completion Order
 
