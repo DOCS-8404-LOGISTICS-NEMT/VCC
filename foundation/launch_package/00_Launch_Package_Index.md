@@ -55,6 +55,8 @@ These files are not executed records. They should not be represented as final co
 | `34_Vehicle_Insurance_Financing_Contact_Queue_2026-08-02.csv` | Verified contact queue for accessible vehicle quotes, insurance quote paths, financing paths, and WYDOT authority confirmation. |
 | `35_Vehicle_Insurance_Financing_Draft_Register_2026-08-02.csv` | Register of unsent Gmail drafts created for vehicle and financing outreach review. |
 | `36_Vehicle_Funding_Sprint_Call_Sheet_2026-08-02.md` | August 3 call order, scripts, question set, and quote-data capture fields for vehicle, insurance, authority, and financing calls. |
+| `37_Public_Vehicle_Inventory_Shortlist_2026-08-02.csv` | Public accessible-vehicle inventory shortlist for August 9 funding and August 15 possession diligence. |
+| `38_August_9_Funding_Vehicle_Go_No_Go_Memo_DRAFT.md` | Draft August 9 go/no-go decision memo tying vehicle, insurance, authority, funding, and approval evidence together. |
 
 ## Immediate Completion Order
 
