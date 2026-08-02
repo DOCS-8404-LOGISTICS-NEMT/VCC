@@ -36,6 +36,7 @@ Open these records before the first call:
 - `52_Vehicle_Funding_Quote_Intake_Scorecard_2026-08-02.csv`
 - `55_CEO_Next_Action_Decision_Record_2026-08-02.md`
 - `56_August_2_Public_Source_Refresh_2026-08-02.md`
+- `60_August_2_Vehicle_Lead_Triage_Update_2026-08-02.md`
 
 Before contact, capture:
 
@@ -50,11 +51,12 @@ Before contact, capture:
 |---:|---|---|---|---|
 | 1 | Minute 0-30 | WYDOT Regulatory Section / Motor Vehicle Services | Authority path, MC-100, Form E, passenger capacity, USDOT trigger, markings, and pre-authority dry-run limits | They ask VCC to file, pay, certify facts, or represent authority before approval |
 | 2 | Minute 30-90 | Progressive Commercial, then Insureon | Insurance appetite, Form E support, limits, driver rules, vehicle rules, rental/lease treatment, required documents | They ask for payment, bind authority, or submit a paid application |
-| 3 | Minute 90-150 | Frontier Cheyenne, MobilityWorks Rental Team | August 10-15 accessible rental availability, total due, insurance, business-use, mileage, pickup/delivery, cancellation terms | They require reservation, deposit, rental agreement, or payment |
-| 4 | Minute 150-210 | MobilityWorks Aurora, MobilityWorks Commercial, United Access | Current vehicle/lease/rental availability, total due, VIN/class, timing, commercial-use permission | They require deposit, credit pull, application, reservation, or agreement |
-| 5 | Minute 210-270 | WyoMicro | Preliminary fit, document list, timeline, credit-pull point, collateral/guaranty expectations | They require application, credit pull, debt, lien, pledge, or guaranty |
-| 6 | Minute 270-330 | Platte County Economic Development and Chamber planning paths | Planning call, sponsor/readiness interest, introduction path, pledge process | They request invoice, funds transfer, restricted-fund terms, logo/public recognition, or active-service claim |
-| 7 | Minute 330-390 | Evidence closeout | Update logs and scorecard; draft continue/pivot/hold note | Any required proof item is missing |
+| 3 | Minute 90-130 | Frontier Cheyenne | August 10-15 accessible rental availability, correct contact route, total due, insurance, business-use, mileage, pickup/delivery, cancellation terms | They require reservation, deposit, rental agreement, or payment |
+| 4 | Minute 130-170 | MobilityWorks Rental Team | Backup August 10-15 rental availability, total due, Wyoming use, insurance, mileage, pickup/delivery, cancellation terms | They require reservation, deposit, rental agreement, or payment |
+| 5 | Minute 170-230 | MobilityWorks Aurora, MobilityWorks Commercial, United Access | Current vehicle/lease/rental availability, Coming Soon release timing, total due, VIN/class, timing, commercial-use permission | They require deposit, credit pull, application, reservation, or agreement |
+| 6 | Minute 230-290 | WyoMicro | Preliminary fit, document list, timeline, credit-pull point, collateral/guaranty expectations | They require application, credit pull, debt, lien, pledge, or guaranty |
+| 7 | Minute 290-350 | Platte County Economic Development and Chamber planning paths | Planning call, sponsor/readiness interest, introduction path, pledge process | They request invoice, funds transfer, restricted-fund terms, logo/public recognition, or active-service claim |
+| 8 | Minute 350-410 | Evidence closeout | Update logs and scorecard; draft continue/pivot/hold note | Any required proof item is missing |
 
 ## Universal Call Boundary
 

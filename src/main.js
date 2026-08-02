@@ -203,8 +203,8 @@ const proofGateCards = [
 const closeScorecard = [
   ["1", "WYDOT authority", "Source refreshed", "MC-100, Form E, USDOT, markings, and pre-authority limits still need WYDOT response"],
   ["2", "Insurance bindability", "Source refreshed", "Wyoming NEMT/livery eligibility, limits, driver rules, and Form E support still need broker response"],
-  ["3", "Frontier rental bridge", "Source refreshed", "Cheyenne August 10-15 availability, total due, business-use rules, and insurance still need vendor response"],
-  ["4", "MobilityWorks KR692569A", "Source refreshed", "Current availability, quote, title, inspection, warranty, and commercial-use permission still need vendor response"],
+  ["3", "Frontier rental bridge", "Highest vehicle priority", "Cheyenne August 10-15 availability, total due, business-use rules, and insurance still need vendor response"],
+  ["4", "MobilityWorks KR692569A", "Coming Soon lead", "Release timing, quote, title, inspection, warranty, and commercial-use permission still need vendor response"],
   ["5", "WyoMicro / sponsor funding", "Source refreshed", "Preliminary fit, sponsor readiness interest, pledge path, and written terms still need outside response"],
 ];
 

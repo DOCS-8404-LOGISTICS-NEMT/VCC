@@ -59,6 +59,7 @@ The application provides a complete startup operations workspace for executive o
 - `foundation/launch_package/57_Option_A_Same_Day_Proof_Collection_Runbook_2026-08-02.md` - same-day runbook for collecting authority, insurance, vehicle, financing, and sponsor/readiness proof after Option A approval
 - `foundation/launch_package/58_Bridge_Readiness_Funding_Authorization_DRAFT_2026-08-02.md` - draft bridge/readiness funding authorization template for preserving a verified August 15 vehicle-control path without approving obligations
 - `foundation/launch_package/59_Exact_Obligation_Approval_Memo_DRAFT_2026-08-02.md` - draft approval memo for one exact deposit, rental, lease, purchase, insurance bind, filing, credit pull, invoice, funds acceptance, or partner-vehicle obligation after proof exists
+- `foundation/launch_package/60_August_2_Vehicle_Lead_Triage_Update_2026-08-02.md` - current public vehicle/rental lead triage that moves rental bridge ahead of Coming Soon purchase leads for August 15 control
 - `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx` - generated review packet for August 9 funding, vehicle, authority, insurance, and approval controls
 - `VCC Funding/` - funding control lane for grants, sponsors, anchor partners, lender readiness, evidence, and approval gates
 - `.github/workflows/proof-html.yml` - Vite production build validation
@@ -105,6 +106,7 @@ The August 2, 2026 workspace includes six command centers:
 - If Option A is approved, use the same-day proof collection runbook to capture dated authority, insurance, vehicle, and funding evidence without authorizing obligations.
 - If a credible rental, vehicle, insurance, sponsor, lender, or partner-vehicle proof item appears, use the bridge/readiness funding authorization draft before any money or obligation moves.
 - Use the exact obligation approval memo before any specific deposit, rental, lease, purchase, insurance bind, filing, credit pull, invoice, funds acceptance, or partner-vehicle obligation.
+- Prioritize rental bridge first after authority and insurance screens because current purchase leads still need vendor-confirmed release timing.
 - Complete corporate, insurance, operating authority, pilot vehicle, and driver readiness gates before launch.
 - Preserve legal controls so VCC does not create obligations before executive authorization.
 - Use accessible passenger vehicle, approved partner vehicle, rental bridge, and ADA/specialty mobility vehicle language in active launch materials.

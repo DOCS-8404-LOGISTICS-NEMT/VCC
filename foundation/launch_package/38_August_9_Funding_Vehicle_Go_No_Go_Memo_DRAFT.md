@@ -118,6 +118,7 @@ These are the next approval gates, not automatic authorizations:
 - `52_Vehicle_Funding_Quote_Intake_Scorecard_2026-08-02.csv`
 - `58_Bridge_Readiness_Funding_Authorization_DRAFT_2026-08-02.md`
 - `59_Exact_Obligation_Approval_Memo_DRAFT_2026-08-02.md`
+- `60_August_2_Vehicle_Lead_Triage_Update_2026-08-02.md`
 - Written vehicle/rental quotes when received.
 - Insurance quote notes when received.
 - WYDOT call notes when received.

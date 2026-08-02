@@ -29,7 +29,7 @@ The goal is not proven yet. Current evidence supports urgent contact; it does no
 
 | Requirement | Evidence Needed | Current Proof | Status |
 |---|---|---|---|
-| Vehicle possession path | Written rental, lease, purchase, or partner-vehicle confirmation with timing, total due, permitted use, and vehicle class or VIN | Public sources show plausible leads; no written quote or reservation | Missing |
+| Vehicle possession path | Written rental, lease, purchase, or partner-vehicle confirmation with timing, total due, permitted use, and vehicle class or VIN | Public sources show plausible leads; current triage update prioritizes rental bridge because key purchase leads still need release timing; no written quote or reservation | Missing |
 | One-week funding | Signed pledge, payment evidence, approved bridge authorization, lender preapproval, lease preapproval, or written term sheet | Drafts, close register, target queue, and bridge/readiness authorization template prepared; no commitment or bridge approval verified | Missing |
 | Insurance bindability | Broker/carrier response for Wyoming scheduled non-emergency passenger service, exact vehicle class, driver rules, limits, filings, and exclusions | Progressive and Insureon paths queued; no quote response | Missing |
 | WYDOT authority path | Written response or dated call notes on intrastate passenger authority, MC-100/Form E, passenger capacity, USDOT trigger, markings, and pre-authority activity | WYDOT draft and call payload prepared; no response | Missing |
@@ -66,7 +66,7 @@ The goal is not proven yet. Current evidence supports urgent contact; it does no
 - WYDOT operating authority and taxi/shuttle guidance still require direct confirmation before VCC represents paid passenger service readiness.
 - ICAM is open with a September 9, 2026 close date and may support coordinated transportation/NEMT capital work, but it is not a one-week cash source.
 - WYDOT Section 5310 is relevant to accessible vehicles and elderly/disability transportation, but it is an annual capital grant lane and not an August 15 possession path unless an already-awarded partner asset is involved.
-- August 2 public-source refresh is captured in `56_August_2_Public_Source_Refresh_2026-08-02.md`; public source evidence supports urgent controlled contact but still does not prove vehicle control, funding, insurance bindability, authority, or launch readiness.
+- August 2 public-source refresh is captured in `56_August_2_Public_Source_Refresh_2026-08-02.md`; vehicle lead triage is captured in `60_August_2_Vehicle_Lead_Triage_Update_2026-08-02.md`; public source evidence supports urgent controlled contact but still does not prove vehicle control, funding, insurance bindability, authority, or launch readiness.
 
 ## 72-Hour Close Instructions
 
