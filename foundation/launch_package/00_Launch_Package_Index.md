@@ -40,6 +40,7 @@ These files are not executed records. They should not be represented as final co
 | `18_90_Day_Launch_Task_Tracker.csv` | Execution tracker for ranked 90-day launch tasks. |
 | `19_Private_Party_RV_Purchase_Action_Plan_2026-08-02.md` | RV acquisition legal, financing, insurance, ownership, grant-fit, and Wyoming compliance action plan. |
 | `20_Filing_Authority_and_Submission_Queue_2026-08-02.md` | Filing authority, signature queue, and controlled submission order for corporate, grant, WYDOT, SAM, annual-report, and RV-related filings. |
+| `21_Document_Approval_Register_2026-08-02.md` | Signature review control, routing checklist, remaining execution blockers, and digital-signature control note. |
 
 ## Immediate Completion Order
 

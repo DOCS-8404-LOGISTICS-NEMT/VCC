@@ -36,9 +36,9 @@ RESOLVED, that the following officers are appointed, subject to confirmation bef
 | Office | Name |
 |---|---|
 | President / CEO | Alawndus Davis |
-| Treasurer | `[Cariann Bodendorfor - confirm legal name spelling before signature]` |
-| Secretary | `[insert or confirm]` |
-| Other officer | `[insert or confirm]` |
+| Treasurer | `[Cariann Bodendorfor - confirm legal spelling before signature]` |
+| Secretary | `[Cariann M. Bodendorfor - confirm legal spelling before signature]` |
+| Vice President | `[Bilie Sechler - confirm legal spelling before signature]` |
 
 ## Resolution 4 - Corporate Binder And Source-Proof Register
 
@@ -90,9 +90,9 @@ Approved by:
 
 Signature: _______________________________
 
-Name: ____________________________________
+Name: ALAWNDUS L. DAVIS
 
-Title: ___________________________________
+Title: CEO/FOUNDER
 
 Date: ____________________________________
 
@@ -100,6 +100,6 @@ Secretary certification, if applicable:
 
 Signature: _______________________________
 
-Name: ____________________________________
+Name: CARIANN M. BODENDORFOR [confirm legal spelling before signature]
 
 Date: ____________________________________

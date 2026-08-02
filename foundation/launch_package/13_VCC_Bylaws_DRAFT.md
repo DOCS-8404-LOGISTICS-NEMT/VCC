@@ -122,8 +122,10 @@ These bylaws may be amended by the board or shareholders according to Wyoming la
 
 These bylaws are not effective until adopted by the corporation.
 
-Adopted by: ______________________________
+Adopted by: VILIGANS COMMAND CORPORATION
 
-Name / Title: ____________________________
+Signature: ______________________________
+
+Name / Title: ALAWNDUS L. DAVIS, CEO/PRESIDENT
 
 Date: ____________________________________
