@@ -33,7 +33,7 @@ The goal is not proven yet. Current evidence supports urgent contact; it does no
 | One-week funding | Signed pledge, payment evidence, approved bridge authorization, lender preapproval, lease preapproval, or written term sheet | Drafts, close register, and target queue prepared; no commitment verified | Missing |
 | Insurance bindability | Broker/carrier response for Wyoming scheduled non-emergency passenger service, exact vehicle class, driver rules, limits, filings, and exclusions | Progressive and Insureon paths queued; no quote response | Missing |
 | WYDOT authority path | Written response or dated call notes on intrastate passenger authority, MC-100/Form E, passenger capacity, USDOT trigger, markings, and pre-authority activity | WYDOT draft and call payload prepared; no response | Missing |
-| External contact approval | Exact CEO approval for controlled quote, fit, timing, and planning contacts | Approval text prepared in `46_August_3_Contact_Execution_Board_2026-08-02.md` and `51_Controlled_Contact_Authorization_Record_2026-08-02.md`; no current controlled-contact approval logged in this board | Missing |
+| External contact approval | Exact CEO approval for controlled quote, fit, timing, and planning contacts | Approval text prepared in `46_August_3_Contact_Execution_Board_2026-08-02.md`, `51_Controlled_Contact_Authorization_Record_2026-08-02.md`, and consolidated in `55_CEO_Next_Action_Decision_Record_2026-08-02.md`; no current controlled-contact approval logged in this board | Missing |
 
 ## Fastest Vehicle Close Lanes
 
@@ -73,7 +73,7 @@ These are preparation instructions, not execution authority.
 
 | Window | Output Required | Owner |
 |---|---|---|
-| Hour 0-4 | Approve controlled contact scope or hold external contact. | CEO |
+| Hour 0-4 | Choose Option A, B, or C in `55_CEO_Next_Action_Decision_Record_2026-08-02.md`. | CEO |
 | Hour 4-12 | Collect WYDOT and insurance answers first, because they decide whether a vehicle is launch-relevant or only a demo/readiness asset. | CEO / Ops |
 | Hour 12-24 | Collect written rental and in-stock purchase quote responses from the top vehicle sources. | Ops |
 | Hour 24-36 | Ask sponsor/readiness targets only after the vehicle and insurance assumptions are grounded. | CEO / Funding |

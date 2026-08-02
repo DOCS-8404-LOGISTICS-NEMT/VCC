@@ -178,7 +178,7 @@ const proofGateCards = [
     label: "Controlled Contact",
     status: "Needs exact CEO approval",
     detail:
-      "Use 51_Controlled_Contact_Authorization_Record_2026-08-02.md before any outside call, email, form, quote request, or sponsor approach.",
+      "Use 55_CEO_Next_Action_Decision_Record_2026-08-02.md to choose Option A, B, or C before any outside call, email, form, quote request, draft replacement, or sponsor approach.",
   },
   {
     label: "Vehicle Proof",
