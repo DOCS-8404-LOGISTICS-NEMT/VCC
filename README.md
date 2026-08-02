@@ -41,6 +41,8 @@ The application provides a complete startup operations workspace for executive o
 - `foundation/launch_package/39_Wheatland_Vehicle_Readiness_Sponsor_Commitment_DRAFT.md` - draft sponsor/readiness commitment form for Wheatland vehicle funding support
 - `foundation/launch_package/40_August_9_Funding_Close_Register_2026-08-02.csv` - close register for funding evidence before the August 9 go/no-go gate
 - `foundation/launch_package/41_CEO_Approval_Request_Send_And_Call_Packet_2026-08-02.md` - approval packet for controlled quote, authority, insurance, financing, and sponsor outreach
+- `foundation/launch_package/42_August_2_Vehicle_Funding_Reality_Check_2026-08-02.md` - reality check for one-week funding and mid-month vehicle possession, with lease/rental-first execution order
+- `foundation/launch_package/43_Gmail_Vehicle_Funding_Close_Draft_Register_2026-08-02.csv` - register of unsent Gmail funding-close sponsor/readiness drafts created for approval before sending
 - `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx` - generated review packet for August 9 funding, vehicle, authority, insurance, and approval controls
 - `archive/retired-projects/` - archive-only retired project history; not active launch, funding, outreach, or public material
 - `VCC Funding/` - funding control lane for grants, sponsors, anchor partners, lender readiness, evidence, and approval gates

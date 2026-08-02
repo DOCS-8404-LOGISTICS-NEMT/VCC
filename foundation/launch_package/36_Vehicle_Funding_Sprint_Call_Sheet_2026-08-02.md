@@ -14,7 +14,7 @@ Status: Internal call sheet. Do not send, submit, apply, bind, file, pay, or sig
 
 1. WYDOT Regulatory Authority: confirm the operating-authority path before relying on any commercial passenger-service plan.
 2. Insurance quote paths: confirm whether the intended vehicle/service model can be insured and what underwriting details are mandatory.
-3. Accessible vehicle vendors: confirm purchase, lease, and short-term rental availability by August 10-15.
+3. Accessible vehicle vendors: confirm commercial lease, short-term rental, and purchase availability by August 10-15.
 4. Vehicle financing and Wyoming microloan paths: confirm fit, speed, documents, and approval gates.
 5. Anchor/sponsor follow-up: only after the vehicle and insurance assumptions are grounded enough to support a credible ask.
 
@@ -49,6 +49,7 @@ I am gathering written guidance or quote inputs for executive review. Nothing in
 ## Vehicle Vendor Questions
 
 - Do you have an in-stock used wheelchair-accessible van or short-term rental that could be available for Wyoming use by August 10-15?
+- Do you have a current commercial lease unit that matches the public Chrysler Voyager or Ford Transit lease benchmarks, and what is the total due at delivery?
 - Is the vehicle side-entry or rear-entry, and does it use a ramp or lift?
 - What securement equipment and passenger restraints are included?
 - What are the year, make, model, VIN/stock number, mileage, title/brand status, conversion manufacturer, and service history?
@@ -60,10 +61,11 @@ I am gathering written guidance or quote inputs for executive review. Nothing in
 ## Financing Questions
 
 - Is a Wyoming corporation / operating LLC path eligible for the financing program?
-- Can proceeds support an accessible vehicle deposit, purchase, lease buyout, equipment, insurance deposit, or working capital?
+- Can proceeds support an accessible vehicle deposit, lease start, purchase, lease buyout, equipment, insurance deposit, or working capital?
 - What is the fastest realistic approval and funding timeline?
 - Is a credit pull required before a preliminary fit review?
 - Are personal guarantees, liens, down payment, collateral, or entity documents required?
+- For a commercial lease, what total due at delivery, mileage limit, term, early termination, excess wear, and guaranty terms should VCC expect?
 - What documents should VCC prepare before applying?
 - Would sponsor letters, partner letters, vehicle quotes, or insurance quote notes strengthen the file?
 

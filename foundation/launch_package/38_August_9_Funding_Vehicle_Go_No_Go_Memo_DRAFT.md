@@ -22,6 +22,8 @@ The target remains realistic only under a narrow execution path:
 
 Grant cash by August 9 remains unrealistic. Grants should support scale-up, match, sustainability, and partner credibility, not the first vehicle possession deadline.
 
+Current refinement: the fastest fundable path is now commercial lease or rental bridge first, low-cost used purchase second, and higher-cost purchase only if financing and sponsor support move quickly. Public commercial lease benchmarks are more realistic for mid-month possession than raising full purchase cash in one week.
+
 ## Required Evidence Before Go
 
 | Evidence | Minimum Standard | Current Status |
@@ -34,11 +36,12 @@ Grant cash by August 9 remains unrealistic. Grants should support scale-up, matc
 
 ## Vehicle Shortlist Position
 
-The current public shortlist suggests three realistic lanes:
+The current public shortlist suggests four realistic lanes:
 
-1. Low-cost used accessible van: pursue MobilityWorks Aurora stock `KR692569A` first if it can be quoted quickly and is not blocked by condition, timing, financing, or insurance.
+1. Commercial lease benchmark: pursue MobilityWorks Commercial Chrysler Voyager or Ford Transit lease availability first if VCC can obtain a preliminary fit response without a credit pull and if insurance/authority timing supports the plan.
 2. Rental bridge: pursue MobilityWorks rental availability for August 10-15 as the fastest path to physical possession for dry runs and partner demonstrations.
-3. Higher-cost purchase/finance: keep MobilityWorks Aurora `SR554049`, `TR269321`, `RR187391`, and United Access `TKA77844` as backup options if financing, insurance, and availability are stronger than the low-cost option.
+3. Low-cost used accessible van: pursue MobilityWorks Aurora stock `KR692569A` if it can be quoted quickly and is not blocked by condition, timing, financing, or insurance.
+4. Higher-cost purchase/finance: keep MobilityWorks Aurora `SR554049`, `TR269321`, `RR187391`, and United Access `TKA77844` as backup options if financing, insurance, and availability are stronger than the low-cost option.
 
 The recommended August 3 sequence is WYDOT first, insurance second, rental/vendor third, financing fourth. Insurance and authority answers control whether a vehicle quote is launch-relevant or only a demonstration/readiness asset.
 
@@ -47,6 +50,7 @@ The recommended August 3 sequence is WYDOT first, insurance second, rental/vendo
 | Stack | Target Amount | Use | Go Condition |
 |---|---:|---|---|
 | Minimum possession bridge | $12,000-$20,000 | Rental/lease start, insurance down payment, inspection/safety kit, registration/use paperwork, basic operating reserve | Rental or low-cost purchase path is confirmed and sponsor/readiness or bridge support is documented |
+| Commercial lease path | $999-$1,399 monthly benchmark plus taxes, title, license, freight, insurance deposit, and delivery fees | Lease start, insurance, registration, delivery, driver/readiness costs, operating reserve | Written lease/preapproval response exists without unsupported claims or unapproved credit/application steps |
 | Low-cost used purchase path | $20,000-$35,000 plus financing or seller/dealer terms | Deposit/down payment, insurance, closing costs, initial repairs/safety items, operating reserve | Written quote under roughly $35,000-$45,000 and insurance bindability confirmed |
 | Mid-cost purchase/lease path | $35,000-$60,000 plus financing approval | Down payment, insurance, registration, accessibility inspection, driver/readiness costs | Financing or lease approval is documented by August 9 |
 | Sponsor/readiness revenue path | $10,000-$25,000 | Ride blocks, vehicle readiness, launch reserve, partner reporting setup | Written sponsor/readiness terms approved and non-misleading claims cleared |
@@ -60,10 +64,10 @@ Funding close controls:
 
 ## Go Decision
 
-Choose `GO - rental bridge` if:
+Choose `GO - lease/rental bridge` if:
 
-- Rental availability is confirmed for August 10-15.
-- Business/commercial use and insurance requirements are documented.
+- Lease or rental availability is confirmed for August 10-15.
+- Business/commercial use, total due at delivery, mileage/term limits, and insurance requirements are documented.
 - Cost is fundable without blocking insurance, authority, or operating setup.
 - VCC uses the vehicle only for dry runs, demos, and readiness unless all paid-service gates clear.
 

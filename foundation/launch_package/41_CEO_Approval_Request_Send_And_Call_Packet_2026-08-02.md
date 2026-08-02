@@ -18,8 +18,10 @@ To keep the August 9 funding and August 15 vehicle target realistic, VCC needs a
 |---|---|---|---|
 | 1 | Send United Access draft `r-7947831820687205026` | Request written accessible vehicle quote and timing guidance | No application, deposit, lease, rental, purchase, or credit pull |
 | 2 | Send WyoMicro draft `r-8427544726986723952` | Request microloan fit and timing guidance | No application, credit pull, debt, guaranty, or collateral pledge |
+| 2A | Send Platte County Chamber draft `r-3004465373696662663` | Request planning call for vehicle-readiness sponsorship and local introductions | No invoice, payment request, restricted-fund acceptance, logo promise, service claim, or commitment |
+| 2B | Send Platte County Economic Development draft `r-154759076075875137` | Request planning call for vehicle-readiness funding, sponsor introductions, and economic-development fit | No invoice, payment request, restricted-fund acceptance, service claim, or commitment |
 | 3 | Call WYDOT Regulatory Authority | Confirm operating-authority, MC-100, Form E, registration, marking, and USDOT questions | No filing or representation of authority |
-| 4 | Call/contact vehicle vendors | MobilityWorks Aurora, MobilityWorks Rental Team, Frontier Access | No quote submission requiring payment, reservation, deposit, application, or contract |
+| 4 | Call/contact vehicle vendors | MobilityWorks Commercial, MobilityWorks Aurora, MobilityWorks Rental Team, Frontier Access | No quote submission requiring payment, reservation, deposit, application, credit pull, lease, rental, or contract |
 | 5 | Call/contact insurance quote paths | Insureon and Progressive Commercial | No bind, paid application, policy purchase, or Form E request without approval |
 | 6 | Call/contact financing paths | Falls Mobility Finance, Wyoming Smart Capital Network, Wyoming Capital Access | No application, credit pull, guaranty, debt, lien, or collateral pledge |
 | 7 | Use sponsor commitment template | Discuss funding with top sponsor/anchor prospects | No invoice, signed agreement, restricted funds, logo promise, or service claim without approval |
@@ -51,6 +53,8 @@ I approve controlled external contact for quote, fit, and timing information onl
 - `38_August_9_Funding_Vehicle_Go_No_Go_Memo_DRAFT.md`
 - `39_Wheatland_Vehicle_Readiness_Sponsor_Commitment_DRAFT.md`
 - `40_August_9_Funding_Close_Register_2026-08-02.csv`
+- `42_August_2_Vehicle_Funding_Reality_Check_2026-08-02.md`
+- `43_Gmail_Vehicle_Funding_Close_Draft_Register_2026-08-02.csv`
 - `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx`
 - `archive/retired-projects/00_ARCHIVE_CONTROL_2026-08-02.md`
 

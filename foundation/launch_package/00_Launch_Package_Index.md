@@ -60,6 +60,8 @@ These files are not executed records. They should not be represented as final co
 | `39_Wheatland_Vehicle_Readiness_Sponsor_Commitment_DRAFT.md` | Draft sponsor/readiness commitment form for Wheatland vehicle funding and launch-readiness support. |
 | `40_August_9_Funding_Close_Register_2026-08-02.csv` | Close register for sponsor, readiness-fee, bridge, financing, and partner-vehicle funding evidence before August 9. |
 | `41_CEO_Approval_Request_Send_And_Call_Packet_2026-08-02.md` | Approval request packet for sending drafts and making quote, authority, insurance, financing, and sponsor calls without binding VCC. |
+| `42_August_2_Vehicle_Funding_Reality_Check_2026-08-02.md` | Reality check for one-week funding and mid-month vehicle possession, with current lease/rental/purchase execution order. |
+| `43_Gmail_Vehicle_Funding_Close_Draft_Register_2026-08-02.csv` | Register of unsent Gmail funding-close sponsor/readiness drafts created for approval before sending. |
 
 ## Generated Packet Outputs
 
