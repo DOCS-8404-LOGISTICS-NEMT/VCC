@@ -38,6 +38,9 @@ The application provides a complete startup operations workspace for executive o
 - `foundation/launch_package/36_Vehicle_Funding_Sprint_Call_Sheet_2026-08-02.md` - call sequence and question set for August 3 vehicle, authority, insurance, and financing follow-up
 - `foundation/launch_package/37_Public_Vehicle_Inventory_Shortlist_2026-08-02.csv` - public accessible-vehicle inventory shortlist for August 9 funding and August 15 possession diligence
 - `foundation/launch_package/38_August_9_Funding_Vehicle_Go_No_Go_Memo_DRAFT.md` - draft decision memo for the August 9 funding and vehicle go/no-go gate
+- `foundation/launch_package/39_Wheatland_Vehicle_Readiness_Sponsor_Commitment_DRAFT.md` - draft sponsor/readiness commitment form for Wheatland vehicle funding support
+- `foundation/launch_package/40_August_9_Funding_Close_Register_2026-08-02.csv` - close register for funding evidence before the August 9 go/no-go gate
+- `foundation/launch_package/41_CEO_Approval_Request_Send_And_Call_Packet_2026-08-02.md` - approval packet for controlled quote, authority, insurance, financing, and sponsor outreach
 - `VCC Funding/` - funding control lane for grants, sponsors, anchor partners, lender readiness, evidence, and approval gates
 - `.github/workflows/proof-html.yml` - Vite production build validation
 - `.env.example` - optional local environment override template

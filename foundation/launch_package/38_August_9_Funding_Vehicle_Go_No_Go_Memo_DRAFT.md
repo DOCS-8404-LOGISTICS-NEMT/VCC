@@ -51,6 +51,13 @@ The recommended August 3 sequence is WYDOT first, insurance second, rental/vendo
 | Mid-cost purchase/lease path | $35,000-$60,000 plus financing approval | Down payment, insurance, registration, accessibility inspection, driver/readiness costs | Financing or lease approval is documented by August 9 |
 | Sponsor/readiness revenue path | $10,000-$25,000 | Ride blocks, vehicle readiness, launch reserve, partner reporting setup | Written sponsor/readiness terms approved and non-misleading claims cleared |
 
+Funding close controls:
+
+- Use `39_Wheatland_Vehicle_Readiness_Sponsor_Commitment_DRAFT.md` for any sponsor/readiness commitment conversation that reaches terms.
+- Track each serious funding source in `40_August_9_Funding_Close_Register_2026-08-02.csv`.
+- Do not count a conversation as funding unless there is a signed commitment, payment evidence, approved bridge authorization, lender preapproval, or written term sheet.
+- Do not accept restricted funds unless the allowed use is compatible with vehicle, insurance, authority, grant, lender, sponsor, and accounting controls.
+
 ## Go Decision
 
 Choose `GO - rental bridge` if:
@@ -97,6 +104,9 @@ These are the next approval gates, not automatic authorizations:
 - `35_Vehicle_Insurance_Financing_Draft_Register_2026-08-02.csv`
 - `36_Vehicle_Funding_Sprint_Call_Sheet_2026-08-02.md`
 - `37_Public_Vehicle_Inventory_Shortlist_2026-08-02.csv`
+- `39_Wheatland_Vehicle_Readiness_Sponsor_Commitment_DRAFT.md`
+- `40_August_9_Funding_Close_Register_2026-08-02.csv`
+- `41_CEO_Approval_Request_Send_And_Call_Packet_2026-08-02.md`
 - Written vehicle/rental quotes when received.
 - Insurance quote notes when received.
 - WYDOT call notes when received.

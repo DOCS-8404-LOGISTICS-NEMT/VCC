@@ -57,6 +57,9 @@ These files are not executed records. They should not be represented as final co
 | `36_Vehicle_Funding_Sprint_Call_Sheet_2026-08-02.md` | August 3 call order, scripts, question set, and quote-data capture fields for vehicle, insurance, authority, and financing calls. |
 | `37_Public_Vehicle_Inventory_Shortlist_2026-08-02.csv` | Public accessible-vehicle inventory shortlist for August 9 funding and August 15 possession diligence. |
 | `38_August_9_Funding_Vehicle_Go_No_Go_Memo_DRAFT.md` | Draft August 9 go/no-go decision memo tying vehicle, insurance, authority, funding, and approval evidence together. |
+| `39_Wheatland_Vehicle_Readiness_Sponsor_Commitment_DRAFT.md` | Draft sponsor/readiness commitment form for Wheatland vehicle funding and launch-readiness support. |
+| `40_August_9_Funding_Close_Register_2026-08-02.csv` | Close register for sponsor, readiness-fee, bridge, financing, and partner-vehicle funding evidence before August 9. |
+| `41_CEO_Approval_Request_Send_And_Call_Packet_2026-08-02.md` | Approval request packet for sending drafts and making quote, authority, insurance, financing, and sponsor calls without binding VCC. |
 
 ## Immediate Completion Order
 
