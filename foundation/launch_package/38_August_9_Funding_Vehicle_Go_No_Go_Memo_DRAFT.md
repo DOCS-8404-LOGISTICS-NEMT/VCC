@@ -114,6 +114,8 @@ These are the next approval gates, not automatic authorizations:
 - `48_Fallback_Vehicle_Rental_And_Partner_Options_2026-08-02.md`
 - `49_External_Response_Evidence_Log_2026-08-02.csv`
 - `50_Midmonth_Vehicle_Funding_Close_Board_2026-08-02.md`
+- `51_Controlled_Contact_Authorization_Record_2026-08-02.md`
+- `52_Vehicle_Funding_Quote_Intake_Scorecard_2026-08-02.csv`
 - Written vehicle/rental quotes when received.
 - Insurance quote notes when received.
 - WYDOT call notes when received.

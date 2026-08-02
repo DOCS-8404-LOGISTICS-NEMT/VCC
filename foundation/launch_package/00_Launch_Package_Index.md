@@ -69,6 +69,8 @@ These files are not executed records. They should not be represented as final co
 | `48_Fallback_Vehicle_Rental_And_Partner_Options_2026-08-02.md` | Fallback accessible vehicle rental, delivery, sale, and service options if primary paths slip. |
 | `49_External_Response_Evidence_Log_2026-08-02.csv` | Response log for written quote, authority, insurance, funding, and fallback evidence. |
 | `50_Midmonth_Vehicle_Funding_Close_Board_2026-08-02.md` | Proof-based close board for the August 9 funding and August 15 vehicle-possession targets. |
+| `51_Controlled_Contact_Authorization_Record_2026-08-02.md` | Source-controlled approval record for controlled quote, fit, timing, and planning contacts. |
+| `52_Vehicle_Funding_Quote_Intake_Scorecard_2026-08-02.csv` | Quote and response scorecard for vehicle, insurance, authority, financing, and funding evidence. |
 
 ## Generated Packet Outputs
 

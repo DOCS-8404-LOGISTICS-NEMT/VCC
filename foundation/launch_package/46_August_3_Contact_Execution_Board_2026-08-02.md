@@ -14,6 +14,8 @@ The next move requires approval for controlled contact only. Suggested approval 
 
 `I approve controlled external contact for quote, fit, timing, and planning information only for approval items 1, 2, 2A, 2B, 2C, 3, 4, 5, 6, and 7 in 41_CEO_Approval_Request_Send_And_Call_Packet_2026-08-02.md. This approval does not authorize applications, credit pulls, deposits, vehicle reservations, lease/rental/purchase agreements, insurance binding, authority filings, invoices, restricted-fund acceptance, sponsor recognition, or any representation that passenger service is active.`
 
+Use `51_Controlled_Contact_Authorization_Record_2026-08-02.md` as the source-controlled approval record before any external contact.
+
 ## Same-Day Contact Order
 
 | Order | Target | Channel | Purpose | Proof needed |
@@ -37,6 +39,8 @@ Do not count progress as funding or vehicle readiness unless the record contains
 - Insurance bindability response or quote requirements for the exact service model.
 - WYDOT authority notes or written response.
 - Signed sponsor/readiness pledge, received funds, approved bridge authorization, lender preapproval, term sheet, or partner payment path.
+
+Log each response in `49_External_Response_Evidence_Log_2026-08-02.csv` and score it in `52_Vehicle_Funding_Quote_Intake_Scorecard_2026-08-02.csv`.
 
 ## Current Reality
 

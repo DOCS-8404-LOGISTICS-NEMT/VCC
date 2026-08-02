@@ -33,7 +33,7 @@ The goal is not proven yet. Current evidence supports urgent contact; it does no
 | One-week funding | Signed pledge, payment evidence, approved bridge authorization, lender preapproval, lease preapproval, or written term sheet | Drafts, close register, and target queue prepared; no commitment verified | Missing |
 | Insurance bindability | Broker/carrier response for Wyoming scheduled non-emergency passenger service, exact vehicle class, driver rules, limits, filings, and exclusions | Progressive and Insureon paths queued; no quote response | Missing |
 | WYDOT authority path | Written response or dated call notes on intrastate passenger authority, MC-100/Form E, passenger capacity, USDOT trigger, markings, and pre-authority activity | WYDOT draft and call payload prepared; no response | Missing |
-| External contact approval | Exact CEO approval for controlled quote, fit, timing, and planning contacts | Approval text prepared in `46_August_3_Contact_Execution_Board_2026-08-02.md`; no current controlled-contact approval logged in this board | Missing |
+| External contact approval | Exact CEO approval for controlled quote, fit, timing, and planning contacts | Approval text prepared in `46_August_3_Contact_Execution_Board_2026-08-02.md` and `51_Controlled_Contact_Authorization_Record_2026-08-02.md`; no current controlled-contact approval logged in this board | Missing |
 
 ## Fastest Vehicle Close Lanes
 
@@ -58,7 +58,7 @@ The goal is not proven yet. Current evidence supports urgent contact; it does no
 
 - MobilityWorks public vehicle page for stock `KR692569A` showed a used 2019 Dodge Grand Caravan SXT, VIN `2C4RDGCG9KR692569`, 55,317 miles, side-entry automatic fold-out conversion, $32,991 price, in-stock status, and a public deposit path. Deposit is not authorized.
 - MobilityWorks Commercial promotion language showed commercial lease benchmarks through August 31, 2026 for qualified commercial customers, with inventory, credit, fees, mileage, residency, and term limitations.
-- Frontier Access & Mobility says accessible van rentals are available for day/week/month use with Fort Collins or Cheyenne pickup, and lists driver, license, insurance, credit-card, and pickup/drop-off requirements.
+- Frontier Access & Mobility says accessible van rentals are available for day/week/month use with Fort Collins or Cheyenne pickup, lists public rental rates of $135/day, $770/week, and $2,400/month before taxes and delivery/pickup fees, and lists driver, license, insurance, credit-card, mileage, and pickup/drop-off requirements.
 - United Access lists public accessible vehicle rental rate benchmarks of $150/day for 1-6 days, $130/day for 7-28 days, and $110/day for 29-30 days, but actual Wyoming-area availability still requires a booking response.
 - WyoMicro states it offers Wyoming small business loans from $500 to $50,000; this supports a financing inquiry, not an August 9 funding claim.
 - SBA microloan program materials support loans up to $50,000 through intermediaries; timing and eligibility are lender-controlled.
@@ -78,7 +78,7 @@ These are preparation instructions, not execution authority.
 | Hour 12-24 | Collect written rental and in-stock purchase quote responses from the top vehicle sources. | Ops |
 | Hour 24-36 | Ask sponsor/readiness targets only after the vehicle and insurance assumptions are grounded. | CEO / Funding |
 | Hour 36-48 | Narrow to rental bridge, low-cost purchase, commercial lease, or partner vehicle and draft the approval memo. | CEO / Ops |
-| Hour 48-72 | Record proof in `49_External_Response_Evidence_Log_2026-08-02.csv` and update the August 9 go/no-go memo. | Ops |
+| Hour 48-72 | Record proof in `49_External_Response_Evidence_Log_2026-08-02.csv`, score responses in `52_Vehicle_Funding_Quote_Intake_Scorecard_2026-08-02.csv`, and update the August 9 go/no-go memo. | Ops |
 
 ## Decision Rule
 
