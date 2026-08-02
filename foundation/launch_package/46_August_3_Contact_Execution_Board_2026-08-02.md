@@ -27,8 +27,8 @@ Use `51_Controlled_Contact_Authorization_Record_2026-08-02.md` as the source-con
 | 5 | MobilityWorks Rental Team | Call `(877) 275-4915` or rental form | Confirm August 10-15 accessible rental availability, business-use limits, insurance requirements, mileage, total cost, pickup/delivery timing | Rental quote or dated call notes |
 | 6 | United Access | Send draft `r-7947831820687205026` | Request written accessible vehicle quote and timing guidance | Written quote or response |
 | 7 | WyoMicro | Send draft `r-8427544726986723952` | Request preliminary microloan/working-capital fit without application or credit pull | Written fit response |
-| 8 | Platte County Chamber | Send draft `r-3004465373696662663` | Request sponsor/readiness planning call and local introductions | Meeting response, pledge interest, or introduction |
-| 9 | Platte County Economic Development | Send draft `r-154759076075875137` | Request readiness funding, sponsor introductions, or economic-development fit | Meeting response, pledge interest, or introduction |
+| 8 | Platte County Chamber | Do not send existing draft `r-3004465373696662663`; create replacement only after approval because the live attachment is stale | Request sponsor/readiness planning call and local introductions | Replacement draft ID, current attachment size, then meeting response, pledge interest, or introduction |
+| 9 | Platte County Economic Development | Do not send existing draft `r-154759076075875137`; create replacement only after approval because the live attachment is stale | Request readiness funding, sponsor introductions, or economic-development fit | Replacement draft ID, current attachment size, then meeting response, pledge interest, or introduction |
 | 10 | Fallback vehicle paths | Frontier, Wheelchair Getaways, AMS Vans, Mobility Auto Group, United Access Colorado Springs | Confirm fallback rental/sale/delivery availability if primary lease/rental options slip | Quote, response, or dated call notes logged in `49_External_Response_Evidence_Log_2026-08-02.csv` |
 
 ## Proof Standard

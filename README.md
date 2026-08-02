@@ -52,6 +52,7 @@ The application provides a complete startup operations workspace for executive o
 - `foundation/launch_package/50_Midmonth_Vehicle_Funding_Close_Board_2026-08-02.md` - proof-based close board for the August 9 funding and August 15 vehicle-possession targets
 - `foundation/launch_package/51_Controlled_Contact_Authorization_Record_2026-08-02.md` - source-controlled approval record for controlled quote, fit, timing, and planning contacts
 - `foundation/launch_package/52_Vehicle_Funding_Quote_Intake_Scorecard_2026-08-02.csv` - quote and response scorecard for vehicle, insurance, authority, financing, and funding evidence
+- `foundation/launch_package/53_Gmail_Draft_Attachment_Refresh_Audit_2026-08-02.md` - Gmail draft attachment audit showing which sponsor drafts must be replaced before sending
 - `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx` - generated review packet for August 9 funding, vehicle, authority, insurance, and approval controls
 - `VCC Funding/` - funding control lane for grants, sponsors, anchor partners, lender readiness, evidence, and approval gates
 - `.github/workflows/proof-html.yml` - Vite production build validation

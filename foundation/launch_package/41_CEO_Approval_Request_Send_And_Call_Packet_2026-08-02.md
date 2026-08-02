@@ -18,8 +18,8 @@ To keep the August 9 funding and August 15 vehicle target realistic, VCC needs a
 |---|---|---|---|
 | 1 | Send United Access draft `r-7947831820687205026` | Request written accessible vehicle quote and timing guidance | No application, deposit, lease, rental, purchase, or credit pull |
 | 2 | Send WyoMicro draft `r-8427544726986723952` | Request microloan fit and timing guidance | No application, credit pull, debt, guaranty, or collateral pledge |
-| 2A | Send Platte County Chamber draft `r-3004465373696662663` | Request planning call for vehicle-readiness sponsorship and local introductions | No invoice, payment request, restricted-fund acceptance, logo promise, service claim, or commitment |
-| 2B | Send Platte County Economic Development draft `r-154759076075875137` | Request planning call for vehicle-readiness funding, sponsor introductions, and economic-development fit | No invoice, payment request, restricted-fund acceptance, service claim, or commitment |
+| 2A | Replace stale Platte County Chamber draft `r-3004465373696662663`, then send only after exact replacement draft approval | Request planning call for vehicle-readiness sponsorship and local introductions | No send of existing stale draft; no invoice, payment request, restricted-fund acceptance, logo promise, service claim, or commitment |
+| 2B | Replace stale Platte County Economic Development draft `r-154759076075875137`, then send only after exact replacement draft approval | Request planning call for vehicle-readiness funding, sponsor introductions, and economic-development fit | No send of existing stale draft; no invoice, payment request, restricted-fund acceptance, service claim, or commitment |
 | 2C | Send WYDOT authority question draft `r812018179775240945` | Ask non-binding operating-authority questions for the Wheatland service model | No application, payment, filing, insurance filing, or representation that authority exists |
 | 3 | Call WYDOT Regulatory Authority | Confirm operating-authority, MC-100, Form E, registration, marking, and USDOT questions | No filing or representation of authority |
 | 4 | Call/contact vehicle vendors | MobilityWorks Commercial, MobilityWorks Aurora, MobilityWorks Rental Team, Frontier Access | No quote submission requiring payment, reservation, deposit, application, credit pull, lease, rental, or contract |
@@ -65,6 +65,7 @@ I approve controlled external contact for quote, fit, and timing information onl
 - `50_Midmonth_Vehicle_Funding_Close_Board_2026-08-02.md`
 - `51_Controlled_Contact_Authorization_Record_2026-08-02.md`
 - `52_Vehicle_Funding_Quote_Intake_Scorecard_2026-08-02.csv`
+- `53_Gmail_Draft_Attachment_Refresh_Audit_2026-08-02.md`
 - `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx`
 
 ## Active Vehicle Language
