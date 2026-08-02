@@ -482,6 +482,7 @@ def build_pdf(path: Path, title: str, subtitle: str, markdown_docs: list[str], a
         title=title,
         author=COMPANY,
         subject=subtitle,
+        pageCompression=0,
     )
     story = cover(title, subtitle)
     for idx, md in enumerate(markdown_docs):

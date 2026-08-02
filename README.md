@@ -41,6 +41,8 @@ The application provides a complete startup operations workspace for executive o
 - `foundation/launch_package/39_Wheatland_Vehicle_Readiness_Sponsor_Commitment_DRAFT.md` - draft sponsor/readiness commitment form for Wheatland vehicle funding support
 - `foundation/launch_package/40_August_9_Funding_Close_Register_2026-08-02.csv` - close register for funding evidence before the August 9 go/no-go gate
 - `foundation/launch_package/41_CEO_Approval_Request_Send_And_Call_Packet_2026-08-02.md` - approval packet for controlled quote, authority, insurance, financing, and sponsor outreach
+- `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx` - generated review packet for August 9 funding, vehicle, authority, insurance, and approval controls
+- `archive/retired-projects/` - archive-only retired project history; not active launch, funding, outreach, or public material
 - `VCC Funding/` - funding control lane for grants, sponsors, anchor partners, lender readiness, evidence, and approval gates
 - `.github/workflows/proof-html.yml` - Vite production build validation
 - `.env.example` - optional local environment override template
@@ -83,6 +85,7 @@ The August 2, 2026 workspace includes six command centers:
 - Convert vehicle, insurance, and financing outreach into written quote inputs before the August 9 go/no-go gate.
 - Complete corporate, insurance, operating authority, pilot vehicle, and driver readiness gates before launch.
 - Preserve legal controls so VCC does not create obligations before executive authorization.
+- Keep retired vehicle-acquisition history archive-only; active launch materials use accessible passenger vehicle and ADA/specialty mobility vehicle language.
 - Track launch metrics: trips, denials, cost per trip, revenue, safety incidents, support letters, and partner referrals.
 - Finish Google Workspace controls: DKIM, sender review, operating groups, Shared Drives, and compliance sharing rules.
 

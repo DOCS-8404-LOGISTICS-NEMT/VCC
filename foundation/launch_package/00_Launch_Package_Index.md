@@ -61,6 +61,20 @@ These files are not executed records. They should not be represented as final co
 | `40_August_9_Funding_Close_Register_2026-08-02.csv` | Close register for sponsor, readiness-fee, bridge, financing, and partner-vehicle funding evidence before August 9. |
 | `41_CEO_Approval_Request_Send_And_Call_Packet_2026-08-02.md` | Approval request packet for sending drafts and making quote, authority, insurance, financing, and sponsor calls without binding VCC. |
 
+## Generated Packet Outputs
+
+| File | Use |
+|---|---|
+| `output/docx/VCC_Board_Action_Packet_DRAFT.docx` | Generated board/governance review packet. |
+| `output/docx/VCC_Partner_Outreach_Packet_DRAFT.docx` | Generated partner outreach packet for approved Gmail drafts. |
+| `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx` | Generated vehicle funding close packet for sponsor, readiness, quote, authority, insurance, and CEO review. |
+
+## Retired Project Archive Control
+
+Retired vehicle-acquisition history is archive-only under `archive/retired-projects/` and is not active launch, funding, outreach, Gmail, website, or public-facing material.
+
+Active launch materials must use accessible passenger vehicle, ADA/specialty mobility vehicle, approved partner vehicle, or rental bridge language.
+
 ## Immediate Completion Order
 
 1. Fix public website routing and SSL by completing the BusinessIdentity DNS changes; GitHub Pages settings are now active.

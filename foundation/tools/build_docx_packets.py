@@ -1,3 +1,4 @@
+import csv
 from pathlib import Path
 
 from docx import Document
@@ -342,6 +343,113 @@ def build_partner_packet():
     return path
 
 
+def read_csv_rows(name):
+    path = ROOT / "foundation" / "launch_package" / name
+    with path.open(newline="", encoding="utf-8-sig") as handle:
+        return list(csv.reader(handle))
+
+
+def build_vehicle_funding_close_packet():
+    doc = setup_doc("VCC Vehicle Funding Close Packet", "Wheatland August 2026 Sprint")
+    add_title(
+        doc,
+        "Vehicle Funding Close Packet",
+        "Wheatland pilot funding, vehicle, authority, insurance, and approval controls",
+    )
+    add_para(
+        doc,
+        "Prepared for VILIGANS COMMAND CORPORATION as an internal and review-ready draft packet. This packet supports quote, fit, timing, sponsor, and readiness discussions. It does not authorize sending, signing, applications, credit pulls, deposits, insurance binding, vehicle commitments, filings, invoices, restricted funds, or paid passenger service.",
+        after=8,
+    )
+
+    add_h1(doc, "Executive Target")
+    add_table(
+        doc,
+        [
+            ["Target", "Current position", "Evidence needed"],
+            ["Funding by August 9, 2026", "Realistic for commitments, bridge support, sponsor/readiness pledges, or preapproval; not realistic for grant cash.", "Signed pledge, payment proof, approved bridge memo, lender preapproval, or written term sheet."],
+            ["Pilot vehicle by August 15, 2026", "Possible only through an immediately available accessible van purchase/lease, short-term rental bridge, or approved partner vehicle.", "Written quote or rental confirmation, insurance bindability, WYDOT path, approval memo, and funding source."],
+            ["Paid passenger launch", "Not approved by this packet.", "Authority, insurance, vehicle, driver, policy, privacy, rate-card, and partner gates complete."],
+        ],
+        [1.45, 2.55, 2.5],
+        fills={1: RISK_FILL, 2: RISK_FILL, 3: RISK_FILL},
+    )
+
+    add_h1(doc, "Approval Control")
+    add_table(
+        doc,
+        [
+            ["Allowed after CEO approval", "Not allowed without separate approval"],
+            ["Controlled quote, fit, and timing contact with listed vendors, lenders, insurers, WYDOT, and sponsor/anchor targets.", "Applications, credit pulls, deposits, vehicle reservations, purchase/lease/rental agreements, insurance bind orders, authority filings, invoices, restricted funds, sponsor logo promises, public launch claims, or paid passenger service."],
+        ],
+        [3.15, 3.35],
+        fills={1: RISK_FILL},
+    )
+
+    add_h1(doc, "Funding Close Register")
+    funding_rows = read_csv_rows("40_August_9_Funding_Close_Register_2026-08-02.csv")
+    condensed_funding = [["Lane", "Target amount", "Proof required", "Status", "Next action"]]
+    for row in funding_rows[1:]:
+        condensed_funding.append([row[1], row[3], row[4], row[6], row[9]])
+    add_table(doc, condensed_funding, [1.25, 1.0, 1.95, 1.0, 1.3])
+
+    doc.add_page_break()
+    add_h1(doc, "Public Vehicle Shortlist")
+    vehicle_rows = read_csv_rows("37_Public_Vehicle_Inventory_Shortlist_2026-08-02.csv")
+    condensed_vehicle = [["Priority", "Vendor", "Vehicle", "Price / terms", "Fastest use", "Next action"]]
+    for row in vehicle_rows[1:]:
+        condensed_vehicle.append([row[0], row[2], row[3], row[4], row[11], row[14]])
+    add_table(doc, condensed_vehicle, [0.55, 1.15, 1.45, 1.15, 1.05, 1.15])
+
+    add_h1(doc, "Sponsor / Readiness Commitment Terms")
+    add_table(
+        doc,
+        [
+            ["Term", "Draft control"],
+            ["Commitment types", "Vehicle readiness sponsorship, sponsor-funded local ride block, anchor readiness fee, community access day sponsorship, in-kind support, or letter of support."],
+            ["Allowed uses", "Accessible vehicle deposit/rental/lease startup, insurance deposit, inspection, securement, safety kit, registration/use documentation, dispatch/reporting setup, route planning, partner onboarding, and compliance readiness."],
+            ["Recognition", "Sponsor recognition only after approval; no logo, vehicle/event placement, public statement, or service-readiness claim without review."],
+            ["Reporting", "Non-PHI reporting only: ride requests, completed rides, denied/deferred rides, general service areas, cost summaries, incident-free days, and unmet-need observations."],
+            ["Restrictions", "Do not treat a pledge as cash until funds are received or a binding approved written commitment exists."],
+        ],
+        [1.45, 5.05],
+    )
+
+    doc.add_page_break()
+    add_h1(doc, "August 9 Go / No-Go Evidence")
+    add_table(
+        doc,
+        [
+            ["Evidence", "Minimum standard"],
+            ["Vehicle option", "Written quote or rental confirmation with stock/VIN or rental class, conversion, entry type, securement, mileage, price, total due, timing, and commercial-use rules."],
+            ["Insurance", "Broker/carrier guidance that the service model and vehicle can be insured, including required limits, exclusions, driver requirements, and Form E capability if WYDOT requires it."],
+            ["Authority", "WYDOT call notes confirming MC-100, Form E, registration, marking, USDOT, and passenger-capacity implications for Wheatland paid passenger service."],
+            ["Funding", "Signed pledge, readiness-fee commitment, lender preapproval, approved bridge funds, or microloan/lease path with timing and conditions."],
+            ["Approval", "CEO/officer approval of any outreach, quote submission, application, credit pull, deposit, invoice, agreement, or restricted-fund acceptance."],
+        ],
+        [1.35, 5.15],
+    )
+
+    add_h1(doc, "CEO Approval Placeholder")
+    add_para(doc, "Approval requested only for controlled external contact to gather quote, fit, and timing information.")
+    add_table(
+        doc,
+        [
+            ["Approval", "Selection"],
+            ["Controlled external contact only", "Yes / No"],
+            ["Excluded items or limits", ""],
+            ["Authorized signer", "ALAWNDUS L. DAVIS, CEO / Founder"],
+            ["Signature", ""],
+            ["Date", ""],
+        ],
+        [2.05, 4.45],
+    )
+
+    path = OUT / "VCC_Vehicle_Funding_Close_Packet_DRAFT.docx"
+    doc.save(path)
+    return path
+
+
 if __name__ == "__main__":
-    for created in [build_board_packet(), build_partner_packet()]:
+    for created in [build_board_packet(), build_partner_packet(), build_vehicle_funding_close_packet()]:
         print(created)

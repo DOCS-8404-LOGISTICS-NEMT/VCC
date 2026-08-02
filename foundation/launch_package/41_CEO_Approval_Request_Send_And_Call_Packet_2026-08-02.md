@@ -51,6 +51,14 @@ I approve controlled external contact for quote, fit, and timing information onl
 - `38_August_9_Funding_Vehicle_Go_No_Go_Memo_DRAFT.md`
 - `39_Wheatland_Vehicle_Readiness_Sponsor_Commitment_DRAFT.md`
 - `40_August_9_Funding_Close_Register_2026-08-02.csv`
+- `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx`
+- `archive/retired-projects/00_ARCHIVE_CONTROL_2026-08-02.md`
+
+## Archive Exclusion
+
+Retired vehicle-acquisition history is archive-only and excluded from active launch, funding, partner, Gmail, website, and public-facing materials.
+
+Active outreach and funding discussions must use accessible passenger vehicle, ADA/specialty mobility vehicle, approved partner vehicle, or rental bridge language.
 
 ## CEO Approval
 

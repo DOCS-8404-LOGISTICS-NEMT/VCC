@@ -39,6 +39,7 @@ Create a controlled Gmail workflow for sending Wheatland pilot packets to partne
 | MOU framework | `foundation/launch_package/08_Partner_MOU_Template_DRAFT.md` | Follow-up attachment only after partner interest. |
 | Funding and vehicle sprint | `foundation/launch_package/28_Seven_Day_Funding_And_Midmonth_Vehicle_Sprint_2026-08-02.md` | Internal support for sponsor/readiness-fee asks; do not attach externally without approval. |
 | Vehicle / insurance / financing contact queue | `foundation/launch_package/34_Vehicle_Insurance_Financing_Contact_Queue_2026-08-02.csv` | Internal quote, funding, and authority call sequence; do not submit forms, applications, or quote requests without approval. |
+| Vehicle funding close packet | `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx` | Sponsor/readiness, lender, vehicle, and CEO review packet after approval; do not attach externally without approval. |
 
 ## Segment Templates
 
@@ -135,6 +136,10 @@ Current drafted sprint targets:
 
 - United Access for accessible van purchase, lease, or rental quote guidance.
 - WyoMicro for Wyoming microloan and coaching-supported financing fit guidance.
+
+## Retired Project Control
+
+Retired vehicle-acquisition history is archive-only under `archive/retired-projects/` and must not be attached, linked, quoted, summarized, or reused in active Gmail drafts.
 
 ## Follow-Up Cadence
 
