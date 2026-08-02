@@ -12,7 +12,7 @@ VCC is ready to move from internal readiness into a controlled funding and partn
 
 Planning decision made for execution momentum:
 
-- Pilot geography: Sheridan County, Wyoming, using Sheridan and nearby rural communities as the first planning service area until the CEO overrides it.
+- Pilot geography: Wheatland / Platte County, Wyoming, as the first launch test site.
 - Anchor partner category: healthcare care-coordination partner, such as a rural hospital, clinic, FQHC, dialysis, rehabilitation, or discharge/case-management team.
 - Initial service posture: scheduled, non-emergency, non-ambulance transportation planning only; no public rider transport until launch gates are complete.
 
@@ -92,8 +92,8 @@ Commit the current safe internal document, launch packet, and funding-control ch
 
 | Decision | Selection | Reason |
 |---|---|---|
-| Pilot county | Sheridan County, Wyoming | Aligns with the current Wyoming corporate filing address and gives a narrow first planning geography. |
-| First planning hub | Sheridan and nearby rural communities | Practical first service boundary for outreach, mapping, dispatch assumptions, and cost estimates. |
+| Pilot county | Platte County, Wyoming | CEO selected Wheatland as the pilot launch test site on August 2, 2026. |
+| First planning hub | Wheatland, Wyoming | Practical first service boundary for outreach, mapping, dispatch assumptions, and cost estimates. |
 | Anchor partner category | Healthcare care-coordination partner | Highest match to recurring NEMT/special-needs transportation need and partner-funded readiness fee. |
 | First target types | Hospital, rural clinic, FQHC, dialysis, rehab, discharge planning, case management | Produces referral workflow, unmet-need evidence, support letters, and possible paid pilot. |
 
@@ -107,12 +107,12 @@ Commit the current safe internal document, launch packet, and funding-control ch
 
 ### First Outreach List To Build
 
-1. Sheridan-area hospital or clinic care-coordination lead.
-2. Dialysis or recurring-care provider.
-3. County public health or human services contact.
-4. Senior center or disability provider.
+1. Platte County Hospital / Banner Health care-coordination, discharge planning, or community benefit lead.
+2. Platte County Public Health.
+3. Dialysis, rehab, pharmacy, or recurring-care provider serving Wheatland residents.
+4. Senior center, disability provider, or independent-living contact.
 5. VSO/SVSA contact for veteran mobility support.
-6. Local sponsor candidates: bank, healthcare vendor, insurer, energy company, civic group, church, or employer.
+6. Local sponsor candidates: bank, healthcare vendor, insurer, energy company, civic group, church, ranch/agriculture employer, or other Platte County employer.
 
 ## 4. WYDOT And FMCSA Operating Authority Path
 
@@ -124,7 +124,7 @@ VCC should treat compensated Wyoming passenger transportation as potentially req
 
 Use this exact controlled language:
 
-> VILIGANS COMMAND CORPORATION is preparing a small scheduled, non-emergency, non-ambulance passenger transportation pilot in Sheridan County. The pilot may serve seniors, individuals with disabilities, veterans, and healthcare-access riders through partner referrals, private pay, sponsorships, or contracts. We need to confirm whether Wyoming intrastate operating authority, MC-100 filing, Form E insurance filing, USDOT number, vehicle markings, driver qualification, inspection, or other state requirements apply before any compensated passenger service begins.
+> VILIGANS COMMAND CORPORATION is preparing a small scheduled, non-emergency, non-ambulance passenger transportation pilot in Wheatland and Platte County, Wyoming. The pilot may serve seniors, individuals with disabilities, veterans, and healthcare-access riders through partner referrals, private pay, sponsorships, or contracts. We need to confirm whether Wyoming intrastate operating authority, MC-100 filing, Form E insurance filing, USDOT number, vehicle markings, driver qualification, inspection, or other state requirements apply before any compensated passenger service begins.
 
 ### WYDOT Questions
 
@@ -135,7 +135,7 @@ Use this exact controlled language:
 5. Are ACORD certificates, binders, or insurance cards insufficient for the state authority file?
 6. Does WYDOT require a USDOT number for the planned vehicle capacity, service type, or intrastate operation?
 7. What driver, vehicle inspection, marking, maintenance, complaint, and safety records must be kept?
-8. Are county or local passenger-for-hire permits required in Sheridan County or the City of Sheridan?
+8. Are county or local passenger-for-hire permits required in Platte County or the Town of Wheatland?
 
 ### FMCSA Decision Screen
 
@@ -158,7 +158,7 @@ Prepared, not sent.
 
 Subject: VCC Wyoming scheduled passenger/NEMT-adjacent pilot insurance quote request
 
-VILIGANS COMMAND CORPORATION is preparing a controlled Sheridan County, Wyoming scheduled, non-emergency, non-ambulance transportation pilot. We need quote guidance before launch and before any paid passenger service.
+VILIGANS COMMAND CORPORATION is preparing a controlled Wheatland / Platte County, Wyoming scheduled, non-emergency, non-ambulance transportation pilot. We need quote guidance before launch and before any paid passenger service.
 
 Please quote or advise required underwriting data for:
 
@@ -173,7 +173,7 @@ Please quote or advise required underwriting data for:
 
 Current planning assumptions:
 
-- Service area: Sheridan County, Wyoming.
+- Service area: Wheatland / Platte County, Wyoming.
 - Service model: scheduled, non-emergency, non-ambulance rides only.
 - Rider groups: seniors, individuals with disabilities, veterans, healthcare-access riders, and partner referrals.
 - Vehicle: accessible passenger van preferred; final vehicle not selected.
@@ -298,7 +298,7 @@ Final SPF must be confirmed against every active sender before DNS change.
 1. DNS admin: replace website A/CNAME records with GitHub Pages records while preserving Google Workspace mail records.
 2. After DNS propagates, enable GitHub Pages HTTPS enforcement if GitHub does not turn it on automatically.
 3. Commit DNS verification evidence after the public URL loads correctly.
-4. CEO: approve Sheridan County / healthcare care-coordination planning selection or provide replacement county/category.
+4. Build the first Wheatland / Platte County outreach target list and route-cost model.
 5. CEO/admin: verify SAM/UEI and Grants.gov status with private account access.
 6. CEO/admin: generate Google DKIM in Admin console and provide only the public DNS TXT record for implementation.
 7. CEO: approve the insurance quote request before any broker contact is sent.

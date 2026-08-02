@@ -1,5 +1,5 @@
 Rank,Phase,Due Date,Task,Owner,Impact Score,Status,Required Output,Approval Required Before Execution,Key Dependencies
-1,Immediate,2026-08-03,Pick one pilot geography and service boundary,Executive / Ops,100,Planning selected,"Default planning area: Sheridan County, Wyoming; eligible trip types and radius still need approval",No,None
+1,Immediate,2026-08-03,Pick one pilot geography and service boundary,Executive / Ops,100,Selected,"Pilot launch test site: Wheatland / Platte County, Wyoming; eligible trip types and radius still need approval",No,None
 2,Immediate,2026-08-05,Verify DOCS 8404 LLC state status or decide VCC-only interim path,Governance,98,Not started,Official LLC filing proof or corrected external entity path,Yes,VCC source proof
 3,Immediate,2026-08-05,Confirm WYDOT operating authority path,Compliance,98,Prepared,WYDOT/FMCSA call script and decision screen created in launch action packet,No,Pilot geography and vehicle class
 4,Immediate,2026-08-07,Request insurance quotes,Risk / Ops,97,Prepared,"Commercial auto, general liability, E&O, abuse/molestation, workers comp, umbrella, cyber/privacy quote request prepared but not sent",Yes before sending,Pilot geography; vehicle strategy; driver standards

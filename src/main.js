@@ -37,7 +37,7 @@ const priorityActions = [
     due: "5 days",
     impact: 95,
     result:
-      "Send county, clinic, employer, and sponsor offers with readiness fee and ride-block pricing.",
+      "Prepare Wheatland / Platte County partner, clinic, employer, and sponsor offers with readiness fee and ride-block pricing.",
   },
   {
     rank: 4,
@@ -97,14 +97,14 @@ const fundingPipeline = [
       "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Planning/Local%20Government%20Coordination%20Office/WYDOT%20Application%20Guidelines%20Feb%202026.pdf",
   },
   {
-    name: "County mobility pilot",
+    name: "Wheatland mobility pilot",
     type: "Service contract",
     status: "Revenue",
     deadline: "Rolling",
     amount: "$40k-$150k",
     fit: "Critical",
     owner: "Executive",
-    next: "Offer 90-day readiness retainer plus trip reimbursement, weekly reports, and unmet-demand map.",
+    next: "Offer Wheatland / Platte County 90-day readiness retainer plus trip reimbursement, weekly reports, and unmet-demand map.",
     source: VCC_CONFIG.website,
   },
   {
@@ -133,6 +133,11 @@ const fundingPipeline = [
 
 const dashboardCards = [
   {
+    label: "Pilot Site",
+    value: "Wheatland",
+    detail: "Platte County launch test site selected for first service-boundary and partner-readiness work.",
+  },
+  {
     label: "Funding Target",
     value: "$500k+",
     detail: "Grant, contract, sponsor, and match stack for the first Wyoming pilot.",
@@ -140,7 +145,7 @@ const dashboardCards = [
   {
     label: "Immediate Revenue",
     value: "4 offers",
-    detail: "County, clinic, employer, and sponsor packages ready for outreach.",
+    detail: "Wheatland partner, clinic, employer, and sponsor packages ready for controlled outreach.",
   },
   {
     label: "Grant Window",
@@ -259,7 +264,7 @@ const workspaceSources = [
 
 const activeContracts = [
   {
-    target: "County health / human services",
+    target: "Platte County health / human services",
     stage: "Draft offer",
     value: "$40k-$150k",
     decision: "Readiness retainer, trip reimbursement, and weekly pilot reporting.",
@@ -327,9 +332,9 @@ const complianceTasks = [
 
 const marketingTasks = [
   {
-    channel: "County decision-makers",
+    channel: "Platte County decision-makers",
     message: "Reduce missed care and unmet transportation need.",
-    next: "Send one-page pilot offer and request work session.",
+    next: "Send Wheatland one-page pilot offer and request work session.",
     metric: "2 county meetings",
   },
   {
@@ -528,9 +533,9 @@ const riskTracker = [
 
 const campaignPlanner = [
   {
-    campaign: "County pilot funding sprint",
-    audience: "Commissioners, public health, human services",
-    offer: "90-day rural mobility pilot with weekly impact dashboard",
+    campaign: "Wheatland pilot funding sprint",
+    audience: "Platte County officials, public health, human services",
+    offer: "90-day Wheatland rural mobility pilot with weekly impact dashboard",
     budget: "$750",
     kpi: "2 decision meetings",
   },
@@ -559,9 +564,9 @@ const campaignPlanner = [
 
 const outreachTracker = [
   ["WYDOT Transit staff", "Funding alignment", "Call and document 5310/5311/5339 path", "This week"],
-  ["County commissioners", "Pilot buyer", "Request work session and sponsor letter", "This week"],
-  ["County public health", "Demand validation", "Collect trip categories and unmet-need data", "This week"],
-  ["Hospital/clinic care coordinators", "Referral channel", "Map recurring ride workflows", "Next 10 days"],
+  ["Platte County commissioners", "Pilot buyer", "Request Wheatland work session and sponsor letter", "This week"],
+  ["Platte County Public Health", "Demand validation", "Collect trip categories and unmet-need data", "This week"],
+  ["Platte County Hospital / clinic care coordinators", "Referral channel", "Map recurring ride workflows", "Next 10 days"],
   ["Senior/disability organizations", "Support letters", "Host listening session and survey", "Next 14 days"],
   ["Employers/chamber", "Revenue partner", "Pitch workforce access route support", "Next 21 days"],
 ];
@@ -620,7 +625,7 @@ const launchPlan = [
     phase: "Days 10-30",
     priority: 95,
     task: "Revenue pipeline launch",
-    output: "County, clinic, employer, and sponsor proposals sent with meeting tracker.",
+    output: "Wheatland / Platte County partner, clinic, employer, and sponsor proposals sent with meeting tracker.",
   },
   {
     phase: "Days 15-45",

@@ -26,7 +26,7 @@ Current source-proof status:
 
 Within 14 days:
 
-1. Choose the first pilot county/service area.
+1. Build the Wheatland / Platte County service boundary and route-cost model.
 2. Confirm WYDOT operating authority path.
 3. Request commercial NEMT/passenger insurance quotes.
 4. Select one accessible passenger vehicle option.
@@ -59,7 +59,7 @@ Within 90 days:
 
 | Rank | Timing | Task | Owner | Estimated Impact | Output | Gate / Risk |
 |---:|---|---|---|---:|---|---|
-| 1 | Days 1-3 | Pick one pilot geography and service boundary | Executive / Ops | 100 | County/city/radius decision, eligible trip types, service limits | No marketing or pricing should go out before this is set. |
+| 1 | Days 1-3 | Finalize Wheatland / Platte County service boundary | Executive / Ops | 100 | Wheatland test-site map, route radius, eligible trip types, service limits | No marketing or pricing should go out before this is set. |
 | 2 | Days 1-5 | Verify DOCS 8404 LLC state status or decide VCC-only interim path | Governance | 98 | Official LLC filing proof or corrected external entity path | Binding docs cannot rely on unverified LLC status. |
 | 3 | Days 1-5 | Confirm WYDOT operating authority path | Compliance | 98 | WYDOT determination notes and MC-100 path if required | Paid service must not begin before authority/insurance path is clear. |
 | 4 | Days 1-7 | Request insurance quotes | Risk / Ops | 97 | Commercial auto, GL, E&O, abuse/molestation, workers comp, umbrella, cyber/privacy quote list | Underwriting may dictate vehicle, driver, radius, and contract requirements. |

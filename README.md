@@ -62,6 +62,7 @@ The August 2, 2026 workspace includes six command centers:
 
 - Secure ICAM/WYDOT applicant path and local match strategy.
 - Fix public website routing/SSL by aligning GitHub Pages settings and DNS records.
+- Build Wheatland / Platte County as the pilot launch test site.
 - Convert county, clinic, employer, and sponsor outreach into paid pilot revenue.
 - Complete corporate, insurance, operating authority, vehicle/RV, and driver readiness gates before launch.
 - Preserve legal controls so VCC does not create obligations before executive authorization.

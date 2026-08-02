@@ -12,13 +12,13 @@ Corporate contact identity: aldavis@viliganscommandcorp.com
 
 VCC Funding is the active control lane for moving the Wyoming rural special-needs transportation pilot from planning to funded launch. The practical funding sequence is partner revenue first, sponsorship second, lender/vehicle readiness third, and grant scale-up through eligible direct or partner-led paths.
 
-The fastest fundable offer is a 90-day Wyoming pilot with a monthly readiness fee, per-trip charge, limited service area, weekly reporting, accessible vehicle readiness, insurance and authority gates, and partner referral workflow.
+The fastest fundable offer is a 90-day Wheatland / Platte County pilot with a monthly readiness fee, per-trip charge, limited service area, weekly reporting, accessible vehicle readiness, insurance and authority gates, and partner referral workflow.
 
 ## Immediate Actions
 
 | Priority | Action | Owner | Due | Impact |
 |---:|---|---|---|---|
-| 1 | Select one pilot county/service area and one anchor partner category. | CEO | Immediate | High |
+| 1 | Build the Wheatland / Platte County service boundary and first anchor partner target list. | CEO | Immediate | High |
 | 2 | Convert the 90-day budget into a quote-backed funding ask. | CEO/Finance | 7 days | High |
 | 3 | Request commercial auto and general liability quotes for the selected vehicle/use profile. | CEO/Broker | 7 days | High |
 | 4 | Send approved outreach to 20 partner targets and 20 sponsor targets after approval. | CEO/Marketing | 10 days | High |
@@ -38,6 +38,15 @@ The fastest fundable offer is a 90-day Wyoming pilot with a monthly readiness fe
 | WYDOT/FTA 5310/5311/5339 | Next cycle or partner path now | Operator/subrecipient/contractor where permitted | Contact WYDOT Transit about applicant path, match, and vehicle capital. |
 | VA HRTG | Next cycle | Operator/subrecipient/contractor under qualified lead where permitted | Build VSO/SVSA MOU packet and rural veteran ride need statement. |
 | Bank/lender facility | After LOI, quote, and vehicle plan | Borrower/operator | Prepare underwriting packet and cash-flow support. |
+
+## Active Pilot Site
+
+| Item | Selection |
+|---|---|
+| Pilot launch test site | Wheatland, Wyoming |
+| County | Platte County |
+| First partner category | Healthcare care coordination and public-health access partners |
+| First evidence target | Need validation, support letter, referral workflow, and sponsor or readiness-fee discussion |
 
 ## Compliance Requirements
 
