@@ -55,6 +55,7 @@ The application provides a complete startup operations workspace for executive o
 - `foundation/launch_package/53_Gmail_Draft_Attachment_Refresh_Audit_2026-08-02.md` - Gmail draft attachment audit showing which sponsor drafts must be replaced before sending
 - `foundation/launch_package/54_Gmail_Replacement_Draft_Manifest_2026-08-02.md` - exact replacement draft bodies and attachment rules for stale sponsor packet drafts
 - `foundation/launch_package/55_CEO_Next_Action_Decision_Record_2026-08-02.md` - consolidated CEO decision record for controlled contact, draft maintenance, and proof capture needed for the August 9 funding and August 15 vehicle-control targets
+- `foundation/launch_package/56_August_2_Public_Source_Refresh_2026-08-02.md` - current public-source refresh for authority, rental, vehicle, insurance, microloan, and local sponsor/readiness lanes before controlled contact
 - `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx` - generated review packet for August 9 funding, vehicle, authority, insurance, and approval controls
 - `VCC Funding/` - funding control lane for grants, sponsors, anchor partners, lender readiness, evidence, and approval gates
 - `.github/workflows/proof-html.yml` - Vite production build validation
@@ -96,6 +97,7 @@ The August 2, 2026 workspace includes six command centers:
 - Build Wheatland / Platte County as the pilot launch test site.
 - Convert county, clinic, employer, and sponsor outreach into paid pilot revenue.
 - Convert vehicle, insurance, and financing outreach into written quote inputs before the August 9 go/no-go gate.
+- Use the August 2 public-source refresh to prioritize WYDOT, insurance, Frontier Cheyenne, United Access/MobilityWorks, WyoMicro, and PCED/Chamber evidence collection.
 - Choose Option A, B, or C in the CEO next-action decision record before outside contact or draft replacement.
 - Complete corporate, insurance, operating authority, pilot vehicle, and driver readiness gates before launch.
 - Preserve legal controls so VCC does not create obligations before executive authorization.

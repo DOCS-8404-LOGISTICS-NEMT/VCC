@@ -178,7 +178,7 @@ const proofGateCards = [
     label: "Controlled Contact",
     status: "Needs exact CEO approval",
     detail:
-      "Use 55_CEO_Next_Action_Decision_Record_2026-08-02.md to choose Option A, B, or C before any outside call, email, form, quote request, draft replacement, or sponsor approach.",
+      "Review 56_August_2_Public_Source_Refresh_2026-08-02.md, then use 55_CEO_Next_Action_Decision_Record_2026-08-02.md before any outside call, email, form, quote request, draft replacement, or sponsor approach.",
   },
   {
     label: "Vehicle Proof",
@@ -201,11 +201,11 @@ const proofGateCards = [
 ];
 
 const closeScorecard = [
-  ["1", "WYDOT authority", "Missing", "MC-100, Form E, USDOT, markings, and pre-authority limits"],
-  ["2", "Insurance bindability", "Missing", "Wyoming NEMT/livery eligibility, limits, driver rules, and Form E support"],
-  ["3", "Frontier rental bridge", "Not contacted", "Cheyenne August 10-15 availability, total due, business-use rules, and insurance"],
-  ["4", "MobilityWorks KR692569A", "Not contacted", "Current availability, quote, title, inspection, warranty, and commercial-use permission"],
-  ["5", "WyoMicro / sponsor funding", "Drafted not sent", "Preliminary fit, sponsor readiness interest, pledge path, and written terms"],
+  ["1", "WYDOT authority", "Source refreshed", "MC-100, Form E, USDOT, markings, and pre-authority limits still need WYDOT response"],
+  ["2", "Insurance bindability", "Source refreshed", "Wyoming NEMT/livery eligibility, limits, driver rules, and Form E support still need broker response"],
+  ["3", "Frontier rental bridge", "Source refreshed", "Cheyenne August 10-15 availability, total due, business-use rules, and insurance still need vendor response"],
+  ["4", "MobilityWorks KR692569A", "Source refreshed", "Current availability, quote, title, inspection, warranty, and commercial-use permission still need vendor response"],
+  ["5", "WyoMicro / sponsor funding", "Source refreshed", "Preliminary fit, sponsor readiness interest, pledge path, and written terms still need outside response"],
 ];
 
 const workspaceReadiness = [

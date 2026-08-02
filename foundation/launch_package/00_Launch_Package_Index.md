@@ -74,6 +74,7 @@ These files are not executed records. They should not be represented as final co
 | `53_Gmail_Draft_Attachment_Refresh_Audit_2026-08-02.md` | Gmail draft attachment audit showing which sponsor drafts must be replaced before sending. |
 | `54_Gmail_Replacement_Draft_Manifest_2026-08-02.md` | Exact replacement draft bodies and attachment rules for stale sponsor packet drafts. |
 | `55_CEO_Next_Action_Decision_Record_2026-08-02.md` | Consolidated CEO decision record for controlled contact, draft maintenance, and proof capture needed for the August 9 funding and August 15 vehicle-control targets. |
+| `56_August_2_Public_Source_Refresh_2026-08-02.md` | Current public-source refresh for WYDOT/FMCSA, rental, vehicle, insurance, microloan, and local sponsor/readiness lanes before controlled contact. |
 
 ## Generated Packet Outputs
 
@@ -105,10 +106,11 @@ Active launch materials must use accessible passenger vehicle, ADA/specialty mob
 14. Use the vehicle, insurance, financing, and authority contact queue to request quote/timing inputs after approval.
 15. Select the pilot vehicle and service area.
 16. Run the seven-day Wheatland funding and pilot vehicle sprint.
-17. Choose Option A, B, or C in `55_CEO_Next_Action_Decision_Record_2026-08-02.md` before any outside contact or draft replacement.
-18. Verify recipient emails and use the Gmail packet queue to prepare approved drafts.
-19. Send partner, vehicle, and funding outreach only after final approval.
-20. Convert approved summary/capability statement into PDF.
+17. Review the public-source refresh in `56_August_2_Public_Source_Refresh_2026-08-02.md`.
+18. Choose Option A, B, or C in `55_CEO_Next_Action_Decision_Record_2026-08-02.md` before any outside contact or draft replacement.
+19. Verify recipient emails and use the Gmail packet queue to prepare approved drafts.
+20. Send partner, vehicle, and funding outreach only after final approval.
+21. Convert approved summary/capability statement into PDF.
 
 ## Approval Required Before Execution
 

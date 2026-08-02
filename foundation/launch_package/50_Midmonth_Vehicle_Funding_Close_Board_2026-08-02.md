@@ -66,6 +66,7 @@ The goal is not proven yet. Current evidence supports urgent contact; it does no
 - WYDOT operating authority and taxi/shuttle guidance still require direct confirmation before VCC represents paid passenger service readiness.
 - ICAM is open with a September 9, 2026 close date and may support coordinated transportation/NEMT capital work, but it is not a one-week cash source.
 - WYDOT Section 5310 is relevant to accessible vehicles and elderly/disability transportation, but it is an annual capital grant lane and not an August 15 possession path unless an already-awarded partner asset is involved.
+- August 2 public-source refresh is captured in `56_August_2_Public_Source_Refresh_2026-08-02.md`; public source evidence supports urgent controlled contact but still does not prove vehicle control, funding, insurance bindability, authority, or launch readiness.
 
 ## 72-Hour Close Instructions
 
