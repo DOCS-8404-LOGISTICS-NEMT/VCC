@@ -76,6 +76,7 @@ These files are not executed records. They should not be represented as final co
 | `55_CEO_Next_Action_Decision_Record_2026-08-02.md` | Consolidated CEO decision record for controlled contact, draft maintenance, and proof capture needed for the August 9 funding and August 15 vehicle-control targets. |
 | `56_August_2_Public_Source_Refresh_2026-08-02.md` | Current public-source refresh for WYDOT/FMCSA, rental, vehicle, insurance, microloan, and local sponsor/readiness lanes before controlled contact. |
 | `57_Option_A_Same_Day_Proof_Collection_Runbook_2026-08-02.md` | Same-day runbook for collecting authority, insurance, vehicle, financing, and sponsor/readiness proof after Option A approval. |
+| `58_Bridge_Readiness_Funding_Authorization_DRAFT_2026-08-02.md` | Draft bridge/readiness funding authorization template for preserving a verified August 15 vehicle-control path without approving obligations. |
 
 ## Generated Packet Outputs
 
@@ -110,9 +111,10 @@ Active launch materials must use accessible passenger vehicle, ADA/specialty mob
 17. Review the public-source refresh in `56_August_2_Public_Source_Refresh_2026-08-02.md`.
 18. Choose Option A, B, or C in `55_CEO_Next_Action_Decision_Record_2026-08-02.md` before any outside contact or draft replacement.
 19. If Option A is approved, use `57_Option_A_Same_Day_Proof_Collection_Runbook_2026-08-02.md` for the same-day proof collection order.
-20. Verify recipient emails and use the Gmail packet queue to prepare approved drafts.
-21. Send partner, vehicle, and funding outreach only after final approval.
-22. Convert approved summary/capability statement into PDF.
+20. If a rental, vehicle, insurance, sponsor, lender, or partner-vehicle proof item appears, use `58_Bridge_Readiness_Funding_Authorization_DRAFT_2026-08-02.md` before any bridge/readiness funds are committed.
+21. Verify recipient emails and use the Gmail packet queue to prepare approved drafts.
+22. Send partner, vehicle, and funding outreach only after final approval.
+23. Convert approved summary/capability statement into PDF.
 
 ## Approval Required Before Execution
 

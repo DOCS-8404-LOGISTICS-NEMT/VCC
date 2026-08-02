@@ -30,7 +30,7 @@ The goal is not proven yet. Current evidence supports urgent contact; it does no
 | Requirement | Evidence Needed | Current Proof | Status |
 |---|---|---|---|
 | Vehicle possession path | Written rental, lease, purchase, or partner-vehicle confirmation with timing, total due, permitted use, and vehicle class or VIN | Public sources show plausible leads; no written quote or reservation | Missing |
-| One-week funding | Signed pledge, payment evidence, approved bridge authorization, lender preapproval, lease preapproval, or written term sheet | Drafts, close register, and target queue prepared; no commitment verified | Missing |
+| One-week funding | Signed pledge, payment evidence, approved bridge authorization, lender preapproval, lease preapproval, or written term sheet | Drafts, close register, target queue, and bridge/readiness authorization template prepared; no commitment or bridge approval verified | Missing |
 | Insurance bindability | Broker/carrier response for Wyoming scheduled non-emergency passenger service, exact vehicle class, driver rules, limits, filings, and exclusions | Progressive and Insureon paths queued; no quote response | Missing |
 | WYDOT authority path | Written response or dated call notes on intrastate passenger authority, MC-100/Form E, passenger capacity, USDOT trigger, markings, and pre-authority activity | WYDOT draft and call payload prepared; no response | Missing |
 | External contact approval | Exact CEO approval for controlled quote, fit, timing, and planning contacts | Approval text prepared in `46_August_3_Contact_Execution_Board_2026-08-02.md`, `51_Controlled_Contact_Authorization_Record_2026-08-02.md`, and consolidated in `55_CEO_Next_Action_Decision_Record_2026-08-02.md`; no current controlled-contact approval logged in this board | Missing |
@@ -51,7 +51,7 @@ The goal is not proven yet. Current evidence supports urgent contact; it does no
 | 1 | Sponsor/readiness commitment | $10,000-$25,000 | Signed pledge or payment record states amount, allowed use, payment timing, no active-service claim, and recognition limits |
 | 2 | Anchor readiness fee | $5,000-$15,000 | Written MOU term sheet, purchase order path, or signed readiness agreement exists |
 | 3 | Lease or lender preapproval | $20,000-$80,000 purchasing power | Written preapproval or term sheet identifies borrower, amount, down payment, vehicle class, timing, conditions, and whether a guaranty is required |
-| 4 | Approved bridge authorization | TBD | Officer/board memo states amount, source, repayment/reimbursement terms, allowed use, and payment authority |
+| 4 | Approved bridge authorization | TBD | Officer/board memo such as `58_Bridge_Readiness_Funding_Authorization_DRAFT_2026-08-02.md` states amount, source, repayment/reimbursement terms, allowed use, and payment authority |
 | 5 | Microloan path | Up to $50,000 program lane | Written lender response confirms fit, expected timeline, required documents, and whether funds could arrive quickly enough; do not count inquiry alone |
 
 ## Current External Signals Checked

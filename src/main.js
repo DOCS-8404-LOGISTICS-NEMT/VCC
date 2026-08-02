@@ -190,7 +190,7 @@ const proofGateCards = [
     label: "Funding Proof",
     status: "Missing",
     detail:
-      "Count only signed pledge, received funds, approved bridge authorization, lender/lease preapproval, or written term sheet.",
+      "Count only signed pledge, received funds, approved bridge authorization, lender/lease preapproval, or written term sheet; use 58_Bridge_Readiness_Funding_Authorization_DRAFT_2026-08-02.md before bridge funds move.",
   },
   {
     label: "Launch Permission",
