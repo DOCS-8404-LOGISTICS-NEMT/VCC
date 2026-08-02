@@ -42,10 +42,11 @@ These files are not executed records. They should not be represented as final co
 | `20_Filing_Authority_and_Submission_Queue_2026-08-02.md` | Filing authority, signature queue, and controlled submission order for corporate, grant, WYDOT, SAM, annual-report, and RV-related filings. |
 | `21_Document_Approval_Register_2026-08-02.md` | Signature review control, routing checklist, remaining execution blockers, and digital-signature control note. |
 | `22_Immediate_Launch_Action_Packet_2026-08-02.md` | Immediate action control packet for website routing/SSL, pilot county, anchor partner category, WYDOT/FMCSA, insurance quotes, SAM/Grants.gov, Medicaid, and Google DKIM. |
+| `23_Public_Website_DNS_Change_Request_2026-08-02.md` | DNS administrator packet for moving `viliganscommandcorp.com` and `www` from the old BusinessIdentity/Google-hosted path to GitHub Pages without disrupting Google Workspace mail. |
 
 ## Immediate Completion Order
 
-1. Fix public website routing and SSL by completing GitHub Pages settings and DNS changes.
+1. Fix public website routing and SSL by completing the BusinessIdentity DNS changes; GitHub Pages settings are now active.
 2. Commit or deliberately hold current document, funding, and signature-packet changes.
 3. Use Sheridan County, Wyoming, as the default pilot geography unless the CEO overrides it.
 4. Use healthcare care-coordination partners as the default anchor partner category.

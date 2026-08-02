@@ -24,11 +24,15 @@ Planning decision made for execution momentum:
 |---|---|---|
 | Local website build | `npm run build` passes. | Source is build-ready. |
 | GitHub Pages workflow | `.github/workflows/deploy-pages.yml` exists and builds `dist`. | Repository-side deploy workflow exists. |
+| GitHub Pages setting | Enabled through GitHub API with GitHub Actions publishing on August 2, 2026. | GitHub-side Pages setup is now active. |
+| Latest deployment | Deploy Website workflow run `30748955507` completed successfully. | GitHub-hosted artifact is deployed. |
+| Custom domain | Saved in GitHub Pages as `viliganscommandcorp.com`. | GitHub now redirects the project Pages URL to the custom domain. |
 | `public/CNAME` | Contains `viliganscommandcorp.com`. | Helpful if branch publishing is later used; GitHub says Actions publishing stores custom-domain settings separately. |
 | Apex DNS | `viliganscommandcorp.com` currently resolves to `66.223.49.89`. | Not pointing to GitHub Pages. |
 | `www` DNS | `www.viliganscommandcorp.com` is a CNAME to `ghs.googlehosted.com`. | Not pointing to GitHub Pages. |
 | HTTPS check | `https://viliganscommandcorp.com` and `https://www.viliganscommandcorp.com` fail SSL locally. | Public launch is blocked until host/DNS/certificate align. |
-| GitHub Pages URL | `https://docs-8404-logistics-nemt.github.io/demo-repository/` returns `404`. | Pages source/settings or deploy state needs GitHub-side review. |
+| GitHub Pages URL | `https://docs-8404-logistics-nemt.github.io/demo-repository/` redirects to `http://viliganscommandcorp.com/`. | GitHub Pages is active; DNS must be corrected for the custom domain. |
+| Forced GitHub resolve test | `viliganscommandcorp.com` serves the VCC HTML when locally resolved to a GitHub Pages IP. | Site content is ready after DNS cutover. |
 
 ### Required GitHub Settings
 
@@ -63,13 +67,12 @@ Optional IPv6 records:
 
 Go for source deployment after commit and push.
 
-No-go for public-domain launch until:
+GitHub-side items 1 and 2 are complete. No-go for public-domain launch until:
 
-1. GitHub Pages settings confirm the Actions deployment source.
-2. The custom domain is saved in GitHub Pages settings.
-3. Apex and `www` DNS point to GitHub Pages.
-4. HTTPS certificate is issued and Enforce HTTPS is available.
-5. `https://viliganscommandcorp.com` returns the VCC site.
+1. Apex and `www` DNS point to GitHub Pages.
+2. HTTPS certificate is issued and Enforce HTTPS is available.
+3. `https://viliganscommandcorp.com` returns the VCC site.
+4. `https://www.viliganscommandcorp.com` returns or redirects cleanly to the VCC site.
 
 ## 2. Document And Funding Change Control
 
@@ -292,9 +295,9 @@ Final SPF must be confirmed against every active sender before DNS change.
 
 ## Next Steps
 
-1. Commit this packet and the current document-control changes.
-2. GitHub admin: set Pages source to GitHub Actions and custom domain to `viliganscommandcorp.com`.
-3. DNS admin: replace website A/CNAME records with GitHub Pages records while preserving Google Workspace mail records.
+1. DNS admin: replace website A/CNAME records with GitHub Pages records while preserving Google Workspace mail records.
+2. After DNS propagates, enable GitHub Pages HTTPS enforcement if GitHub does not turn it on automatically.
+3. Commit DNS verification evidence after the public URL loads correctly.
 4. CEO: approve Sheridan County / healthcare care-coordination planning selection or provide replacement county/category.
 5. CEO/admin: verify SAM/UEI and Grants.gov status with private account access.
 6. CEO/admin: generate Google DKIM in Admin console and provide only the public DNS TXT record for implementation.
