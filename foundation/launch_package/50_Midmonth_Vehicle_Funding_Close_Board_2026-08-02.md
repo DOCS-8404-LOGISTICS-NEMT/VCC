@@ -89,6 +89,6 @@ Proceed toward August 15 possession only if the file has:
 2. One insurance bindability path.
 3. One authority-path response or a written decision limiting activity to non-passenger dry runs and demos.
 4. One credible funding proof item.
-5. CEO/officer approval for the exact next obligation.
+5. CEO/officer approval for the exact next obligation using `59_Exact_Obligation_Approval_Memo_DRAFT_2026-08-02.md` or an equivalent signed decision record.
 
 If any item is missing by August 9, the realistic move is a rental/demo-only bridge or partner-vehicle pivot, not a full paid passenger launch.

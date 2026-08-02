@@ -196,7 +196,7 @@ const proofGateCards = [
     label: "Launch Permission",
     status: "Not active",
     detail:
-      "Paid passenger service remains held until authority, insurance, vehicle, driver, safety, privacy, and approval gates are complete.",
+      "Paid passenger service remains held; use 59_Exact_Obligation_Approval_Memo_DRAFT_2026-08-02.md before any specific obligation, and launch still waits for authority, insurance, vehicle, driver, safety, privacy, and approval gates.",
   },
 ];
 
