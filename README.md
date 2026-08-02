@@ -49,6 +49,7 @@ The application provides a complete startup operations workspace for executive o
 - `foundation/launch_package/47_Web_Form_And_Call_Payloads_2026-08-02.md` - copy/paste web form and call payloads for vehicle, rental, insurance, and authority contacts
 - `foundation/launch_package/48_Fallback_Vehicle_Rental_And_Partner_Options_2026-08-02.md` - fallback accessible vehicle rental, delivery, sale, and service options if primary paths slip
 - `foundation/launch_package/49_External_Response_Evidence_Log_2026-08-02.csv` - response log for written quote, authority, insurance, funding, and fallback evidence
+- `foundation/launch_package/50_Midmonth_Vehicle_Funding_Close_Board_2026-08-02.md` - proof-based close board for the August 9 funding and August 15 vehicle-possession targets
 - `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx` - generated review packet for August 9 funding, vehicle, authority, insurance, and approval controls
 - `VCC Funding/` - funding control lane for grants, sponsors, anchor partners, lender readiness, evidence, and approval gates
 - `.github/workflows/proof-html.yml` - Vite production build validation

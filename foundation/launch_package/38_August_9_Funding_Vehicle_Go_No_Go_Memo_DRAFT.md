@@ -111,6 +111,9 @@ These are the next approval gates, not automatic authorizations:
 - `39_Wheatland_Vehicle_Readiness_Sponsor_Commitment_DRAFT.md`
 - `40_August_9_Funding_Close_Register_2026-08-02.csv`
 - `41_CEO_Approval_Request_Send_And_Call_Packet_2026-08-02.md`
+- `48_Fallback_Vehicle_Rental_And_Partner_Options_2026-08-02.md`
+- `49_External_Response_Evidence_Log_2026-08-02.csv`
+- `50_Midmonth_Vehicle_Funding_Close_Board_2026-08-02.md`
 - Written vehicle/rental quotes when received.
 - Insurance quote notes when received.
 - WYDOT call notes when received.
