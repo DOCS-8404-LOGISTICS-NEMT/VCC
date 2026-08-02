@@ -24,6 +24,7 @@ The application provides a complete startup operations workspace for executive o
 - `AGENTS.md` - Codex operating instructions
 - `foundation/google-workspace-foundation.md` - Google Workspace domain, email, Drive, and security foundation
 - `foundation/launch_package/19_Private_Party_RV_Purchase_Action_Plan_2026-08-02.md` - RV acquisition legal, financing, insurance, ownership, grant-fit, and Wyoming compliance action plan
+- `foundation/launch_package/22_Immediate_Launch_Action_Packet_2026-08-02.md` - immediate launch-control packet for public website routing/SSL, pilot geography, anchor partner category, authority, insurance, SAM/Grants.gov, Medicaid, and DKIM
 - `VCC Funding/` - funding control lane for grants, sponsors, anchor partners, lender readiness, evidence, and approval gates
 - `.github/workflows/proof-html.yml` - Vite production build validation
 - `.env.example` - optional local environment override template
@@ -60,6 +61,7 @@ The August 2, 2026 workspace includes six command centers:
 ## Current operating priorities
 
 - Secure ICAM/WYDOT applicant path and local match strategy.
+- Fix public website routing/SSL by aligning GitHub Pages settings and DNS records.
 - Convert county, clinic, employer, and sponsor outreach into paid pilot revenue.
 - Complete corporate, insurance, operating authority, vehicle/RV, and driver readiness gates before launch.
 - Preserve legal controls so VCC does not create obligations before executive authorization.

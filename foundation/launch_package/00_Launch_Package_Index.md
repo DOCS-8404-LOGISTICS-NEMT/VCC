@@ -41,21 +41,26 @@ These files are not executed records. They should not be represented as final co
 | `19_Private_Party_RV_Purchase_Action_Plan_2026-08-02.md` | RV acquisition legal, financing, insurance, ownership, grant-fit, and Wyoming compliance action plan. |
 | `20_Filing_Authority_and_Submission_Queue_2026-08-02.md` | Filing authority, signature queue, and controlled submission order for corporate, grant, WYDOT, SAM, annual-report, and RV-related filings. |
 | `21_Document_Approval_Register_2026-08-02.md` | Signature review control, routing checklist, remaining execution blockers, and digital-signature control note. |
+| `22_Immediate_Launch_Action_Packet_2026-08-02.md` | Immediate action control packet for website routing/SSL, pilot county, anchor partner category, WYDOT/FMCSA, insurance quotes, SAM/Grants.gov, Medicaid, and Google DKIM. |
 
 ## Immediate Completion Order
 
-1. Confirm Google Workspace admin access and domain/email security controls.
-2. Reconnect or copy the VCC corporate binder into an accessible folder.
-3. Populate the evidence register with official source records.
-4. Confirm VCC and DOCS 8404 legal names/status using Wyoming Secretary of State records.
-5. Finalize governance and ownership/control records.
-6. Complete SAM/UEI and Grants.gov readiness.
-7. Confirm WYDOT operating authority path.
-8. Obtain insurance quotes.
-9. Select the pilot vehicle and service area.
-10. Complete the Private Party RV Purchase diligence memo before any RV deposit, loan, or title transfer.
-11. Send partner outreach using the MOU and scripts.
-12. Convert approved summary/capability statement into PDF.
+1. Fix public website routing and SSL by completing GitHub Pages settings and DNS changes.
+2. Commit or deliberately hold current document, funding, and signature-packet changes.
+3. Use Sheridan County, Wyoming, as the default pilot geography unless the CEO overrides it.
+4. Use healthcare care-coordination partners as the default anchor partner category.
+5. Confirm Google Workspace admin access and domain/email security controls.
+6. Reconnect or copy the VCC corporate binder into an accessible folder.
+7. Populate the evidence register with official source records.
+8. Confirm VCC and DOCS 8404 legal names/status using Wyoming Secretary of State records.
+9. Finalize governance and ownership/control records.
+10. Complete SAM/UEI and Grants.gov readiness.
+11. Confirm WYDOT/FMCSA operating authority path.
+12. Obtain insurance quotes after approval to contact brokers.
+13. Select the pilot vehicle and service area.
+14. Complete the Private Party RV Purchase diligence memo before any RV deposit, loan, or title transfer.
+15. Send partner outreach using the MOU and scripts only after approval.
+16. Convert approved summary/capability statement into PDF.
 
 ## Approval Required Before Execution
 
