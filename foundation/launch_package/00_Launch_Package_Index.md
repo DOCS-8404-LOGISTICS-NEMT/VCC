@@ -72,6 +72,7 @@ These files are not executed records. They should not be represented as final co
 | `51_Controlled_Contact_Authorization_Record_2026-08-02.md` | Source-controlled approval record for controlled quote, fit, timing, and planning contacts. |
 | `52_Vehicle_Funding_Quote_Intake_Scorecard_2026-08-02.csv` | Quote and response scorecard for vehicle, insurance, authority, financing, and funding evidence. |
 | `53_Gmail_Draft_Attachment_Refresh_Audit_2026-08-02.md` | Gmail draft attachment audit showing which sponsor drafts must be replaced before sending. |
+| `54_Gmail_Replacement_Draft_Manifest_2026-08-02.md` | Exact replacement draft bodies and attachment rules for stale sponsor packet drafts. |
 
 ## Generated Packet Outputs
 

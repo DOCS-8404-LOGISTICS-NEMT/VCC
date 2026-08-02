@@ -66,6 +66,7 @@ I approve controlled external contact for quote, fit, and timing information onl
 - `51_Controlled_Contact_Authorization_Record_2026-08-02.md`
 - `52_Vehicle_Funding_Quote_Intake_Scorecard_2026-08-02.csv`
 - `53_Gmail_Draft_Attachment_Refresh_Audit_2026-08-02.md`
+- `54_Gmail_Replacement_Draft_Manifest_2026-08-02.md`
 - `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx`
 
 ## Active Vehicle Language

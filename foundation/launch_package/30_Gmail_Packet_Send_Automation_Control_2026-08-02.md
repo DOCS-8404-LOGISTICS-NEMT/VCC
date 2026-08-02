@@ -110,6 +110,18 @@ aldavis@viliganscommandcorp.com
 7. Send only after explicit final approval.
 8. Log sent status and follow-up date.
 
+## Replacement Draft Rule
+
+If a generated packet changes after a Gmail draft is created, do not send the existing draft until the live Gmail attachment is rechecked.
+
+Current sponsor-draft control:
+
+- Do not send Chamber draft `r-3004465373696662663` because its vehicle close packet attachment is stale.
+- Do not send Economic Development draft `r-154759076075875137` because its vehicle close packet attachment is stale.
+- Use `53_Gmail_Draft_Attachment_Refresh_Audit_2026-08-02.md` and `54_Gmail_Replacement_Draft_Manifest_2026-08-02.md` before any replacement.
+- Create replacement drafts only after CEO approval of the exact replacement recipient, subject, body, and attachment.
+- Send replacement drafts only after separate CEO approval of the exact replacement draft IDs.
+
 ## Current Draft Batch
 
 Nine verified-recipient packet drafts were created unsent on August 2, 2026 and labeled `VCC/Wheatland Packet Queue`.

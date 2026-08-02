@@ -34,13 +34,16 @@ Do not send the existing Chamber or Economic Development sponsor drafts because 
 
 If CEO approves controlled contact and exact draft content, create replacement Gmail drafts using the current local packet and record the replacement draft IDs before any send approval.
 
+Replacement draft body, recipient, subject, and attachment fields are staged in `54_Gmail_Replacement_Draft_Manifest_2026-08-02.md`.
+
 ## Required Before Sending Any Packet
 
 1. Confirm the exact draft recipient, subject, body, and attachment.
 2. Confirm the attachment filename and local size after final packet generation.
 3. Create a replacement draft if the live Gmail attachment size or content is stale.
-4. Update `43_Gmail_Vehicle_Funding_Close_Draft_Register_2026-08-02.csv` and `49_External_Response_Evidence_Log_2026-08-02.csv`.
-5. Obtain final CEO send approval for the exact replacement draft.
+4. Use `54_Gmail_Replacement_Draft_Manifest_2026-08-02.md` for exact replacement content.
+5. Update `43_Gmail_Vehicle_Funding_Close_Draft_Register_2026-08-02.csv` and `49_External_Response_Evidence_Log_2026-08-02.csv`.
+6. Obtain final CEO send approval for the exact replacement draft.
 
 ## What This Audit Does Not Authorize
 
