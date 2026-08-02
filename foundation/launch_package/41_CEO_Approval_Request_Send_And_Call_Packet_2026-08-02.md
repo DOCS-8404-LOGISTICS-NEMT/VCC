@@ -58,6 +58,8 @@ I approve controlled external contact for quote, fit, and timing information onl
 - `43_Gmail_Vehicle_Funding_Close_Draft_Register_2026-08-02.csv`
 - `44_Authority_Insurance_Quote_Request_Packet_2026-08-02.md`
 - `45_Gmail_Authority_Draft_Register_2026-08-02.csv`
+- `46_August_3_Contact_Execution_Board_2026-08-02.md`
+- `47_Web_Form_And_Call_Payloads_2026-08-02.md`
 - `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx`
 - `archive/retired-projects/00_ARCHIVE_CONTROL_2026-08-02.md`
 

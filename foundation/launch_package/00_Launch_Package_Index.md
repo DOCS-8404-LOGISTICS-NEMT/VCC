@@ -64,6 +64,8 @@ These files are not executed records. They should not be represented as final co
 | `43_Gmail_Vehicle_Funding_Close_Draft_Register_2026-08-02.csv` | Register of unsent Gmail funding-close sponsor/readiness drafts created for approval before sending. |
 | `44_Authority_Insurance_Quote_Request_Packet_2026-08-02.md` | WYDOT authority and insurance quote-prep packet for the Wheatland vehicle sprint. |
 | `45_Gmail_Authority_Draft_Register_2026-08-02.csv` | Register of the unsent WYDOT authority question Gmail draft created for approval before sending. |
+| `46_August_3_Contact_Execution_Board_2026-08-02.md` | Same-day contact execution board for approval, proof capture, and no-go triggers. |
+| `47_Web_Form_And_Call_Payloads_2026-08-02.md` | Copy/paste web form and call payloads for vehicle, rental, insurance, and authority contacts. |
 
 ## Generated Packet Outputs
 

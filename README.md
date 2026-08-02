@@ -45,6 +45,8 @@ The application provides a complete startup operations workspace for executive o
 - `foundation/launch_package/43_Gmail_Vehicle_Funding_Close_Draft_Register_2026-08-02.csv` - register of unsent Gmail funding-close sponsor/readiness drafts created for approval before sending
 - `foundation/launch_package/44_Authority_Insurance_Quote_Request_Packet_2026-08-02.md` - WYDOT authority and insurance quote-prep packet for the Wheatland vehicle sprint
 - `foundation/launch_package/45_Gmail_Authority_Draft_Register_2026-08-02.csv` - register of the unsent WYDOT authority question Gmail draft created for approval before sending
+- `foundation/launch_package/46_August_3_Contact_Execution_Board_2026-08-02.md` - same-day contact execution board for approval, proof capture, and no-go triggers
+- `foundation/launch_package/47_Web_Form_And_Call_Payloads_2026-08-02.md` - copy/paste web form and call payloads for vehicle, rental, insurance, and authority contacts
 - `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx` - generated review packet for August 9 funding, vehicle, authority, insurance, and approval controls
 - `archive/retired-projects/` - archive-only retired project history; not active launch, funding, outreach, or public material
 - `VCC Funding/` - funding control lane for grants, sponsors, anchor partners, lender readiness, evidence, and approval gates
