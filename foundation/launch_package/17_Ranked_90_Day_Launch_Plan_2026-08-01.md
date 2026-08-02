@@ -30,8 +30,9 @@ Within 14 days:
 2. Confirm WYDOT operating authority path.
 3. Request commercial NEMT/passenger insurance quotes.
 4. Select one accessible passenger vehicle option.
-5. Send controlled outreach to 20 anchor partners and 20 sponsors.
-6. Decide whether FTA ICAM can be pursued directly or through an eligible lead partner before September 9, 2026.
+5. Complete Private Party RV Purchase diligence before any deposit, financing, title transfer, or RV use.
+6. Send controlled outreach to 20 anchor partners and 20 sponsors.
+7. Decide whether FTA ICAM can be pursued directly or through an eligible lead partner before September 9, 2026.
 
 Within 30 days:
 
@@ -63,6 +64,7 @@ Within 90 days:
 | 3 | Days 1-5 | Confirm WYDOT operating authority path | Compliance | 98 | WYDOT determination notes and MC-100 path if required | Paid service must not begin before authority/insurance path is clear. |
 | 4 | Days 1-7 | Request insurance quotes | Risk / Ops | 97 | Commercial auto, GL, E&O, abuse/molestation, workers comp, umbrella, cyber/privacy quote list | Underwriting may dictate vehicle, driver, radius, and contract requirements. |
 | 5 | Days 1-7 | Select vehicle strategy | Ops / Finance | 96 | Accessible van lease/purchase/partner-vehicle option | Do not launch special-needs service with an unsuitable vehicle. |
+| 5.5 | Days 1-9 | Complete Private Party RV Purchase diligence | Legal / Ops / Finance | 94 | Use classification, title/lien/VIN file, inspection, insurance bindability, financing comparison, board approval memo | No RV deposit, loan, title transfer, or use without approval. |
 | 6 | Days 1-7 | Complete VCC governance package | Governance | 95 | Bylaws, initial consent, officer appointment, stock ledger/cap table drafts ready for approval | Drafts are not effective until signed. |
 | 7 | Days 1-10 | Decide FTA ICAM applicant strategy | Funding | 94 | Direct-vs-partner applicant decision, concept outline, partner list | Deadline is September 9, 2026; partner path may be needed. |
 | 8 | Days 1-10 | Launch controlled partner outreach | Growth | 93 | 20 partner targets contacted using approved language | Do not claim WYDOT-authorized, Medicaid-approved, insured, or SDVOSB-certified status unless verified. |
@@ -92,8 +94,9 @@ Within 90 days:
 1. Anchor service contract with hospital, clinic, dialysis center, county public health, senior center, disability provider, VSO, employer, or workforce partner.
 2. Sponsor-funded ride blocks from banks, hospitals, clinics, energy companies, churches, civic clubs, insurers, employers, and local donors.
 3. Vehicle-readiness sponsorship or lease-support contribution.
-4. County/community mobility pilot support.
-5. Private-pay scheduled medical and essential-service trips after launch gates are complete.
+4. RV/mobile outreach sponsorship for approved intake events and needs-assessment work.
+5. County/community mobility pilot support.
+6. Private-pay scheduled medical and essential-service trips after launch gates are complete.
 
 ### Active / Time-Sensitive Grants
 
@@ -215,7 +218,7 @@ P0 compliance gates:
 3. Claiming SDVOSB, Medicaid, WYDOT, or insurance status before approval.
 4. Underpricing trips and running out of cash.
 5. Relying on grants without anchor revenue.
-6. Using trust/SF/vehicle ownership language inconsistently.
+6. Using unverified private ownership, statutory foundation, or vehicle ownership language inconsistently.
 7. Mishandling medical trip or veteran evidence.
 8. Launching with one driver and no backup vehicle/coverage.
 
@@ -226,6 +229,7 @@ P0 compliance gates:
 - Private-pay rides
 - Sponsored ride blocks
 - Vehicle wrap sponsorship
+- RV/mobile outreach sponsorship
 - County mobility contract
 - Clinic/hospital recurring ride contract
 - VSO/SVSA operator/subrecipient role
@@ -264,3 +268,4 @@ Track each week:
 - WYDOT Grant Management: https://www.dot.state.wy.us/home/planning_projects/transportation_programs/transit-in-wyoming/grant-management.html
 - WYCF Grant Directory: https://wycf.org/grants-scholarships/grants/grant-directory
 - WYCF Competitive Cycle Fall: https://wycf.org/wycf-competitive-cycle-fall
+- Private Party RV Purchase Action Plan: foundation/launch_package/19_Private_Party_RV_Purchase_Action_Plan_2026-08-02.md

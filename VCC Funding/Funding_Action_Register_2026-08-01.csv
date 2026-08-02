@@ -1,0 +1,12 @@
+Priority,Workstream,Action,Owner,Due Window,Status,Impact,Approval Required Before Execution
+1,Funding Strategy,Select one pilot county/service area and one anchor partner category,CEO,Immediate,Open,High,No
+2,Budget,Replace 90-day budget estimates with insurance vehicle driver compliance and dispatch quotes,CEO/Finance,7 days,Open,High,Yes before external use
+3,Insurance,Request commercial auto GL and operational coverage quotes for selected vehicle/use profile,CEO/Broker,7 days,Open,High,Yes before binding
+4,Partner Revenue,Prepare first 20 partner targets for healthcare senior disability county VSO and employer outreach,CEO/Marketing,10 days,Open,High,Yes before sending
+5,Sponsorship,Prepare first 20 sponsor targets and ride-block offer sheet,CEO/Marketing,10 days,Open,High,Yes before sending
+6,Grant Path,Confirm direct vs partner-led path for ICAM WYDOT/FTA WYCF and VA HRTG,CEO/Grant lead,10 days,Open,High,Yes before submission
+7,Evidence,Update evidence register with official VCC DOCS 8404 SAM insurance and vehicle proof,CEO/Ops,14 days,Open,High,No for internal evidence gathering
+8,Partner Packet,Use approved executive summary capability statement MOU and budget to create partner packet,CEO/Ops,14 days,Open,Medium,Yes before external use
+9,Lender Readiness,Build quote-backed lender packet only after partner LOI sponsor pledge or readiness fee exists,CEO/Finance,21 days,Open,Medium,Yes before application
+10,Workspace Controls,Confirm Shared Drive HIPAA/BAA and sharing controls before sensitive records are stored,CEO/Admin,21 days,Open,High,Yes before PHI or rider medical details
+11,RV Acquisition,Complete Private Party RV Purchase diligence package before deposit loan title transfer or use,CEO/Legal/Ops,7 days,Open,High,Yes before purchase or financing

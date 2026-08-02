@@ -66,7 +66,7 @@ Status: Draft for review. Not adopted until approved and signed by the corporati
 
 4.7 Standard Of Conduct. Directors shall act in good faith, with care, and in a manner reasonably believed to be in the best interests of the corporation.
 
-4.8 Conflict Review. Directors and officers shall disclose related-party, financial, family, trust, statutory foundation, vehicle, lender, vendor, and contract conflicts before approval of affected transactions.
+4.8 Conflict Review. Directors and officers shall disclose related-party, financial, family, statutory foundation, vehicle, lender, vendor, and contract conflicts before approval of affected transactions.
 
 ## Article 5 - Officers
 

@@ -30,7 +30,7 @@ The company is not yet launch-ready because the binder still appears to be a str
 - Wyoming vehicle title support documents for 1986 Ford F-250
 - Wyoming IRP/IFTA safety reference
 - IRS mileage reference
-- Trust memo and trustee resolution
+- Vehicle ownership and intercompany use memo
 
 Still defective:
 
@@ -173,10 +173,10 @@ Fastest funding path:
 
 1. Draft package risk: new VetCert/stock packages are useful but not effective until signed, dated, and aligned with filed Articles/bylaws.
 2. Source-proof risk: the binder references EIN, Articles, SAM, bylaws, and evidence items, but internal references are not substitutes for official source records.
-3. Ownership inconsistency risk: old trust-facing documents should not be used externally unless counsel approves them for a specific internal purpose.
+3. Ownership inconsistency risk: old private ownership documents should not be used externally unless counsel approves them for a specific internal purpose.
 4. Grant eligibility risk: VCC as a for-profit corporation will often need to participate as operator, contractor, or subrecipient rather than direct applicant.
 5. Launch risk: no verified vehicle, insurance binder, operating authority approval, driver file, or completed rides were found.
-6. Asset/title risk: trust/SF/vehicle title structures may conflict with grant-funded vehicle title/lease rules.
+6. Asset/title risk: unverified private ownership, statutory foundation, or vehicle title structures may conflict with grant-funded vehicle title/lease rules.
 7. Single-point-of-failure risk: launch plan needs backup driver, backup vehicle, and dispatch coverage.
 8. Privacy risk: medical trip information requires written privacy/HIPAA-adjacent handling procedures even before full Medicaid operations.
 

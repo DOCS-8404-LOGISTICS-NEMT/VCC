@@ -12,7 +12,7 @@ Use this structure for active external-facing launch work unless qualified couns
 
 `Alawndus Davis -> VILIGANS COMMAND CORPORATION -> DOCs 8404 Logistics & NEMT LLC`
 
-Do not use older trust-first or private-trust ownership language in bank, SAM, SBA VetCert, WYDOT, Medicaid, grant, fleet, or partner-facing packets unless it is specifically approved for a limited internal purpose.
+Do not use older unrecognized private ownership language in bank, SAM, SBA VetCert, WYDOT, Medicaid, grant, fleet, or partner-facing packets unless it is specifically approved for a limited internal purpose.
 
 ## P0 Requirements - Must Complete Before External Submission
 
@@ -110,7 +110,7 @@ Do not use older trust-first or private-trust ownership language in bank, SAM, S
 ## Business Risks To Control
 
 1. Using draft records externally before execution.
-2. Mixing trust, statutory foundation, VCC, and LLC ownership narratives.
+2. Mixing unverified private ownership, statutory foundation, VCC, and LLC ownership narratives.
 3. Claiming SDVOSB status before SBA certification.
 4. Launching passenger service without authority, insurance, vehicle inspection, or driver files.
 5. Building grant strategy around missed funding cycles instead of current partner/subrecipient path.

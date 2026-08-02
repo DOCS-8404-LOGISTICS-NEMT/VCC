@@ -3,7 +3,7 @@ import { VCC_CONFIG, VCC_ANALYTICS_CONTEXT } from "./config.js";
 import "./styles.css";
 
 const INIT_FLAG = "__VCC_AMPLITUDE_INITIALIZED__";
-const reviewDate = "August 1, 2026";
+const reviewDate = "August 2, 2026";
 
 const app = document.querySelector("#app");
 
@@ -41,7 +41,7 @@ const priorityActions = [
   },
   {
     rank: 4,
-    action: "Close vehicle acquisition diligence",
+    action: "Close vehicle/RV acquisition diligence",
     owner: "Legal / Operations",
     due: "7 days",
     impact: 92,
@@ -144,8 +144,8 @@ const dashboardCards = [
   },
   {
     label: "Grant Window",
-    value: "39 days",
-    detail: "ICAM window measured from August 1, 2026 to September 9, 2026.",
+    value: "38 days",
+    detail: "ICAM window measured from August 2, 2026 to September 9, 2026.",
   },
   {
     label: "Launch Gate",
@@ -354,7 +354,7 @@ const marketingTasks = [
 
 const vehicleStatus = [
   {
-    item: "Primary vehicle acquisition",
+    item: "Primary vehicle/RV acquisition",
     status: "Diligence",
     gate: "Title, lien, inspection, use classification, insurance quote, and board authorization.",
   },
@@ -464,7 +464,7 @@ const legalRepository = [
     gate: "Legal review before sending; no service promises beyond insured and authorized capacity.",
   },
   {
-    folder: "Vehicle Acquisition",
+    folder: "Vehicle / RV Acquisition",
     docs: "Purchase agreement, title, lien release, VIN report, inspection report, financing quote, insurance bindability memo.",
     gate: "No obligation until title, insurance, inspection, authority, and executive approval are complete.",
   },
@@ -483,7 +483,7 @@ const contractWorkflow = [
   ["Execution and control", "Signed copy, renewal date, deliverables, insurance certificate, and operating owner are logged."],
 ];
 
-const vehicleDocuments = [
+const rvDocuments = [
   "Seller identity and authority to sell",
   "Clean title, VIN, odometer, lien release, and brand/salvage check",
   "Independent mechanical, tire, brake, roof, electrical, generator, propane, and habitability inspection",
@@ -625,7 +625,7 @@ const launchPlan = [
   {
     phase: "Days 15-45",
     priority: 93,
-    task: "Vehicle acquisition decision",
+    task: "Vehicle/RV acquisition decision",
     output: "Title/inspection/insurance file, asset-use memo, financing options, and approval record.",
   },
   {
@@ -674,7 +674,7 @@ const equipmentRequirements = [
 
 const budgetProjection = [
   {
-    line: "Vehicle acquisition or lease",
+    line: "Vehicle/RV acquisition or lease",
     low: "$35k",
     high: "$120k",
     note: "Use financing only after title, inspection, insurance, and corporate approval gates.",
@@ -868,7 +868,7 @@ app.innerHTML = `
     <section id="executive" aria-labelledby="executive-title">
       ${renderCommandIntro(
         "1. Executive Dashboard",
-        "Funding, contracts, compliance, marketing, and vehicle readiness",
+        "Funding, contracts, compliance, marketing, and vehicle/RV readiness",
         "Priority is cash, authority to operate, launch-safe vehicle capacity, and documented grant readiness.",
       )}
       <div class="metric-grid">
@@ -895,7 +895,7 @@ app.innerHTML = `
           )}
         </div>
         <div>
-          <h3 class="block-title">Vehicle acquisition status</h3>
+          <h3 class="block-title">Vehicle/RV acquisition status</h3>
           <div class="stacked-list">
             ${vehicleStatus
               .map(
@@ -985,7 +985,7 @@ app.innerHTML = `
     <section id="legal" aria-labelledby="legal-title">
       ${renderCommandIntro(
         "3. Legal & Contract Center",
-        "Bylaws repository, contract workflow, vehicle acquisition file, and risk tracker",
+        "Bylaws repository, contract workflow, vehicle/RV acquisition file, and risk tracker",
         "This center prevents unfunded, uninsured, unauthorized, or misclassified obligations before pilot launch.",
       )}
       <div class="notice">
@@ -1006,8 +1006,8 @@ app.innerHTML = `
           </ol>
         </div>
         <div>
-          <h3 class="block-title">Vehicle acquisition documents</h3>
-          ${renderChecklist(vehicleDocuments)}
+          <h3 class="block-title">Vehicle/RV acquisition documents</h3>
+          ${renderChecklist(rvDocuments)}
         </div>
       </div>
       <h3 class="block-title">Risk assessment tracker</h3>
@@ -1108,7 +1108,7 @@ app.innerHTML = `
     <section aria-labelledby="source-title">
       ${renderCommandIntro(
         "Source-backed operating references",
-        "Verified references used for the August 1, 2026 workspace",
+        "Verified references used for the August 2, 2026 workspace",
         "Final decisions still require current agency guidance, insurer review, and Wyoming counsel before VCC signs or files anything.",
       )}
       <div class="grid three">

@@ -193,7 +193,7 @@ def build_board_packet():
         [
             ["Decision Area", "Recommended Board Position", "Reason"],
             ["External control lane", "Use Alawndus Davis -> VCC -> DOCS 8404 for active launch work.", "This is the cleanest lane for banking, SAM, VetCert readiness, fleet, funding, and partner-facing materials."],
-            ["Trust/SF language", "Do not use externally unless separately approved for a limited purpose.", "Prior binder materials contained inconsistent ownership narratives that can slow banks, grant reviewers, SBA, Medicaid, and insurers."],
+            ["Unverified ownership language", "Do not use externally unless counsel/CPA approves a limited internal purpose.", "Prior binder materials contained inconsistent ownership narratives that can slow banks, grant reviewers, SBA, Medicaid, and insurers."],
             ["Outreach", "Prepare only until evidence, authority, insurance, and launch gates are complete or waived.", "Prevents unsupported claims and premature commitments."],
         ],
         [1.65, 2.4, 2.45],

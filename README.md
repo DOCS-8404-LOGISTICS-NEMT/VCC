@@ -6,7 +6,7 @@
 
 This repository supports VILIGANS COMMAND CORPORATION (VCC) and DOCS NREMT & Logistics, a Wyoming-based non-emergency medical transportation (NEMT), logistics, and rural health access initiative.
 
-The application provides a complete startup operations workspace for executive operations, funding, legal strategy, contract control, marketing, vehicle acquisition governance, Wyoming compliance, and the first rural special-needs mobility pilot.
+The application provides a complete startup operations workspace for executive operations, funding, legal strategy, contract control, marketing, vehicle/RV acquisition governance, Wyoming compliance, and the first rural special-needs mobility pilot.
 
 ## Corporate identity
 
@@ -23,6 +23,8 @@ The application provides a complete startup operations workspace for executive o
 - `src/styles.css` - responsive operations workspace styling
 - `AGENTS.md` - Codex operating instructions
 - `foundation/google-workspace-foundation.md` - Google Workspace domain, email, Drive, and security foundation
+- `foundation/launch_package/19_Private_Party_RV_Purchase_Action_Plan_2026-08-02.md` - RV acquisition legal, financing, insurance, ownership, grant-fit, and Wyoming compliance action plan
+- `VCC Funding/` - funding control lane for grants, sponsors, anchor partners, lender readiness, evidence, and approval gates
 - `.github/workflows/proof-html.yml` - Vite production build validation
 - `.env.example` - optional local environment override template
 
@@ -46,12 +48,12 @@ The production output is written to `dist/`.
 
 ## Startup operations workspace
 
-The August 1, 2026 workspace includes six command centers:
+The August 2, 2026 workspace includes six command centers:
 
 - Google Workspace Foundation: domain, Gmail, sender authentication, role groups, Shared Drives, and HIPAA/BAA guardrails.
-- Executive Dashboard: funding pipeline, open grants, active contracts, compliance tasks, marketing tasks, and vehicle acquisition status.
+- Executive Dashboard: funding pipeline, open grants, active contracts, compliance tasks, marketing tasks, and vehicle/RV acquisition status.
 - Grant Command Center: grant tracker, application calendar, required documents checklist, and funding opportunity database.
-- Legal & Contract Center: bylaws repository, contract review workflow, vehicle acquisition documents, and risk assessment tracker.
+- Legal & Contract Center: bylaws repository, contract review workflow, vehicle/RV acquisition documents, and risk assessment tracker.
 - Marketing & Growth Center: ad campaign planner, community outreach tracker, partnership pipeline, and social media content calendar.
 - Pilot Launch Command Center: 90-day plan, Wyoming compliance checklist, NEMT readiness checklist, vehicle/equipment requirements, and budget/revenue projections.
 
@@ -59,7 +61,7 @@ The August 1, 2026 workspace includes six command centers:
 
 - Secure ICAM/WYDOT applicant path and local match strategy.
 - Convert county, clinic, employer, and sponsor outreach into paid pilot revenue.
-- Complete corporate, insurance, operating authority, vehicle, and driver readiness gates before launch.
+- Complete corporate, insurance, operating authority, vehicle/RV, and driver readiness gates before launch.
 - Preserve legal controls so VCC does not create obligations before executive authorization.
 - Track launch metrics: trips, denials, cost per trip, revenue, safety incidents, support letters, and partner referrals.
 - Finish Google Workspace controls: DKIM, sender review, operating groups, Shared Drives, and compliance sharing rules.

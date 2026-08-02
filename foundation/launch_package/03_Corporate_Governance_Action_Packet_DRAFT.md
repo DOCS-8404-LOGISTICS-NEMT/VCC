@@ -39,7 +39,7 @@ Collect and save:
 - Founder subscription agreement
 - Conflict-of-interest policy
 - Related-party transaction approval policy
-- Resolution removing inconsistent trust-first ownership language from external packets
+- Resolution removing inconsistent private ownership language from external packets
 
 ## Draft Resolution Topics
 
@@ -49,7 +49,7 @@ The corporation confirms that the active external-facing operating structure for
 
 `Alawndus Davis -> VILIGANS COMMAND CORPORATION -> DOCS 8404 Logistics & NEMT LLC`
 
-The corporation directs that old trust-first or private-trust ownership language should not be used externally unless separately approved for a specific internal legal purpose.
+The corporation directs that old private ownership language should not be used externally unless separately approved for a specific internal legal purpose.
 
 ### Resolution 002 - Officer Authority
 
@@ -105,7 +105,7 @@ Before signing any governance packet, confirm:
 - Officer names and titles are accurate
 - Dates are accurate
 - All blank fields are completed
-- No outdated trust-first narrative remains in external materials
+- No outdated private ownership narrative remains in external materials
 - No SDVOSB certification claim is made before SBA approval
 - No stock is offered to outside investors without securities-law review
 

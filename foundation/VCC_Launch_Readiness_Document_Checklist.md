@@ -10,7 +10,7 @@ Reviewed source folder:
 
 Documents currently present include:
 
-- Dealer and bank authority packet for trust, VCC, and DOCS 8404 Logistics & NEMT LLC
+- Dealer and bank authority packet for VCC and DOCS 8404 Logistics & NEMT LLC
 - DOCS 8404 Logistics & NEMT LLC operating agreement
 - Clerk-ready corporate record for VCC and DOCS 8404 Logistics & NEMT LLC
 - VCC board member authority to sign
@@ -18,7 +18,7 @@ Documents currently present include:
 - Wyoming vehicle title support documents for a 1986 Ford F-250
 - Wyoming IRP/IFTA safety regulation reference
 - IRS mileage reference
-- Semper Viligans trust memo and trustee resolution
+- Vehicle title and operating authority memo
 
 Observed gaps:
 
@@ -51,7 +51,7 @@ Observed gaps:
 - Board resolution approving vehicle acquisition, leasing, financing, and insurance
 - Board resolution approving grant applications and sponsorship solicitations
 - Conflict-of-interest policy
-- Related-party transaction policy for trust, VCC, and DOCS 8404 arrangements
+- Related-party transaction policy for VCC, DOCS 8404, owners/officers, and any related-party arrangements
 
 ### Subsidiary Records
 
@@ -64,14 +64,14 @@ Observed gaps:
 - Intercompany vehicle/equipment lease, if vehicles are held outside the operating LLC
 - Separate bank account confirmation for DOCS 8404
 
-### Trust and Asset Ownership
+### Asset Ownership And Entity Authority
 
-- Trust declaration or relevant trustee authority excerpt
-- Trust certificate acceptable to banks, dealers, insurers, and title offices
-- Trustee resolution approving vehicle acquisition and leasing
+- Vehicle title ownership strategy memo
+- Related-party lease pricing support if owner and operator differ
+- Board/officer approval for vehicle acquisition and leasing
 - Vehicle title ownership strategy memo
 - Related-party lease pricing support
-- Proof that trust-owned assets are insured for commercial use when used by DOCS 8404
+- Proof that any vehicle owner and operator are insured for commercial use by DOCS 8404
 
 ### Transportation Compliance
 
@@ -179,7 +179,7 @@ Additional source files needed for a launch-ready public presence:
 
 1. Verify issued Wyoming corporate and LLC filings.
 2. Complete corporate bylaws, initial board consent, officer appointments, and stock ledger.
-3. Resolve trust, VCC, and DOCS 8404 ownership and vehicle-use structure with written related-party approvals.
+3. Resolve VCC and DOCS 8404 ownership and vehicle-use structure with written related-party approvals.
 4. Build insurance and transportation compliance file.
 5. Build the Wyoming pilot operating manual and driver qualification package.
 6. Build the funding package: executive summary, budget, capability statement, grants list, and partner letters.

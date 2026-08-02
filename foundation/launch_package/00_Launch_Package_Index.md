@@ -38,8 +38,7 @@ These files are not executed records. They should not be represented as final co
 | `16_Google_Workspace_Admin_Foundation_DRAFT.md` | Google Workspace domain, email, Drive, security, and compliance setup draft. |
 | `17_Ranked_90_Day_Launch_Plan_2026-08-01.md` | Ranked 90-day launch plan with priorities, funding path, marketing, staffing, and risk controls. |
 | `18_90_Day_Launch_Task_Tracker.csv` | Execution tracker for ranked 90-day launch tasks. |
-| `17_Ranked_90_Day_Launch_Plan_2026-08-01.md` | Ranked 90-day Wyoming rural special-needs transportation pilot launch plan. |
-| `18_90_Day_Launch_Task_Tracker.csv` | CSV execution tracker with dates, owners, impact scores, gates, and dependencies. |
+| `19_Private_Party_RV_Purchase_Action_Plan_2026-08-02.md` | RV acquisition legal, financing, insurance, ownership, grant-fit, and Wyoming compliance action plan. |
 
 ## Immediate Completion Order
 
@@ -52,8 +51,9 @@ These files are not executed records. They should not be represented as final co
 7. Confirm WYDOT operating authority path.
 8. Obtain insurance quotes.
 9. Select the pilot vehicle and service area.
-10. Send partner outreach using the MOU and scripts.
-11. Convert approved summary/capability statement into PDF.
+10. Complete the Private Party RV Purchase diligence memo before any RV deposit, loan, or title transfer.
+11. Send partner outreach using the MOU and scripts.
+12. Convert approved summary/capability statement into PDF.
 
 ## Approval Required Before Execution
 

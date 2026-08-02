@@ -88,7 +88,7 @@ Avoid:
 
 - Launching special-needs passenger service using an unsuitable pickup truck
 - Using any vehicle for NEMT passenger service without regulatory, insurance, ADA, inspection, and operating suitability review
-- Titling or leasing vehicles through a trust/SF structure for grant-funded operations without checking grant title rules
+- Titling or leasing vehicles through an unverified private ownership or statutory-foundation structure for grant-funded operations without checking grant title rules
 
 ## Vehicle Acquisition Strategy
 
