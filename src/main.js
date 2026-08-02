@@ -144,8 +144,8 @@ const dashboardCards = [
   },
   {
     label: "Immediate Revenue",
-    value: "4 offers",
-    detail: "Wheatland partner, clinic, employer, and sponsor packages ready for controlled outreach.",
+    value: "20 targets",
+    detail: "Wheatland / Platte County outreach register prepared; approval required before contact.",
   },
   {
     label: "Grant Window",

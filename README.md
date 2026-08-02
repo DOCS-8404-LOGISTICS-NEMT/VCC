@@ -25,6 +25,9 @@ The application provides a complete startup operations workspace for executive o
 - `foundation/google-workspace-foundation.md` - Google Workspace domain, email, Drive, and security foundation
 - `foundation/launch_package/19_Private_Party_RV_Purchase_Action_Plan_2026-08-02.md` - RV acquisition legal, financing, insurance, ownership, grant-fit, and Wyoming compliance action plan
 - `foundation/launch_package/22_Immediate_Launch_Action_Packet_2026-08-02.md` - immediate launch-control packet for public website routing/SSL, pilot geography, anchor partner category, authority, insurance, SAM/Grants.gov, Medicaid, and DKIM
+- `foundation/launch_package/25_Wheatland_Outreach_Target_Register_2026-08-02.csv` - first 20 Wheatland / Platte County outreach targets for approval
+- `foundation/launch_package/26_Wheatland_Service_Boundary_and_Route_Cost_Model_2026-08-02.md` - internal Wheatland route-cost and service-boundary model
+- `foundation/launch_package/27_Wheatland_One_Page_Pilot_Offer_2026-08-02.md` - controlled partner-facing Wheatland pilot offer draft
 - `VCC Funding/` - funding control lane for grants, sponsors, anchor partners, lender readiness, evidence, and approval gates
 - `.github/workflows/proof-html.yml` - Vite production build validation
 - `.env.example` - optional local environment override template

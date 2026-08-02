@@ -44,6 +44,9 @@ These files are not executed records. They should not be represented as final co
 | `22_Immediate_Launch_Action_Packet_2026-08-02.md` | Immediate action control packet for website routing/SSL, pilot county, anchor partner category, WYDOT/FMCSA, insurance quotes, SAM/Grants.gov, Medicaid, and Google DKIM. |
 | `23_Public_Website_DNS_Change_Request_2026-08-02.md` | DNS administrator packet for moving `viliganscommandcorp.com` and `www` from the old BusinessIdentity/Google-hosted path to GitHub Pages without disrupting Google Workspace mail. |
 | `24_Wheatland_Pilot_Launch_Site_Profile_2026-08-02.md` | Active pilot launch test-site profile for Wheatland / Platte County, Wyoming. |
+| `25_Wheatland_Outreach_Target_Register_2026-08-02.csv` | First 20 Wheatland / Platte County outreach targets with source links, asks, status, and approval gates. |
+| `26_Wheatland_Service_Boundary_and_Route_Cost_Model_2026-08-02.md` | Wheatland service-boundary tiers, internal route-cost model, rate-card structure, and pricing gates. |
+| `27_Wheatland_One_Page_Pilot_Offer_2026-08-02.md` | Controlled one-page Wheatland pilot offer for partner review after approval. |
 
 ## Immediate Completion Order
 
@@ -51,18 +54,19 @@ These files are not executed records. They should not be represented as final co
 2. Commit or deliberately hold current document, funding, and signature-packet changes.
 3. Use Wheatland / Platte County, Wyoming, as the pilot launch test site.
 4. Use healthcare care-coordination partners as the default anchor partner category.
-5. Confirm Google Workspace admin access and domain/email security controls.
-6. Reconnect or copy the VCC corporate binder into an accessible folder.
-7. Populate the evidence register with official source records.
-8. Confirm VCC and DOCS 8404 legal names/status using Wyoming Secretary of State records.
-9. Finalize governance and ownership/control records.
-10. Complete SAM/UEI and Grants.gov readiness.
-11. Confirm WYDOT/FMCSA operating authority path.
-12. Obtain insurance quotes after approval to contact brokers.
-13. Select the pilot vehicle and service area.
-14. Complete the Private Party RV Purchase diligence memo before any RV deposit, loan, or title transfer.
-15. Send partner outreach using the MOU and scripts only after approval.
-16. Convert approved summary/capability statement into PDF.
+5. Review and approve the Wheatland target register, one-page offer, and route-cost model before external contact.
+6. Confirm Google Workspace admin access and domain/email security controls.
+7. Reconnect or copy the VCC corporate binder into an accessible folder.
+8. Populate the evidence register with official source records.
+9. Confirm VCC and DOCS 8404 legal names/status using Wyoming Secretary of State records.
+10. Finalize governance and ownership/control records.
+11. Complete SAM/UEI and Grants.gov readiness.
+12. Confirm WYDOT/FMCSA operating authority path.
+13. Obtain insurance quotes after approval to contact brokers.
+14. Select the pilot vehicle and service area.
+15. Complete the Private Party RV Purchase diligence memo before any RV deposit, loan, or title transfer.
+16. Send partner outreach using the MOU and scripts only after approval.
+17. Convert approved summary/capability statement into PDF.
 
 ## Approval Required Before Execution
 
