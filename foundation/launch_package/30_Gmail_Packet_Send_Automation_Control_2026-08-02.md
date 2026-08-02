@@ -105,6 +105,24 @@ aldavis@viliganscommandcorp.com
 7. Send only after explicit final approval.
 8. Log sent status and follow-up date.
 
+## Current Draft Batch
+
+Nine verified-recipient packet drafts were created unsent on August 2, 2026 and labeled `VCC/Wheatland Packet Queue`.
+
+Draft details are tracked in `33_Gmail_Recipient_Draft_Register_2026-08-02.csv`.
+
+Current drafted targets:
+
+- Platte County Public Health.
+- Platte County Commissioners.
+- Town of Wheatland.
+- Platte County Emergency Management.
+- Services for Seniors - Wheatland Main Office.
+- Wyoming Veterans Commission - Platte/Laramie VSO.
+- Wyoming Independent Living.
+- Platte County Chamber of Commerce.
+- Platte County Economic Development.
+
 ## Follow-Up Cadence
 
 | Day | Action |

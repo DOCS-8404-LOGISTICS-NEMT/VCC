@@ -51,6 +51,7 @@ These files are not executed records. They should not be represented as final co
 | `30_Gmail_Packet_Send_Automation_Control_2026-08-02.md` | Gmail draft/send control workflow for Wheatland packet outreach. |
 | `31_Gmail_Packet_Send_Queue_2026-08-02.csv` | Target-level Gmail packet queue with recipient-verification and approval gates. |
 | `32_Gmail_Template_Draft_Register_2026-08-02.csv` | Register of unsent Gmail template drafts created for review and reuse. |
+| `33_Gmail_Recipient_Draft_Register_2026-08-02.csv` | Register of verified-recipient Gmail packet drafts created for approval before sending. |
 
 ## Immediate Completion Order
 

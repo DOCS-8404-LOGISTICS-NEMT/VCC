@@ -32,6 +32,7 @@ The application provides a complete startup operations workspace for executive o
 - `foundation/launch_package/30_Gmail_Packet_Send_Automation_Control_2026-08-02.md` - Gmail packet draft/send control workflow
 - `foundation/launch_package/31_Gmail_Packet_Send_Queue_2026-08-02.csv` - target-level send queue for verified recipients and approved packet outreach
 - `foundation/launch_package/32_Gmail_Template_Draft_Register_2026-08-02.csv` - register of unsent Gmail template drafts created for review
+- `foundation/launch_package/33_Gmail_Recipient_Draft_Register_2026-08-02.csv` - register of verified-recipient Gmail packet drafts created for approval before sending
 - `VCC Funding/` - funding control lane for grants, sponsors, anchor partners, lender readiness, evidence, and approval gates
 - `.github/workflows/proof-html.yml` - Vite production build validation
 - `.env.example` - optional local environment override template
