@@ -68,6 +68,8 @@ I approve Option C in 55_CEO_Next_Action_Decision_Record_2026-08-02.md. Hold all
 
 ## Same-Day Execution Order If Option A Is Approved
 
+Use `57_Option_A_Same_Day_Proof_Collection_Runbook_2026-08-02.md` as the active same-day operating checklist.
+
 1. Confirm WYDOT authority path before implying paid-service readiness.
 2. Confirm insurance bindability before treating any vehicle as launch-capable.
 3. Confirm August 10-15 rental or immediately available accessible passenger vehicle options.

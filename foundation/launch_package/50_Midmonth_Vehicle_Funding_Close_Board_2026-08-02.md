@@ -75,8 +75,8 @@ These are preparation instructions, not execution authority.
 | Window | Output Required | Owner |
 |---|---|---|
 | Hour 0-4 | Choose Option A, B, or C in `55_CEO_Next_Action_Decision_Record_2026-08-02.md`. | CEO |
-| Hour 4-12 | Collect WYDOT and insurance answers first, because they decide whether a vehicle is launch-relevant or only a demo/readiness asset. | CEO / Ops |
-| Hour 12-24 | Collect written rental and in-stock purchase quote responses from the top vehicle sources. | Ops |
+| Hour 4-12 | Use `57_Option_A_Same_Day_Proof_Collection_Runbook_2026-08-02.md` to collect WYDOT and insurance answers first, because they decide whether a vehicle is launch-relevant or only a demo/readiness asset. | CEO / Ops |
+| Hour 12-24 | Use the same runbook to collect written rental and in-stock purchase quote responses from the top vehicle sources. | Ops |
 | Hour 24-36 | Ask sponsor/readiness targets only after the vehicle and insurance assumptions are grounded. | CEO / Funding |
 | Hour 36-48 | Narrow to rental bridge, low-cost purchase, commercial lease, or partner vehicle and draft the approval memo. | CEO / Ops |
 | Hour 48-72 | Record proof in `49_External_Response_Evidence_Log_2026-08-02.csv`, score responses in `52_Vehicle_Funding_Quote_Intake_Scorecard_2026-08-02.csv`, and update the August 9 go/no-go memo. | Ops |
