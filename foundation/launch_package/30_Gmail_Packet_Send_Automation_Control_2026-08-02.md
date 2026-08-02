@@ -154,10 +154,6 @@ Current drafted authority target:
 
 - WYDOT Regulatory Section / Motor Vehicle Services for non-binding operating-authority questions.
 
-## Retired Project Control
-
-Retired vehicle-acquisition history is archive-only under `archive/retired-projects/` and must not be attached, linked, quoted, summarized, or reused in active Gmail drafts.
-
 ## Follow-Up Cadence
 
 | Day | Action |

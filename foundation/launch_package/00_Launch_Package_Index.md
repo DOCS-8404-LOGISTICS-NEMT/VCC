@@ -66,6 +66,8 @@ These files are not executed records. They should not be represented as final co
 | `45_Gmail_Authority_Draft_Register_2026-08-02.csv` | Register of the unsent WYDOT authority question Gmail draft created for approval before sending. |
 | `46_August_3_Contact_Execution_Board_2026-08-02.md` | Same-day contact execution board for approval, proof capture, and no-go triggers. |
 | `47_Web_Form_And_Call_Payloads_2026-08-02.md` | Copy/paste web form and call payloads for vehicle, rental, insurance, and authority contacts. |
+| `48_Fallback_Vehicle_Rental_And_Partner_Options_2026-08-02.md` | Fallback accessible vehicle rental, delivery, sale, and service options if primary paths slip. |
+| `49_External_Response_Evidence_Log_2026-08-02.csv` | Response log for written quote, authority, insurance, funding, and fallback evidence. |
 
 ## Generated Packet Outputs
 
@@ -75,9 +77,7 @@ These files are not executed records. They should not be represented as final co
 | `output/docx/VCC_Partner_Outreach_Packet_DRAFT.docx` | Generated partner outreach packet for approved Gmail drafts. |
 | `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx` | Generated vehicle funding close packet for sponsor, readiness, quote, authority, insurance, and CEO review. |
 
-## Retired Project Archive Control
-
-Retired vehicle-acquisition history is archive-only under `archive/retired-projects/` and is not active launch, funding, outreach, Gmail, website, or public-facing material.
+## Active Vehicle Language Control
 
 Active launch materials must use accessible passenger vehicle, ADA/specialty mobility vehicle, approved partner vehicle, or rental bridge language.
 

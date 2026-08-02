@@ -47,8 +47,9 @@ The application provides a complete startup operations workspace for executive o
 - `foundation/launch_package/45_Gmail_Authority_Draft_Register_2026-08-02.csv` - register of the unsent WYDOT authority question Gmail draft created for approval before sending
 - `foundation/launch_package/46_August_3_Contact_Execution_Board_2026-08-02.md` - same-day contact execution board for approval, proof capture, and no-go triggers
 - `foundation/launch_package/47_Web_Form_And_Call_Payloads_2026-08-02.md` - copy/paste web form and call payloads for vehicle, rental, insurance, and authority contacts
+- `foundation/launch_package/48_Fallback_Vehicle_Rental_And_Partner_Options_2026-08-02.md` - fallback accessible vehicle rental, delivery, sale, and service options if primary paths slip
+- `foundation/launch_package/49_External_Response_Evidence_Log_2026-08-02.csv` - response log for written quote, authority, insurance, funding, and fallback evidence
 - `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx` - generated review packet for August 9 funding, vehicle, authority, insurance, and approval controls
-- `archive/retired-projects/` - archive-only retired project history; not active launch, funding, outreach, or public material
 - `VCC Funding/` - funding control lane for grants, sponsors, anchor partners, lender readiness, evidence, and approval gates
 - `.github/workflows/proof-html.yml` - Vite production build validation
 - `.env.example` - optional local environment override template
@@ -91,7 +92,7 @@ The August 2, 2026 workspace includes six command centers:
 - Convert vehicle, insurance, and financing outreach into written quote inputs before the August 9 go/no-go gate.
 - Complete corporate, insurance, operating authority, pilot vehicle, and driver readiness gates before launch.
 - Preserve legal controls so VCC does not create obligations before executive authorization.
-- Keep retired vehicle-acquisition history archive-only; active launch materials use accessible passenger vehicle and ADA/specialty mobility vehicle language.
+- Use accessible passenger vehicle, approved partner vehicle, rental bridge, and ADA/specialty mobility vehicle language in active launch materials.
 - Track launch metrics: trips, denials, cost per trip, revenue, safety incidents, support letters, and partner referrals.
 - Finish Google Workspace controls: DKIM, sender review, operating groups, Shared Drives, and compliance sharing rules.
 

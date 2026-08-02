@@ -48,4 +48,3 @@ Current known DNS still points the public domain toward Google-hosted infrastruc
 - Do not publish draft legal, grant, lending, insurance, or regulatory materials as final.
 - Do not expose private keys, passwords, API secrets, SAM.gov credentials, or bank information.
 - Keep VCC and DOCS NREMT & Logistics as the active business identity.
-- Keep retired project material in `archive/retired-projects/` only.

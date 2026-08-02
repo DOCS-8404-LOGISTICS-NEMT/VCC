@@ -129,3 +129,85 @@ This is Alawndus Davis with VILIGANS COMMAND CORPORATION. We are preparing a pos
 
 I am trying to confirm whether Wyoming contract motor carrier authority, MC-100, Form E, registration, markings, or a USDOT number would apply before we lease, rent, or purchase an accessible passenger vehicle.
 ```
+
+## Frontier Access & Mobility
+
+Source: https://www.frontieraccess.com/ and https://www.frontieraccess.com/van-rentals/
+
+Phone: Cheyenne `(307) 263-7662`; Fort Collins `(970) 223-8267`
+
+Purpose: Wyoming-local fallback rental/sale/service path.
+
+Payload:
+
+```text
+VILIGANS COMMAND CORPORATION is preparing a Wheatland / Platte County scheduled non-emergency mobility-access pilot. We are in readiness status only and are requesting availability and requirements information. No reservation, payment, lease, rental, purchase, application, or public-use claim is authorized.
+
+Do you have a wheelchair-accessible van available around August 10-15 for readiness use, dry runs, route checks, or partner demonstrations in Wyoming? Please provide rental or sale availability, total due, business-use rules, insurance requirements, mileage, pickup/delivery options, and any restrictions on compensated passenger service.
+```
+
+## Wheelchair Getaways
+
+Source: https://wheelchairgetaways.com/local/cheyenne-wy-wheelchair-van-rental and https://www.wheelchairgetaways.com/
+
+Phone: `866-224-1750`
+
+Purpose: Cheyenne-area rental network fallback.
+
+Payload:
+
+```text
+VILIGANS COMMAND CORPORATION is preparing a Wheatland / Platte County scheduled non-emergency mobility-access pilot. We are in readiness status only and are requesting rental availability and requirements information. No reservation or payment is authorized.
+
+Can you confirm whether a wheelchair-accessible rental van is available around August 10-15 for Wyoming readiness use, dry runs, route checks, or partner demonstrations? Please identify provider/location, total estimated cost, pickup/delivery, mileage, insurance requirements, business-use limits, cancellation terms, and any restrictions on compensated passenger service.
+```
+
+## AMS Vans
+
+Source: https://www.amsvans.com/handicap-van-delivery/wyoming-wheelchair-minivans and https://www.amsvans.com/wheelchair-van-rentals/rent-handicap-van-rates
+
+Phone: `800-775-8267`; rental requirements `888-880-8267`
+
+Purpose: national delivery or long-term rental fallback.
+
+Payload:
+
+```text
+VILIGANS COMMAND CORPORATION is preparing a Wheatland / Platte County scheduled non-emergency mobility-access pilot. We are in readiness status only and are requesting delivery, rental, or purchase requirements information. No reservation, application, payment, rental, lease, or purchase is authorized.
+
+Can you confirm whether an accessible van rental or purchase delivery to Wyoming could be available around August 10-15? Please provide total delivered cost, driver/renter requirements, insurance requirements, business-use eligibility, vehicle class, securement details, cancellation terms, and any restrictions on compensated passenger service.
+```
+
+## Mobility Auto Group
+
+Source: https://www.mobilityauto.com/ and https://www.mobilityauto.com/wheelchair-accessible-van-rental/
+
+Phone: Denver `(720) 706-1736`; Littleton `(719) 751-6447`
+
+Email: contact@mobilityauto.com
+
+Purpose: Denver/Littleton fallback rental/sale path.
+
+Payload:
+
+```text
+VILIGANS COMMAND CORPORATION is preparing a Wheatland / Platte County scheduled non-emergency mobility-access pilot. We are in readiness status only and are requesting availability and requirements information. No reservation, application, payment, rental, lease, purchase, or public-use claim is authorized.
+
+Do you have a wheelchair-accessible rental or sale vehicle available around August 10-15? Please provide ramp/entry type, securement details, pickup/delivery options, total cost, business-use rules, insurance requirements, mileage, and any restrictions on compensated passenger service.
+```
+
+## United Access Colorado Springs
+
+Source: https://www.unitedaccess.com/us/en/locations/colorado-springs-co.html and https://www.unitedaccess.com/us/en/wheelchair-accessible-vehicle-rentals.html
+
+Phone: Colorado Springs `(719) 590-1400`; toll-free `(877) 203-7817`; rental support `(877) 501-8267`
+
+Purpose: backup United Access rental/sale path.
+
+Payload:
+
+```text
+VILIGANS COMMAND CORPORATION is preparing a Wheatland / Platte County scheduled non-emergency mobility-access pilot. We are in readiness status only and are requesting availability and requirements information. No reservation, application, payment, rental, lease, purchase, or public-use claim is authorized.
+
+Can United Access Colorado Springs confirm whether an accessible rental or sale vehicle could be available around August 10-15 for Wyoming readiness use? Please provide vehicle/rental class, total due, insurance requirements, business-use terms, pickup/delivery timing, and any restrictions on compensated passenger service.
+```

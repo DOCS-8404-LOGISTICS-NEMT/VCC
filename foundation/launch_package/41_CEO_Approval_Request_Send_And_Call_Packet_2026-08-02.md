@@ -60,12 +60,11 @@ I approve controlled external contact for quote, fit, and timing information onl
 - `45_Gmail_Authority_Draft_Register_2026-08-02.csv`
 - `46_August_3_Contact_Execution_Board_2026-08-02.md`
 - `47_Web_Form_And_Call_Payloads_2026-08-02.md`
+- `48_Fallback_Vehicle_Rental_And_Partner_Options_2026-08-02.md`
+- `49_External_Response_Evidence_Log_2026-08-02.csv`
 - `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx`
-- `archive/retired-projects/00_ARCHIVE_CONTROL_2026-08-02.md`
 
-## Archive Exclusion
-
-Retired vehicle-acquisition history is archive-only and excluded from active launch, funding, partner, Gmail, website, and public-facing materials.
+## Active Vehicle Language
 
 Active outreach and funding discussions must use accessible passenger vehicle, ADA/specialty mobility vehicle, approved partner vehicle, or rental bridge language.
 

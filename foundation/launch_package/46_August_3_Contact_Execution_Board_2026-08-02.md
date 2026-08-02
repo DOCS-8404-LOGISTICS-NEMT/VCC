@@ -27,6 +27,7 @@ The next move requires approval for controlled contact only. Suggested approval 
 | 7 | WyoMicro | Send draft `r-8427544726986723952` | Request preliminary microloan/working-capital fit without application or credit pull | Written fit response |
 | 8 | Platte County Chamber | Send draft `r-3004465373696662663` | Request sponsor/readiness planning call and local introductions | Meeting response, pledge interest, or introduction |
 | 9 | Platte County Economic Development | Send draft `r-154759076075875137` | Request readiness funding, sponsor introductions, or economic-development fit | Meeting response, pledge interest, or introduction |
+| 10 | Fallback vehicle paths | Frontier, Wheelchair Getaways, AMS Vans, Mobility Auto Group, United Access Colorado Springs | Confirm fallback rental/sale/delivery availability if primary lease/rental options slip | Quote, response, or dated call notes logged in `49_External_Response_Evidence_Log_2026-08-02.csv` |
 
 ## Proof Standard
 
