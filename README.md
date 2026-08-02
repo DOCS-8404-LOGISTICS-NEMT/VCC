@@ -6,7 +6,7 @@
 
 This repository supports VILIGANS COMMAND CORPORATION (VCC) and DOCS NREMT & Logistics, a Wyoming-based non-emergency medical transportation (NEMT), logistics, and rural health access initiative.
 
-The application provides a complete startup operations workspace for executive operations, funding, legal strategy, contract control, marketing, vehicle/RV acquisition governance, Wyoming compliance, and the first rural special-needs mobility pilot.
+The application provides a complete startup operations workspace for executive operations, funding, legal strategy, contract control, marketing, pilot vehicle acquisition governance, Wyoming compliance, and the first rural special-needs mobility pilot.
 
 ## Corporate identity
 
@@ -23,11 +23,15 @@ The application provides a complete startup operations workspace for executive o
 - `src/styles.css` - responsive operations workspace styling
 - `AGENTS.md` - Codex operating instructions
 - `foundation/google-workspace-foundation.md` - Google Workspace domain, email, Drive, and security foundation
-- `foundation/launch_package/19_Private_Party_RV_Purchase_Action_Plan_2026-08-02.md` - RV acquisition legal, financing, insurance, ownership, grant-fit, and Wyoming compliance action plan
 - `foundation/launch_package/22_Immediate_Launch_Action_Packet_2026-08-02.md` - immediate launch-control packet for public website routing/SSL, pilot geography, anchor partner category, authority, insurance, SAM/Grants.gov, Medicaid, and DKIM
 - `foundation/launch_package/25_Wheatland_Outreach_Target_Register_2026-08-02.csv` - first 20 Wheatland / Platte County outreach targets for approval
 - `foundation/launch_package/26_Wheatland_Service_Boundary_and_Route_Cost_Model_2026-08-02.md` - internal Wheatland route-cost and service-boundary model
 - `foundation/launch_package/27_Wheatland_One_Page_Pilot_Offer_2026-08-02.md` - controlled partner-facing Wheatland pilot offer draft
+- `foundation/launch_package/28_Seven_Day_Funding_And_Midmonth_Vehicle_Sprint_2026-08-02.md` - seven-day Wheatland funding sprint and August 15 pilot vehicle possession plan
+- `foundation/launch_package/29_Vehicle_Funding_Sprint_Register_2026-08-02.csv` - action register for funding, vehicle, authority, insurance, and website/DKIM sprint tasks
+- `foundation/launch_package/30_Gmail_Packet_Send_Automation_Control_2026-08-02.md` - Gmail packet draft/send control workflow
+- `foundation/launch_package/31_Gmail_Packet_Send_Queue_2026-08-02.csv` - target-level send queue for verified recipients and approved packet outreach
+- `foundation/launch_package/32_Gmail_Template_Draft_Register_2026-08-02.csv` - register of unsent Gmail template drafts created for review
 - `VCC Funding/` - funding control lane for grants, sponsors, anchor partners, lender readiness, evidence, and approval gates
 - `.github/workflows/proof-html.yml` - Vite production build validation
 - `.env.example` - optional local environment override template
@@ -55,9 +59,9 @@ The production output is written to `dist/`.
 The August 2, 2026 workspace includes six command centers:
 
 - Google Workspace Foundation: domain, Gmail, sender authentication, role groups, Shared Drives, and HIPAA/BAA guardrails.
-- Executive Dashboard: funding pipeline, open grants, active contracts, compliance tasks, marketing tasks, and vehicle/RV acquisition status.
+- Executive Dashboard: funding pipeline, open grants, active contracts, compliance tasks, marketing tasks, and pilot vehicle acquisition status.
 - Grant Command Center: grant tracker, application calendar, required documents checklist, and funding opportunity database.
-- Legal & Contract Center: bylaws repository, contract review workflow, vehicle/RV acquisition documents, and risk assessment tracker.
+- Legal & Contract Center: bylaws repository, contract review workflow, pilot vehicle acquisition documents, and risk assessment tracker.
 - Marketing & Growth Center: ad campaign planner, community outreach tracker, partnership pipeline, and social media content calendar.
 - Pilot Launch Command Center: 90-day plan, Wyoming compliance checklist, NEMT readiness checklist, vehicle/equipment requirements, and budget/revenue projections.
 
@@ -67,7 +71,7 @@ The August 2, 2026 workspace includes six command centers:
 - Fix public website routing/SSL by aligning GitHub Pages settings and DNS records.
 - Build Wheatland / Platte County as the pilot launch test site.
 - Convert county, clinic, employer, and sponsor outreach into paid pilot revenue.
-- Complete corporate, insurance, operating authority, vehicle/RV, and driver readiness gates before launch.
+- Complete corporate, insurance, operating authority, pilot vehicle, and driver readiness gates before launch.
 - Preserve legal controls so VCC does not create obligations before executive authorization.
 - Track launch metrics: trips, denials, cost per trip, revenue, safety incidents, support letters, and partner referrals.
 - Finish Google Workspace controls: DKIM, sender review, operating groups, Shared Drives, and compliance sharing rules.

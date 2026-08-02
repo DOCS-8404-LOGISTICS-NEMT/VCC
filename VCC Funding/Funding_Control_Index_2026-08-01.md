@@ -31,7 +31,7 @@ The fastest fundable offer is a 90-day Wheatland / Platte County pilot with a mo
 |---|---|---|---|
 | Anchor partner contract | Immediate | Operator/service provider | Secure LOI, MOU, readiness fee, or paid pilot agreement. |
 | Local sponsorship | Immediate | Sponsored operator | Package ride blocks and vehicle readiness sponsorships. |
-| RV / mobile outreach sponsorship | Immediate after approval | Sponsored outreach asset, not primary passenger vehicle unless separately approved | Use the RV action plan to price mobile outreach days, vehicle-readiness sponsorship, and community intake events. |
+| Vehicle-readiness sponsorship | Immediate after approval | Sponsored launch asset and safety/accessibility support | Use the Wheatland funding sprint to price vehicle deposit support, ride blocks, safety equipment, and launch reserve. |
 | FTA ICAM | Due September 9, 2026 | Applicant, partner, operator, or subrecipient depending on eligibility | Confirm eligibility path and secure partner letters. |
 | FHWA ATTAIN | Due August 11, 2026 | Technology/mobility partner if a qualified public-sector lead is ready | Proceed only if a lead partner is already available. |
 | Wyoming Community Foundation | Fall 2026 | Partner/operator/project beneficiary if direct eligibility is limited | Confirm current deadline and applicant eligibility. |
@@ -57,7 +57,7 @@ The fastest fundable offer is a 90-day Wheatland / Platte County pilot with a mo
 | Transportation authority | WYDOT/FMCSA path documented before compensated passenger transportation. |
 | Insurance | Commercial auto, GL, professional/operational coverages, and endorsements before operation. |
 | Vehicle readiness | Title/lease, inspection, accessibility equipment records, maintenance plan, and registration. |
-| RV purchase control | Use classification, title, lien, inspection, insurance bindability, ownership, financing, storage, and no-personal-use controls before any purchase. |
+| Vehicle acquisition control | Title/lease/use authority, lien, inspection, insurance bindability, ownership, financing, storage, and no-personal-use controls before any purchase or lease. |
 | Data controls | HIPAA/BAA and sharing-control review before storing rider medical, Medicaid, disability, or trip-purpose health information in Workspace. |
 | External commitments | Approval required before contracts, MOUs, sponsorships, lender applications, grants, insurance bind orders, or public launch statements. |
 
@@ -82,7 +82,7 @@ The fastest fundable offer is a 90-day Wheatland / Platte County pilot with a mo
 | Employer access pilot | Scheduled rides for workforce access where legally and operationally permitted. |
 | County or clinic support contract | Limited service-area support with weekly metrics. |
 | Lender-supported vehicle acquisition | Quote-backed underwriting once partner revenue or sponsor commitments exist. |
-| Mobile outreach RV sponsorship | Sponsored intake events, community mobility needs assessment, partner fairs, and brand-visible ride-access campaigns after approval. |
+| Vehicle-readiness sponsorship | Sponsored ride-access launch support, safety equipment, vehicle deposit support, and partner-visible impact reporting after approval. |
 
 ## Partnership Opportunities
 

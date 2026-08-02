@@ -38,8 +38,7 @@ These files are not executed records. They should not be represented as final co
 | `16_Google_Workspace_Admin_Foundation_DRAFT.md` | Google Workspace domain, email, Drive, security, and compliance setup draft. |
 | `17_Ranked_90_Day_Launch_Plan_2026-08-01.md` | Ranked 90-day launch plan with priorities, funding path, marketing, staffing, and risk controls. |
 | `18_90_Day_Launch_Task_Tracker.csv` | Execution tracker for ranked 90-day launch tasks. |
-| `19_Private_Party_RV_Purchase_Action_Plan_2026-08-02.md` | RV acquisition legal, financing, insurance, ownership, grant-fit, and Wyoming compliance action plan. |
-| `20_Filing_Authority_and_Submission_Queue_2026-08-02.md` | Filing authority, signature queue, and controlled submission order for corporate, grant, WYDOT, SAM, annual-report, and RV-related filings. |
+| `20_Filing_Authority_and_Submission_Queue_2026-08-02.md` | Filing authority, signature queue, and controlled submission order for corporate, grant, WYDOT, SAM, annual-report, and vehicle-related filings. |
 | `21_Document_Approval_Register_2026-08-02.md` | Signature review control, routing checklist, remaining execution blockers, and digital-signature control note. |
 | `22_Immediate_Launch_Action_Packet_2026-08-02.md` | Immediate action control packet for website routing/SSL, pilot county, anchor partner category, WYDOT/FMCSA, insurance quotes, SAM/Grants.gov, Medicaid, and Google DKIM. |
 | `23_Public_Website_DNS_Change_Request_2026-08-02.md` | DNS administrator packet for moving `viliganscommandcorp.com` and `www` from the old BusinessIdentity/Google-hosted path to GitHub Pages without disrupting Google Workspace mail. |
@@ -47,6 +46,11 @@ These files are not executed records. They should not be represented as final co
 | `25_Wheatland_Outreach_Target_Register_2026-08-02.csv` | First 20 Wheatland / Platte County outreach targets with source links, asks, status, and approval gates. |
 | `26_Wheatland_Service_Boundary_and_Route_Cost_Model_2026-08-02.md` | Wheatland service-boundary tiers, internal route-cost model, rate-card structure, and pricing gates. |
 | `27_Wheatland_One_Page_Pilot_Offer_2026-08-02.md` | Controlled one-page Wheatland pilot offer for partner review after approval. |
+| `28_Seven_Day_Funding_And_Midmonth_Vehicle_Sprint_2026-08-02.md` | Seven-day Wheatland funding sprint and August 15 pilot vehicle possession plan. |
+| `29_Vehicle_Funding_Sprint_Register_2026-08-02.csv` | Action register for funding, pilot vehicle, authority, insurance, website, and DKIM sprint tasks. |
+| `30_Gmail_Packet_Send_Automation_Control_2026-08-02.md` | Gmail draft/send control workflow for Wheatland packet outreach. |
+| `31_Gmail_Packet_Send_Queue_2026-08-02.csv` | Target-level Gmail packet queue with recipient-verification and approval gates. |
+| `32_Gmail_Template_Draft_Register_2026-08-02.csv` | Register of unsent Gmail template drafts created for review and reuse. |
 
 ## Immediate Completion Order
 
@@ -64,9 +68,10 @@ These files are not executed records. They should not be represented as final co
 12. Confirm WYDOT/FMCSA operating authority path.
 13. Obtain insurance quotes after approval to contact brokers.
 14. Select the pilot vehicle and service area.
-15. Complete the Private Party RV Purchase diligence memo before any RV deposit, loan, or title transfer.
-16. Send partner outreach using the MOU and scripts only after approval.
-17. Convert approved summary/capability statement into PDF.
+15. Run the seven-day Wheatland funding and pilot vehicle sprint.
+16. Verify recipient emails and use the Gmail packet queue to prepare approved drafts.
+17. Send partner outreach using the MOU and scripts only after final approval.
+18. Convert approved summary/capability statement into PDF.
 
 ## Approval Required Before Execution
 

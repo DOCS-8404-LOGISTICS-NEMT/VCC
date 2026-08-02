@@ -17,7 +17,7 @@ This register moves the launch package from review drafting toward controlled si
 3. Officer appointment and signer authority contained in the board consent.
 4. Grant and federal-registration authority resolution.
 5. Transportation authority and insurance preparation authority resolution.
-6. Vehicle/RV diligence and conditional acquisition authority resolution.
+6. Pilot vehicle diligence and conditional acquisition authority resolution.
 
 ## Prepared As Template But Missing Final Facts
 
@@ -29,7 +29,7 @@ This register moves the launch package from review drafting toward controlled si
    - Missing certificate or uncertificated notice number.
    - Missing verified veteran / service-disabled veteran status notation for cap-table use.
 2. Partner MOU templates require partner legal name, service scope, privacy/data language, insurance terms, payment terms if any, and counterparty signature.
-3. RV purchase documents require seller authority, VIN/title/lien review, inspection, insurance bindability, price, financing terms, title entity, storage plan, and no-personal-use controls.
+3. Pilot vehicle purchase, lease, rental, or partner-capacity documents require use authority, VIN/title/lien review when applicable, inspection, insurance bindability, price, financing terms, title entity, storage plan, and no-personal-use controls.
 4. WYDOT operating authority submission requires exact vehicle, service model, insurance broker filing path, and WYDOT determination.
 5. SAM/UEI and Grants.gov submissions require Login.gov/SAM access, TIN/taxpayer validation, assertions, and authorized signer setup.
 

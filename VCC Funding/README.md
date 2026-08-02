@@ -31,7 +31,8 @@ Use `aldavis@viliganscommandcorp.com` as the corporate contact identity. Do not 
 | `../foundation/launch_package/10_Grant_Calendar_and_Funding_Path_DRAFT.md` | Funding calendar and fastest funding path source. |
 | `../foundation/launch_package/11_Evidence_Register.csv` | Source-proof register for funding readiness. |
 | `../foundation/launch_package/17_Ranked_90_Day_Launch_Plan_2026-08-01.md` | Ranked 90-day launch and funding execution plan. |
-| `../foundation/launch_package/19_Private_Party_RV_Purchase_Action_Plan_2026-08-02.md` | RV acquisition finance, sponsor, insurance, title, ownership, and grant-fit diligence. |
+| `../foundation/launch_package/28_Seven_Day_Funding_And_Midmonth_Vehicle_Sprint_2026-08-02.md` | Seven-day Wheatland funding sprint and August 15 pilot vehicle possession plan. |
+| `../foundation/launch_package/29_Vehicle_Funding_Sprint_Register_2026-08-02.csv` | Action register for launch funding, vehicle sourcing, authority, insurance, website, and DKIM tasks. |
 | `../output/docx/VCC_Board_Action_Packet_DRAFT.docx` | Draft governance packet for internal approval review. |
 | `../output/docx/VCC_Partner_Outreach_Packet_DRAFT.docx` | Draft partner outreach packet. |
 

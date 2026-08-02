@@ -318,11 +318,11 @@ RESOLVED, that the President / CEO is authorized to use reviewed outreach script
 
 FURTHER RESOLVED, that no MOU, service agreement, sponsorship agreement, grant commitment, or financial obligation shall be binding until reviewed, approved, and signed by authorized parties.
 
-## Resolution 5 - Vehicle And RV Diligence Authority
+## Resolution 5 - Pilot Vehicle Diligence Authority
 
-RESOLVED, that the President / CEO is authorized to conduct diligence for vehicle acquisition, accessible vehicle leasing, partner-vehicle options, and the Private Party RV Purchase project.
+RESOLVED, that the President / CEO is authorized to conduct diligence for pilot vehicle acquisition, accessible vehicle leasing, short-term accessible rental options, and approved partner-vehicle options.
 
-FURTHER RESOLVED, that no RV purchase, vehicle purchase, deposit, loan, title transfer, lease, insurance bind, pledge, or public-use representation may be executed until title, lien, inspection, insurance, use-classification, storage, financing, and no-personal-use controls are complete and approved.
+FURTHER RESOLVED, that no vehicle purchase, deposit, loan, title transfer, lease, rental agreement, insurance bind, pledge, or public-use representation may be executed until title or use authority, lien status, inspection, insurance, use classification, storage, financing, and no-personal-use controls are complete and approved.
 
 ## Execution
 
@@ -356,7 +356,7 @@ Date: ______________________
 
 AUTHORITY_SIGNATURE_PAGE = """# Supplemental Authority Resolution Signature Page
 
-The undersigned approves the annual-report, federal-registration, grant, WYDOT, insurance-preparation, partner-outreach, sponsorship, vehicle, and RV diligence authority resolutions in this packet.
+The undersigned approves the annual-report, federal-registration, grant, WYDOT, insurance-preparation, partner-outreach, sponsorship, and pilot vehicle diligence authority resolutions in this packet.
 
 Signature: ________________________________________________
 

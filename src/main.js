@@ -14,15 +14,33 @@ if (!app) {
 const priorityActions = [
   {
     rank: 1,
+    action: "Close seven-day funding sprint",
+    owner: "Executive / Finance",
+    due: "August 9, 2026",
+    impact: 100,
+    result:
+      "Target $20k-$45k in near-term cash, sponsor pledges, readiness-fee commitments, or vehicle-financing approval for Wheatland launch readiness.",
+  },
+  {
+    rank: 2,
+    action: "Secure mid-month pilot vehicle path",
+    owner: "Operations / Finance",
+    due: "August 15, 2026",
+    impact: 99,
+    result:
+      "Choose accessible van purchase, accessible rental/lease, or approved partner vehicle after insurance and authority screens.",
+  },
+  {
+    rank: 3,
     action: "Submit ICAM eligibility decision package",
     owner: "Executive / Legal",
     due: "48 hours",
-    impact: 99,
+    impact: 98,
     result:
       "Decide direct applicant, subrecipient, or lead-partner route before the September 9, 2026 federal deadline.",
   },
   {
-    rank: 2,
+    rank: 4,
     action: "Confirm WYDOT transit funding path",
     owner: "Funding",
     due: "48 hours",
@@ -31,7 +49,7 @@ const priorityActions = [
       "Confirm BlackCat access, coordinated plan status, match sources, and private operator role.",
   },
   {
-    rank: 3,
+    rank: 5,
     action: "Package first paid pilot offer",
     owner: "Growth",
     due: "5 days",
@@ -40,16 +58,7 @@ const priorityActions = [
       "Prepare Wheatland / Platte County partner, clinic, employer, and sponsor offers with readiness fee and ride-block pricing.",
   },
   {
-    rank: 4,
-    action: "Close vehicle/RV acquisition diligence",
-    owner: "Legal / Operations",
-    due: "7 days",
-    impact: 92,
-    result:
-      "No deposit, purchase agreement, title transfer, loan, or insurance bind until legal and insurance gates clear.",
-  },
-  {
-    rank: 5,
+    rank: 6,
     action: "Build launch compliance binder",
     owner: "Operations",
     due: "10 days",
@@ -138,9 +147,14 @@ const dashboardCards = [
     detail: "Platte County launch test site selected for first service-boundary and partner-readiness work.",
   },
   {
-    label: "Funding Target",
-    value: "$500k+",
-    detail: "Grant, contract, sponsor, and match stack for the first Wyoming pilot.",
+    label: "7-Day Funding",
+    value: "$20k-$45k",
+    detail: "Immediate cash, pledge, readiness-fee, or vehicle-financing target by August 9, 2026.",
+  },
+  {
+    label: "Vehicle Target",
+    value: "Aug 15",
+    detail: "Pilot vehicle possession target; paid service still waits for authority, insurance, driver, and policy gates.",
   },
   {
     label: "Immediate Revenue",
@@ -359,9 +373,9 @@ const marketingTasks = [
 
 const vehicleStatus = [
   {
-    item: "Primary vehicle/RV acquisition",
-    status: "Diligence",
-    gate: "Title, lien, inspection, use classification, insurance quote, and board authorization.",
+    item: "Primary pilot vehicle acquisition",
+    status: "Sprint",
+    gate: "Accessible van purchase, accessible rental/lease, or approved partner vehicle after quote, inspection, insurance, and authority review.",
   },
   {
     item: "ADA-capable vehicle plan",
@@ -469,8 +483,8 @@ const legalRepository = [
     gate: "Legal review before sending; no service promises beyond insured and authorized capacity.",
   },
   {
-    folder: "Vehicle / RV Acquisition",
-    docs: "Purchase agreement, title, lien release, VIN report, inspection report, financing quote, insurance bindability memo.",
+    folder: "Pilot Vehicle Acquisition",
+    docs: "Purchase, lease, rental, or partner-vehicle agreement; title or authority to use; VIN file; inspection report; financing quote; insurance bindability memo.",
     gate: "No obligation until title, insurance, inspection, authority, and executive approval are complete.",
   },
   {
@@ -488,13 +502,13 @@ const contractWorkflow = [
   ["Execution and control", "Signed copy, renewal date, deliverables, insurance certificate, and operating owner are logged."],
 ];
 
-const rvDocuments = [
-  "Seller identity and authority to sell",
-  "Clean title, VIN, odometer, lien release, and brand/salvage check",
-  "Independent mechanical, tire, brake, roof, electrical, generator, propane, and habitability inspection",
-  "Commercial-use classification memo: outreach/mobile intake asset vs passenger transportation asset",
+const vehicleDocuments = [
+  "Accessible van, rental, lease, or partner-vehicle source record",
+  "Clean title or written use authority, VIN, odometer, lien release, and brand/salvage check when purchased or leased",
+  "Independent mechanical, tire, brake, lift/ramp, securement, HVAC, and safety-equipment inspection",
+  "Commercial-use classification memo tied to Wheatland scheduled passenger service",
   "Insurance quote and bindability confirmation before money changes hands",
-  "Board resolution with price ceiling, financing ceiling, signer, and final approval gate",
+  "Executive approval record with price ceiling, financing ceiling, signer, and final approval gate",
   "Asset ledger, mileage log, maintenance schedule, storage plan, and no-personal-use policy",
 ];
 
@@ -630,8 +644,8 @@ const launchPlan = [
   {
     phase: "Days 15-45",
     priority: 93,
-    task: "Vehicle/RV acquisition decision",
-    output: "Title/inspection/insurance file, asset-use memo, financing options, and approval record.",
+    task: "Pilot vehicle acquisition decision",
+    output: "Accessible vehicle or partner-capacity file, inspection, insurance quote, financing options, and approval record.",
   },
   {
     phase: "Days 30-60",
@@ -679,7 +693,7 @@ const equipmentRequirements = [
 
 const budgetProjection = [
   {
-    line: "Vehicle/RV acquisition or lease",
+    line: "Pilot vehicle acquisition, lease, or rental",
     low: "$35k",
     high: "$120k",
     note: "Use financing only after title, inspection, insurance, and corporate approval gates.",
@@ -873,7 +887,7 @@ app.innerHTML = `
     <section id="executive" aria-labelledby="executive-title">
       ${renderCommandIntro(
         "1. Executive Dashboard",
-        "Funding, contracts, compliance, marketing, and vehicle/RV readiness",
+        "Funding, contracts, compliance, marketing, and pilot vehicle readiness",
         "Priority is cash, authority to operate, launch-safe vehicle capacity, and documented grant readiness.",
       )}
       <div class="metric-grid">
@@ -900,7 +914,7 @@ app.innerHTML = `
           )}
         </div>
         <div>
-          <h3 class="block-title">Vehicle/RV acquisition status</h3>
+          <h3 class="block-title">Pilot vehicle acquisition status</h3>
           <div class="stacked-list">
             ${vehicleStatus
               .map(
@@ -990,7 +1004,7 @@ app.innerHTML = `
     <section id="legal" aria-labelledby="legal-title">
       ${renderCommandIntro(
         "3. Legal & Contract Center",
-        "Bylaws repository, contract workflow, vehicle/RV acquisition file, and risk tracker",
+        "Bylaws repository, contract workflow, pilot vehicle acquisition file, and risk tracker",
         "This center prevents unfunded, uninsured, unauthorized, or misclassified obligations before pilot launch.",
       )}
       <div class="notice">
@@ -1011,8 +1025,8 @@ app.innerHTML = `
           </ol>
         </div>
         <div>
-          <h3 class="block-title">Vehicle/RV acquisition documents</h3>
-          ${renderChecklist(rvDocuments)}
+          <h3 class="block-title">Pilot vehicle acquisition documents</h3>
+          ${renderChecklist(vehicleDocuments)}
         </div>
       </div>
       <h3 class="block-title">Risk assessment tracker</h3>

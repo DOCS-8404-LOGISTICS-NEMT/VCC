@@ -43,7 +43,7 @@ Sign these first so later filings and submissions have authority behind them:
 | 7 | Shareholder consent, if needed | Confirms owner approval of launch authority, subsidiary structure, and major transactions. | Shareholder signature. |
 | 8 | Grant and federal-registration authority resolution | Authorizes SAM/UEI, Grants.gov, ICAM/WYCF/WYDOT grant submissions, and certifications. | Board/director approval. |
 | 9 | Transportation authority and insurance authority resolution | Authorizes WYDOT application preparation, insurance applications, and vehicle readiness work. | Board/director approval. |
-| 10 | Vehicle/RV acquisition authority resolution | Sets price cap, use class, financing cap, title entity, insurance condition, and no-personal-use rule. | Board/director approval before any deposit or agreement. |
+| 10 | Pilot vehicle acquisition authority resolution | Sets price cap, use class, financing cap, title or use-authority entity, insurance condition, and no-personal-use rule. | Board/director approval before any deposit or agreement. |
 
 ## Filing Queue
 
@@ -101,7 +101,7 @@ Sign these first so later filings and submissions have authority behind them:
 - Using DOCS 8404 in binding documents before official LLC status is verified.
 - Starting Wyoming passenger service before authority and insurance are complete.
 - Submitting SAM/grant representations without signed authority and source-proof facts.
-- Treating the RV as a passenger/NEMT vehicle before use-class, insurance, WYDOT, and accessibility review.
+- Treating any unapproved vehicle as a passenger/NEMT vehicle before use-class, insurance, WYDOT, and accessibility review.
 - Missing September grant deadlines because corporate authority, partner letters, and budgets are not ready.
 
 ## Revenue Opportunities
