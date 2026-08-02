@@ -8,7 +8,10 @@ Corporate sending identity: aldavis@viliganscommandcorp.com
 
 Pilot: Wheatland / Platte County, Wyoming
 
-Gmail label created: `VCC/Wheatland Packet Queue`
+Gmail labels created:
+
+- `VCC/Wheatland Packet Queue`
+- `VCC/Vehicle Funding Sprint`
 
 Status: Draft-and-queue automation only. Do not send externally until recipient address, packet contents, claims, attachments, and CEO approval are confirmed.
 
@@ -35,6 +38,7 @@ Create a controlled Gmail workflow for sending Wheatland pilot packets to partne
 | Capability statement | `foundation/launch_package/02_Capability_Statement_DRAFT.md` | Capability summary language. |
 | MOU framework | `foundation/launch_package/08_Partner_MOU_Template_DRAFT.md` | Follow-up attachment only after partner interest. |
 | Funding and vehicle sprint | `foundation/launch_package/28_Seven_Day_Funding_And_Midmonth_Vehicle_Sprint_2026-08-02.md` | Internal support for sponsor/readiness-fee asks; do not attach externally without approval. |
+| Vehicle / insurance / financing contact queue | `foundation/launch_package/34_Vehicle_Insurance_Financing_Contact_Queue_2026-08-02.csv` | Internal quote, funding, and authority call sequence; do not submit forms, applications, or quote requests without approval. |
 
 ## Segment Templates
 
@@ -123,6 +127,15 @@ Current drafted targets:
 - Platte County Chamber of Commerce.
 - Platte County Economic Development.
 
+Two additional vehicle/funding sprint drafts were created unsent on August 2, 2026 and labeled `VCC/Vehicle Funding Sprint`.
+
+Draft details are tracked in `35_Vehicle_Insurance_Financing_Draft_Register_2026-08-02.csv`.
+
+Current drafted sprint targets:
+
+- United Access for accessible van purchase, lease, or rental quote guidance.
+- WyoMicro for Wyoming microloan and coaching-supported financing fit guidance.
+
 ## Follow-Up Cadence
 
 | Day | Action |
@@ -141,3 +154,4 @@ Current drafted targets:
 - Gmail DKIM/SPF/DMARC status is not suitable for a larger send.
 - The message implies active passenger service before launch gates clear.
 - The message requests payment or creates a commitment without approved terms.
+- The message requests a credit pull, quote submission, application, deposit, insurance bind, rental, lease, purchase, or authority filing before approval.

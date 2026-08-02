@@ -52,6 +52,9 @@ These files are not executed records. They should not be represented as final co
 | `31_Gmail_Packet_Send_Queue_2026-08-02.csv` | Target-level Gmail packet queue with recipient-verification and approval gates. |
 | `32_Gmail_Template_Draft_Register_2026-08-02.csv` | Register of unsent Gmail template drafts created for review and reuse. |
 | `33_Gmail_Recipient_Draft_Register_2026-08-02.csv` | Register of verified-recipient Gmail packet drafts created for approval before sending. |
+| `34_Vehicle_Insurance_Financing_Contact_Queue_2026-08-02.csv` | Verified contact queue for accessible vehicle quotes, insurance quote paths, financing paths, and WYDOT authority confirmation. |
+| `35_Vehicle_Insurance_Financing_Draft_Register_2026-08-02.csv` | Register of unsent Gmail drafts created for vehicle and financing outreach review. |
+| `36_Vehicle_Funding_Sprint_Call_Sheet_2026-08-02.md` | August 3 call order, scripts, question set, and quote-data capture fields for vehicle, insurance, authority, and financing calls. |
 
 ## Immediate Completion Order
 
@@ -67,12 +70,13 @@ These files are not executed records. They should not be represented as final co
 10. Finalize governance and ownership/control records.
 11. Complete SAM/UEI and Grants.gov readiness.
 12. Confirm WYDOT/FMCSA operating authority path.
-13. Obtain insurance quotes after approval to contact brokers.
-14. Select the pilot vehicle and service area.
-15. Run the seven-day Wheatland funding and pilot vehicle sprint.
-16. Verify recipient emails and use the Gmail packet queue to prepare approved drafts.
-17. Send partner outreach using the MOU and scripts only after final approval.
-18. Convert approved summary/capability statement into PDF.
+13. Obtain insurance quotes after approval to contact brokers or online quote paths.
+14. Use the vehicle, insurance, financing, and authority contact queue to request quote/timing inputs after approval.
+15. Select the pilot vehicle and service area.
+16. Run the seven-day Wheatland funding and pilot vehicle sprint.
+17. Verify recipient emails and use the Gmail packet queue to prepare approved drafts.
+18. Send partner, vehicle, and funding outreach only after final approval.
+19. Convert approved summary/capability statement into PDF.
 
 ## Approval Required Before Execution
 

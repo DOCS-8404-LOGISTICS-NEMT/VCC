@@ -33,6 +33,9 @@ The application provides a complete startup operations workspace for executive o
 - `foundation/launch_package/31_Gmail_Packet_Send_Queue_2026-08-02.csv` - target-level send queue for verified recipients and approved packet outreach
 - `foundation/launch_package/32_Gmail_Template_Draft_Register_2026-08-02.csv` - register of unsent Gmail template drafts created for review
 - `foundation/launch_package/33_Gmail_Recipient_Draft_Register_2026-08-02.csv` - register of verified-recipient Gmail packet drafts created for approval before sending
+- `foundation/launch_package/34_Vehicle_Insurance_Financing_Contact_Queue_2026-08-02.csv` - verified vehicle, insurance, financing, and authority contact queue for the August 2026 sprint
+- `foundation/launch_package/35_Vehicle_Insurance_Financing_Draft_Register_2026-08-02.csv` - register of unsent Gmail drafts created for vehicle and financing outreach review
+- `foundation/launch_package/36_Vehicle_Funding_Sprint_Call_Sheet_2026-08-02.md` - call sequence and question set for August 3 vehicle, authority, insurance, and financing follow-up
 - `VCC Funding/` - funding control lane for grants, sponsors, anchor partners, lender readiness, evidence, and approval gates
 - `.github/workflows/proof-html.yml` - Vite production build validation
 - `.env.example` - optional local environment override template
@@ -72,6 +75,7 @@ The August 2, 2026 workspace includes six command centers:
 - Fix public website routing/SSL by aligning GitHub Pages settings and DNS records.
 - Build Wheatland / Platte County as the pilot launch test site.
 - Convert county, clinic, employer, and sponsor outreach into paid pilot revenue.
+- Convert vehicle, insurance, and financing outreach into written quote inputs before the August 9 go/no-go gate.
 - Complete corporate, insurance, operating authority, pilot vehicle, and driver readiness gates before launch.
 - Preserve legal controls so VCC does not create obligations before executive authorization.
 - Track launch metrics: trips, denials, cost per trip, revenue, safety incidents, support letters, and partner referrals.
