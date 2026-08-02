@@ -381,9 +381,28 @@ def build_vehicle_funding_close_packet():
         [
             ["Allowed after CEO approval", "Not allowed without separate approval"],
             ["Controlled quote, fit, and timing contact with listed vendors, lenders, insurers, WYDOT, and sponsor/anchor targets.", "Applications, credit pulls, deposits, vehicle reservations, purchase/lease/rental agreements, insurance bind orders, authority filings, invoices, restricted funds, sponsor logo promises, public launch claims, or paid passenger service."],
+            ["Response logging in 49_External_Response_Evidence_Log_2026-08-02.csv and 52_Vehicle_Funding_Quote_Intake_Scorecard_2026-08-02.csv.", "Treating a conversation, public listing, or draft as funding proof or vehicle readiness proof."],
         ],
         [3.15, 3.35],
-        fills={1: RISK_FILL},
+        fills={1: RISK_FILL, 2: RISK_FILL},
+    )
+
+    add_h1(doc, "Controlled Contact Authorization")
+    add_para(
+        doc,
+        "Use 51_Controlled_Contact_Authorization_Record_2026-08-02.md as the source-controlled approval record before any external call, email, form submission, quote request, insurance discussion, financing inquiry, or sponsor approach.",
+    )
+    add_table(
+        doc,
+        [
+            ["Authorization lane", "Permitted only if approved", "Still excluded"],
+            ["Authority", "Non-binding WYDOT questions on MC-100, Form E, passenger capacity, USDOT, markings, registration, and pre-authority limits.", "Filing, fee payment, Form E filing, or authority representation."],
+            ["Insurance", "Eligibility, underwriting inputs, Form E capability, limits, driver/vehicle rules, and quote requirements.", "Paid application, coverage bind, or policy purchase."],
+            ["Vehicle/rental", "Availability, total due, business-use rules, pickup/delivery, insurance requirements, and written quote inputs.", "Reservation, deposit, payment, lease, rental, purchase, or passenger use."],
+            ["Funding", "Planning call, sponsor/readiness interest, pledge path, preliminary financing fit, and document checklist.", "Invoice, restricted funds, logo promise, credit pull, debt, guaranty, lien, or collateral pledge."],
+        ],
+        [1.15, 3.05, 2.3],
+        fills={1: RISK_FILL, 2: RISK_FILL, 3: RISK_FILL, 4: RISK_FILL},
     )
 
     add_h1(doc, "Authority And Insurance Evidence")
@@ -407,6 +426,13 @@ def build_vehicle_funding_close_packet():
     for row in funding_rows[1:]:
         condensed_funding.append([row[1], row[3], row[4], row[6], row[9]])
     add_table(doc, condensed_funding, [1.25, 1.0, 1.95, 1.0, 1.3])
+
+    add_h1(doc, "Quote Intake Scorecard")
+    score_rows = read_csv_rows("52_Vehicle_Funding_Quote_Intake_Scorecard_2026-08-02.csv")
+    condensed_score = [["Priority", "Target", "Status", "Proof needed", "Next action"]]
+    for row in score_rows[1:]:
+        condensed_score.append([row[0], row[2], row[6], row[4], row[13]])
+    add_table(doc, condensed_score, [0.55, 1.45, 1.0, 2.1, 1.4])
 
     doc.add_page_break()
     add_h1(doc, "Public Vehicle Shortlist")

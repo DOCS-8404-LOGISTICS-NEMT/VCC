@@ -173,6 +173,41 @@ const dashboardCards = [
   },
 ];
 
+const proofGateCards = [
+  {
+    label: "Controlled Contact",
+    status: "Needs exact CEO approval",
+    detail:
+      "Use 51_Controlled_Contact_Authorization_Record_2026-08-02.md before any outside call, email, form, quote request, or sponsor approach.",
+  },
+  {
+    label: "Vehicle Proof",
+    status: "Missing",
+    detail:
+      "Count only written rental, lease, purchase, or partner-vehicle confirmation with timing, total due, permitted use, and vehicle class or VIN.",
+  },
+  {
+    label: "Funding Proof",
+    status: "Missing",
+    detail:
+      "Count only signed pledge, received funds, approved bridge authorization, lender/lease preapproval, or written term sheet.",
+  },
+  {
+    label: "Launch Permission",
+    status: "Not active",
+    detail:
+      "Paid passenger service remains held until authority, insurance, vehicle, driver, safety, privacy, and approval gates are complete.",
+  },
+];
+
+const closeScorecard = [
+  ["1", "WYDOT authority", "Missing", "MC-100, Form E, USDOT, markings, and pre-authority limits"],
+  ["2", "Insurance bindability", "Missing", "Wyoming NEMT/livery eligibility, limits, driver rules, and Form E support"],
+  ["3", "Frontier rental bridge", "Not contacted", "Cheyenne August 10-15 availability, total due, business-use rules, and insurance"],
+  ["4", "MobilityWorks KR692569A", "Not contacted", "Current availability, quote, title, inspection, warranty, and commercial-use permission"],
+  ["5", "WyoMicro / sponsor funding", "Drafted not sent", "Preliminary fit, sponsor readiness interest, pledge path, and written terms"],
+];
+
 const workspaceReadiness = [
   {
     step: "Admin identity",
@@ -905,6 +940,24 @@ app.innerHTML = `
       </div>
       <h3 class="block-title">Immediate actions ranked by impact</h3>
       <div class="action-list">${renderPriorityActions()}</div>
+      <div class="notice strong">
+        Current close status: the August 9 funding and August 15 vehicle goals remain possible but unproven. The next evidence-producing step is controlled contact for quote, fit, timing, and planning information only.
+      </div>
+      <div class="grid four proof-grid">
+        ${proofGateCards
+          .map(
+            (item) => `
+              <article class="card proof-card">
+                <span class="pill ${statusClass(item.status)}">${item.status}</span>
+                <h3>${item.label}</h3>
+                <p>${item.detail}</p>
+              </article>
+            `,
+          )
+          .join("")}
+      </div>
+      <h3 class="block-title">Proof intake scorecard</h3>
+      ${table(["Priority", "Lane", "Status", "Proof required"], closeScorecard)}
       <div class="split">
         <div>
           <h3 class="block-title">Funding pipeline</h3>

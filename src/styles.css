@@ -331,6 +331,14 @@ h4 {
   padding: 16px;
 }
 
+.proof-grid {
+  margin: 14px 0 6px;
+}
+
+.proof-card {
+  min-height: 150px;
+}
+
 .table-wrap {
   overflow-x: auto;
   border: 1px solid var(--border-soft);
