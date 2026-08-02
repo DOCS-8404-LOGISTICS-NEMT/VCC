@@ -386,6 +386,21 @@ def build_vehicle_funding_close_packet():
         fills={1: RISK_FILL},
     )
 
+    add_h1(doc, "Authority And Insurance Evidence")
+    add_table(
+        doc,
+        [
+            ["Lane", "Current evidence", "Sprint implication"],
+            ["WYDOT authority", "WYDOT defines contract motor carrier as intrastate transportation of people or property for compensation; WYDOT lists 307-777-4850 for questions.", "Call or send the unsent authority question draft before relying on any paid passenger-service plan."],
+            ["MC-100 / Form E", "WYDOT MC-100 asks passenger carriers to list passenger count; Form E is required before contract carrier authority approval if applicable.", "Insurance conversations must ask whether the carrier can issue Wyoming Form E."],
+            ["Coverage threshold", "WYDOT MC-100 lists $750,000 combined single limit for contract carrier liability filings.", "Quote conversations should test at least this threshold if the authority path applies."],
+            ["USDOT trigger", "WYDOT MC-100 states more than 9 passengers, including the driver, must have a USDOT number.", "Keep the first vehicle below that threshold unless VCC intentionally opens the USDOT path."],
+            ["Insurance quote paths", "Insureon lists NEMT/paratransit quote support at 800-688-1984; Progressive lists NEMT quote support at 1-888-806-9598 in select states.", "Use both as eligibility and bindability checks, not as binding applications."],
+        ],
+        [1.2, 3.25, 2.05],
+        fills={1: RISK_FILL, 2: RISK_FILL, 3: RISK_FILL, 4: RISK_FILL, 5: RISK_FILL},
+    )
+
     add_h1(doc, "Funding Close Register")
     funding_rows = read_csv_rows("40_August_9_Funding_Close_Register_2026-08-02.csv")
     condensed_funding = [["Lane", "Target amount", "Proof required", "Status", "Next action"]]

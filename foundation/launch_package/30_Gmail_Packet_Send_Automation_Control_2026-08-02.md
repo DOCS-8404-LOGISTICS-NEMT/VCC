@@ -146,6 +146,14 @@ Current drafted funding-close targets:
 - Platte County Chamber of Commerce for vehicle-readiness sponsorship and local introductions.
 - Platte County Economic Development for vehicle-readiness funding, sponsor introductions, and economic-development fit.
 
+One WYDOT authority question draft was created unsent on August 2, 2026 and labeled `VCC/Vehicle Funding Sprint`.
+
+Draft details are tracked in `45_Gmail_Authority_Draft_Register_2026-08-02.csv`.
+
+Current drafted authority target:
+
+- WYDOT Regulatory Section / Motor Vehicle Services for non-binding operating-authority questions.
+
 ## Retired Project Control
 
 Retired vehicle-acquisition history is archive-only under `archive/retired-projects/` and must not be attached, linked, quoted, summarized, or reused in active Gmail drafts.

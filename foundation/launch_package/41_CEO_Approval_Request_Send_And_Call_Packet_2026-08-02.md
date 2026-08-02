@@ -20,6 +20,7 @@ To keep the August 9 funding and August 15 vehicle target realistic, VCC needs a
 | 2 | Send WyoMicro draft `r-8427544726986723952` | Request microloan fit and timing guidance | No application, credit pull, debt, guaranty, or collateral pledge |
 | 2A | Send Platte County Chamber draft `r-3004465373696662663` | Request planning call for vehicle-readiness sponsorship and local introductions | No invoice, payment request, restricted-fund acceptance, logo promise, service claim, or commitment |
 | 2B | Send Platte County Economic Development draft `r-154759076075875137` | Request planning call for vehicle-readiness funding, sponsor introductions, and economic-development fit | No invoice, payment request, restricted-fund acceptance, service claim, or commitment |
+| 2C | Send WYDOT authority question draft `r812018179775240945` | Ask non-binding operating-authority questions for the Wheatland service model | No application, payment, filing, insurance filing, or representation that authority exists |
 | 3 | Call WYDOT Regulatory Authority | Confirm operating-authority, MC-100, Form E, registration, marking, and USDOT questions | No filing or representation of authority |
 | 4 | Call/contact vehicle vendors | MobilityWorks Commercial, MobilityWorks Aurora, MobilityWorks Rental Team, Frontier Access | No quote submission requiring payment, reservation, deposit, application, credit pull, lease, rental, or contract |
 | 5 | Call/contact insurance quote paths | Insureon and Progressive Commercial | No bind, paid application, policy purchase, or Form E request without approval |
@@ -55,6 +56,8 @@ I approve controlled external contact for quote, fit, and timing information onl
 - `40_August_9_Funding_Close_Register_2026-08-02.csv`
 - `42_August_2_Vehicle_Funding_Reality_Check_2026-08-02.md`
 - `43_Gmail_Vehicle_Funding_Close_Draft_Register_2026-08-02.csv`
+- `44_Authority_Insurance_Quote_Request_Packet_2026-08-02.md`
+- `45_Gmail_Authority_Draft_Register_2026-08-02.csv`
 - `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx`
 - `archive/retired-projects/00_ARCHIVE_CONTROL_2026-08-02.md`
 

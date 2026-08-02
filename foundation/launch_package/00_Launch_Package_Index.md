@@ -62,6 +62,8 @@ These files are not executed records. They should not be represented as final co
 | `41_CEO_Approval_Request_Send_And_Call_Packet_2026-08-02.md` | Approval request packet for sending drafts and making quote, authority, insurance, financing, and sponsor calls without binding VCC. |
 | `42_August_2_Vehicle_Funding_Reality_Check_2026-08-02.md` | Reality check for one-week funding and mid-month vehicle possession, with current lease/rental/purchase execution order. |
 | `43_Gmail_Vehicle_Funding_Close_Draft_Register_2026-08-02.csv` | Register of unsent Gmail funding-close sponsor/readiness drafts created for approval before sending. |
+| `44_Authority_Insurance_Quote_Request_Packet_2026-08-02.md` | WYDOT authority and insurance quote-prep packet for the Wheatland vehicle sprint. |
+| `45_Gmail_Authority_Draft_Register_2026-08-02.csv` | Register of the unsent WYDOT authority question Gmail draft created for approval before sending. |
 
 ## Generated Packet Outputs
 
