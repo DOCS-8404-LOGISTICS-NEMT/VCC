@@ -10,13 +10,19 @@ Status: Internal Gmail draft audit. This document does not authorize sending, up
 
 ## Audit Result
 
-The vehicle funding close packet was regenerated after the original Gmail sponsor drafts were created. The current local packet now includes the controlled-contact authorization and quote intake scorecard.
+The vehicle funding close packet was regenerated after the original Gmail sponsor drafts were created. The current local packet now includes the minimum funding cash triggers, controlled-contact authorization, and quote intake scorecard.
 
-Current local file:
+Current local vehicle close packet:
 
 - `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx`
-- Local size: `45,246` bytes
-- Current role: generated vehicle funding close packet for August 9 funding, August 15 vehicle-possession proof, controlled-contact authorization, and quote intake scoring.
+- Local size: `47,521` bytes
+- Current role: generated vehicle funding close packet for August 9 funding, August 15 vehicle-possession proof, minimum cash triggers, controlled-contact authorization, and quote intake scoring.
+
+Current local partner packet:
+
+- `output/docx/VCC_Partner_Outreach_Packet_DRAFT.docx`
+- Local size: `40,766` bytes
+- Current role: generated partner outreach packet for approved Wheatland partner, vehicle, and funding planning drafts.
 
 ## Live Gmail Drafts Checked
 
@@ -24,17 +30,17 @@ Current local file:
 |---|---|---|---|---:|---|
 | `r-3004465373696662663` | `director@plattechamber.com` | Wheatland vehicle-readiness sponsorship packet | `VCC_Vehicle_Funding_Close_Packet_DRAFT.docx` | `43,463` bytes | Stale attachment; do not send existing draft. |
 | `r-154759076075875137` | `jyoung@pcedwy.org` | Wheatland vehicle-readiness funding packet | `VCC_Vehicle_Funding_Close_Packet_DRAFT.docx` | `43,463` bytes | Stale attachment; do not send existing draft. |
-| `r-8427544726986723952` | `info@wyomicro.org` | Wheatland mobility pilot microloan inquiry | `VCC_Partner_Outreach_Packet_DRAFT.docx` | `39,386` bytes | No vehicle close packet attached; send rule still requires approval. |
-| `r-7947831820687205026` | `info@unitedaccess.com` | Wheatland accessible van quote request | `VCC_Partner_Outreach_Packet_DRAFT.docx` | `39,386` bytes | No vehicle close packet attached; send rule still requires approval. |
+| `r-8427544726986723952` | `info@wyomicro.org` | Wheatland mobility pilot microloan inquiry | `VCC_Partner_Outreach_Packet_DRAFT.docx` | `39,386` bytes | Stale partner-packet attachment; do not send existing draft. |
+| `r-7947831820687205026` | `info@unitedaccess.com` | Wheatland accessible van quote request | `VCC_Partner_Outreach_Packet_DRAFT.docx` | `39,386` bytes | Stale partner-packet attachment; do not send existing draft. |
 | `r812018179775240945` | `mvs@wyo.gov` | Wheatland scheduled non-emergency passenger service authority questions | None | `0` bytes | No attachment expected; send rule still requires approval. |
 
 ## Control Decision
 
-Do not send the existing Chamber or Economic Development sponsor drafts because their attachments do not match the current generated packet.
+Do not send the existing Chamber, Economic Development, United Access, or WyoMicro drafts because their attachments do not match the current generated packets.
 
 If CEO approves controlled contact and exact draft content, create replacement Gmail drafts using the current local packet and record the replacement draft IDs before any send approval.
 
-Replacement draft body, recipient, subject, and attachment fields are staged in `54_Gmail_Replacement_Draft_Manifest_2026-08-02.md`.
+Replacement sponsor draft body, recipient, subject, and attachment fields are staged in `54_Gmail_Replacement_Draft_Manifest_2026-08-02.md`. Vehicle and financing replacement drafts still require exact CEO approval of current attachment and body before creation.
 
 ## Required Before Sending Any Packet
 

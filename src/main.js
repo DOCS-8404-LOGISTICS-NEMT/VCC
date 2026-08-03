@@ -19,7 +19,7 @@ const priorityActions = [
     due: "August 9, 2026",
     impact: 100,
     result:
-      "Target $20k-$45k in near-term cash, sponsor pledges, readiness-fee commitments, or vehicle-financing approval for Wheatland launch readiness.",
+      "Target path-specific proof: $5k-$8k rental bridge, $8k-$15k lease start, $10k-$20k financed purchase bridge, or $35k-$45k cash purchase close.",
   },
   {
     rank: 2,
@@ -148,8 +148,8 @@ const dashboardCards = [
   },
   {
     label: "7-Day Funding",
-    value: "$20k-$45k",
-    detail: "Immediate cash, pledge, readiness-fee, or vehicle-financing target by August 9, 2026.",
+    value: "$5k-$45k",
+    detail: "Path-specific cash trigger by August 9: rental bridge first, lease or purchase only with written quote and approval proof.",
   },
   {
     label: "Vehicle Target",
@@ -190,7 +190,7 @@ const proofGateCards = [
     label: "Funding Proof",
     status: "Missing",
     detail:
-      "Count only signed pledge, received funds, approved bridge authorization, lender/lease preapproval, or written term sheet; use 58_Bridge_Readiness_Funding_Authorization_DRAFT_2026-08-02.md before bridge funds move.",
+      "Count only signed pledge, received funds, approved bridge authorization, lender/lease preapproval, or written term sheet; apply 61_Minimum_Funding_Stack_And_Cash_Trigger_Memo_2026-08-02.md before calling a path funded.",
   },
   {
     label: "Launch Permission",
@@ -204,8 +204,9 @@ const closeScorecard = [
   ["1", "WYDOT authority", "Source refreshed", "MC-100, Form E, USDOT, markings, and pre-authority limits still need WYDOT response"],
   ["2", "Insurance bindability", "Source refreshed", "Wyoming NEMT/livery eligibility, limits, driver rules, and Form E support still need broker response"],
   ["3", "Frontier rental bridge", "Highest vehicle priority", "Cheyenne August 10-15 availability, total due, business-use rules, and insurance still need vendor response"],
-  ["4", "MobilityWorks KR692569A", "Coming Soon lead", "Release timing, quote, title, inspection, warranty, and commercial-use permission still need vendor response"],
-  ["5", "WyoMicro / sponsor funding", "Source refreshed", "Preliminary fit, sponsor readiness interest, pledge path, and written terms still need outside response"],
+  ["4", "Cash trigger memo", "Prepared", "Count $5k-$8k rental bridge only with written rental proof; use higher lease or purchase triggers only with written quote/preapproval"],
+  ["5", "MobilityWorks KR692569A", "Coming Soon lead", "Release timing, quote, title, inspection, warranty, and commercial-use permission still need vendor response"],
+  ["6", "WyoMicro / sponsor funding", "Source refreshed", "Preliminary fit, sponsor readiness interest, pledge path, and written terms still need outside response"],
 ];
 
 const workspaceReadiness = [

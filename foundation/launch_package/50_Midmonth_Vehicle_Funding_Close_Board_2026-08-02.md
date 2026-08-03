@@ -12,7 +12,7 @@ Status: Internal execution and proof board. This document does not authorize ext
 
 ## CEO Answer
 
-Funding within one week is realistic only as a proof-based close: signed sponsor/readiness commitment, received payment, approved bridge authorization, lender or lease preapproval, or written term sheet.
+Funding within one week is realistic only as a proof-based close: signed sponsor/readiness commitment, received payment, approved bridge authorization, lender or lease preapproval, or written term sheet. Use `61_Minimum_Funding_Stack_And_Cash_Trigger_Memo_2026-08-02.md` to decide the minimum cash target for the chosen vehicle path.
 
 It is not realistic as grant cash. ICAM and WYDOT/FTA 5310 are scale-up and sustainability lanes, not an August 9 cash lane.
 
@@ -48,6 +48,7 @@ The goal is not proven yet. Current evidence supports urgent contact; it does no
 
 | Priority | Funding Proof | Amount Target | Count It By August 9 Only If |
 |---:|---|---:|---|
+| 0 | Path-specific cash trigger | Rental bridge $5,000-$8,000; lease start $8,000-$15,000; financed purchase bridge $10,000-$20,000; cash purchase close $35,000-$45,000 | Written vehicle/rental/partner proof identifies the matching path, total due, permitted use, timing, insurance requirement, and approval sequence |
 | 1 | Sponsor/readiness commitment | $10,000-$25,000 | Signed pledge or payment record states amount, allowed use, payment timing, no active-service claim, and recognition limits |
 | 2 | Anchor readiness fee | $5,000-$15,000 | Written MOU term sheet, purchase order path, or signed readiness agreement exists |
 | 3 | Lease or lender preapproval | $20,000-$80,000 purchasing power | Written preapproval or term sheet identifies borrower, amount, down payment, vehicle class, timing, conditions, and whether a guaranty is required |

@@ -10,12 +10,12 @@ Status: Internal replacement-draft manifest. This document does not authorize cr
 
 ## Why This Exists
 
-The existing Chamber and Economic Development Gmail sponsor drafts have stale attachments. The current local vehicle close packet includes the proof gate, controlled-contact authorization, and quote intake scorecard.
+The existing Chamber and Economic Development Gmail sponsor drafts have stale attachments. The current local vehicle close packet includes the proof gate, minimum funding cash triggers, controlled-contact authorization, and quote intake scorecard.
 
 Current attachment for replacement drafts:
 
 - File: `C:\Users\alawn\OneDrive\Documents\VCC\output\docx\VCC_Vehicle_Funding_Close_Packet_DRAFT.docx`
-- Expected size at audit: `45,246` bytes
+- Expected size at audit: `47,521` bytes
 - Recheck size before replacement because the packet may be regenerated again.
 
 ## Replacement Draft 1

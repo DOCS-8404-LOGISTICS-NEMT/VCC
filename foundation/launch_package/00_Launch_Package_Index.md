@@ -79,6 +79,7 @@ These files are not executed records. They should not be represented as final co
 | `58_Bridge_Readiness_Funding_Authorization_DRAFT_2026-08-02.md` | Draft bridge/readiness funding authorization template for preserving a verified August 15 vehicle-control path without approving obligations. |
 | `59_Exact_Obligation_Approval_Memo_DRAFT_2026-08-02.md` | Draft approval memo for one exact deposit, rental, lease, purchase, insurance bind, filing, credit pull, invoice, funds acceptance, or partner-vehicle obligation after proof exists. |
 | `60_August_2_Vehicle_Lead_Triage_Update_2026-08-02.md` | Current public vehicle/rental lead triage that moves rental bridge ahead of Coming Soon purchase leads for August 15 vehicle control. |
+| `61_Minimum_Funding_Stack_And_Cash_Trigger_Memo_2026-08-02.md` | Path-specific cash trigger memo for deciding whether one-week funding and August 15 vehicle control are realistic enough to count. |
 
 ## Generated Packet Outputs
 
@@ -112,13 +113,14 @@ Active launch materials must use accessible passenger vehicle, ADA/specialty mob
 16. Run the seven-day Wheatland funding and pilot vehicle sprint.
 17. Review the public-source refresh in `56_August_2_Public_Source_Refresh_2026-08-02.md`.
 18. Review the vehicle lead triage in `60_August_2_Vehicle_Lead_Triage_Update_2026-08-02.md`.
-19. Choose Option A, B, or C in `55_CEO_Next_Action_Decision_Record_2026-08-02.md` before any outside contact or draft replacement.
-20. If Option A is approved, use `57_Option_A_Same_Day_Proof_Collection_Runbook_2026-08-02.md` for the same-day proof collection order.
-21. If a rental, vehicle, insurance, sponsor, lender, or partner-vehicle proof item appears, use `58_Bridge_Readiness_Funding_Authorization_DRAFT_2026-08-02.md` before any bridge/readiness funds are committed.
-22. Use `59_Exact_Obligation_Approval_Memo_DRAFT_2026-08-02.md` before approving any specific deposit, rental, lease, purchase, insurance bind, filing, credit pull, invoice, funds acceptance, or partner-vehicle obligation.
-23. Verify recipient emails and use the Gmail packet queue to prepare approved drafts.
-24. Send partner, vehicle, and funding outreach only after final approval.
-25. Convert approved summary/capability statement into PDF.
+19. Review the minimum funding stack and cash trigger memo in `61_Minimum_Funding_Stack_And_Cash_Trigger_Memo_2026-08-02.md`.
+20. Choose Option A, B, or C in `55_CEO_Next_Action_Decision_Record_2026-08-02.md` before any outside contact or draft replacement.
+21. If Option A is approved, use `57_Option_A_Same_Day_Proof_Collection_Runbook_2026-08-02.md` for the same-day proof collection order.
+22. If a rental, vehicle, insurance, sponsor, lender, or partner-vehicle proof item appears, use `58_Bridge_Readiness_Funding_Authorization_DRAFT_2026-08-02.md` before any bridge/readiness funds are committed.
+23. Use `59_Exact_Obligation_Approval_Memo_DRAFT_2026-08-02.md` before approving any specific deposit, rental, lease, purchase, insurance bind, filing, credit pull, invoice, funds acceptance, or partner-vehicle obligation.
+24. Verify recipient emails and use the Gmail packet queue to prepare approved drafts.
+25. Send partner, vehicle, and funding outreach only after final approval.
+26. Convert approved summary/capability statement into PDF.
 
 ## Approval Required Before Execution
 

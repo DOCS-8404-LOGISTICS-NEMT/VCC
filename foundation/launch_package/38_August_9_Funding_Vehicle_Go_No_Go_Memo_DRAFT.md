@@ -22,7 +22,7 @@ The target remains realistic only under a narrow execution path:
 
 Grant cash by August 9 remains unrealistic. Grants should support scale-up, match, sustainability, and partner credibility, not the first vehicle possession deadline.
 
-Current refinement: the fastest fundable path is now commercial lease or rental bridge first, low-cost used purchase second, and higher-cost purchase only if financing and sponsor support move quickly. Public commercial lease benchmarks are more realistic for mid-month possession than raising full purchase cash in one week.
+Current refinement: the fastest fundable path is now rental bridge first, commercial lease second, low-cost used purchase third, and higher-cost purchase only if financing and sponsor support move quickly. Use `61_Minimum_Funding_Stack_And_Cash_Trigger_Memo_2026-08-02.md` to decide whether a funding path is specific enough to count.
 
 ## Required Evidence Before Go
 
@@ -49,9 +49,9 @@ The recommended August 3 sequence is WYDOT first, insurance second, rental/vendo
 
 | Stack | Target Amount | Use | Go Condition |
 |---|---:|---|---|
-| Minimum possession bridge | $12,000-$20,000 | Rental/lease start, insurance down payment, inspection/safety kit, registration/use paperwork, basic operating reserve | Rental or low-cost purchase path is confirmed and sponsor/readiness or bridge support is documented |
-| Commercial lease path | $999-$1,399 monthly benchmark plus taxes, title, license, freight, insurance deposit, and delivery fees | Lease start, insurance, registration, delivery, driver/readiness costs, operating reserve | Written lease/preapproval response exists without unsupported claims or unapproved credit/application steps |
-| Low-cost used purchase path | $20,000-$35,000 plus financing or seller/dealer terms | Deposit/down payment, insurance, closing costs, initial repairs/safety items, operating reserve | Written quote under roughly $35,000-$45,000 and insurance bindability confirmed |
+| Minimum rental bridge | $5,000-$8,000 | Accessible rental total due, possible insurance down payment, pickup/delivery, fuel/mileage, safety kit, driver/admin setup, and immediate reserve | Written rental availability, total due, permitted use, insurance requirements, and approval path are confirmed |
+| Commercial lease path | $8,000-$15,000 available or authorized, plus written monthly terms | Lease start, taxes/title/license/freight, insurance, registration, delivery, driver/readiness costs, operating reserve | Written lease/preapproval response exists without unsupported claims or unapproved credit/application steps |
+| Low-cost used purchase path | $10,000-$20,000 financed bridge or $35,000-$45,000 cash close | Deposit/down payment, insurance, closing costs, initial repairs/safety items, operating reserve | Written quote under roughly $35,000-$45,000 and insurance bindability confirmed |
 | Mid-cost purchase/lease path | $35,000-$60,000 plus financing approval | Down payment, insurance, registration, accessibility inspection, driver/readiness costs | Financing or lease approval is documented by August 9 |
 | Sponsor/readiness revenue path | $10,000-$25,000 | Ride blocks, vehicle readiness, launch reserve, partner reporting setup | Written sponsor/readiness terms approved and non-misleading claims cleared |
 
@@ -59,6 +59,7 @@ Funding close controls:
 
 - Use `39_Wheatland_Vehicle_Readiness_Sponsor_Commitment_DRAFT.md` for any sponsor/readiness commitment conversation that reaches terms.
 - Track each serious funding source in `40_August_9_Funding_Close_Register_2026-08-02.csv`.
+- Apply `61_Minimum_Funding_Stack_And_Cash_Trigger_Memo_2026-08-02.md` before counting a path toward the August 9 funding target.
 - Do not count a conversation as funding unless there is a signed commitment, payment evidence, approved bridge authorization, lender preapproval, or written term sheet.
 - Do not accept restricted funds unless the allowed use is compatible with vehicle, insurance, authority, grant, lender, sponsor, and accounting controls.
 

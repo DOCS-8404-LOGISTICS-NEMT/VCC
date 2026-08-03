@@ -387,6 +387,25 @@ def build_vehicle_funding_close_packet():
         fills={1: RISK_FILL, 2: RISK_FILL},
     )
 
+    add_h1(doc, "Minimum Funding Cash Triggers")
+    add_para(
+        doc,
+        "Use 61_Minimum_Funding_Stack_And_Cash_Trigger_Memo_2026-08-02.md before calling the August 9 funding sprint closed. Public listings and rate pages support triage only; written proof and approval are still required.",
+    )
+    add_table(
+        doc,
+        [
+            ["Vehicle path", "Count by August 9 only if", "Internal cash trigger"],
+            ["Rental bridge", "Written availability, total due, business/demo-use rules, insurance requirements, mileage, pickup/delivery, cancellation terms, and approval path.", "$5,000-$8,000 available or authorized"],
+            ["Lease start", "Written lease/preapproval response with vehicle class or VIN, total due at delivery, term, mileage, guaranty, fees, and delivery timing.", "$8,000-$15,000 available or authorized"],
+            ["Financed purchase", "Written quote, down-payment path, title/inspection/warranty status, insurance bindability, commercial-use permission, and approval sequence.", "$10,000-$20,000 bridge"],
+            ["Cash purchase", "Written quote with all closing costs, insurance, registration, delivery, safety items, and reserve confirmed.", "$35,000-$45,000 close"],
+            ["Partner vehicle", "Written partner capacity, authority/insurance proof, vehicle/driver controls, payment/data/liability terms, and MOU path.", "$2,500-$7,500 setup"],
+        ],
+        [1.25, 3.55, 1.7],
+        fills={1: RISK_FILL, 2: RISK_FILL, 3: RISK_FILL, 4: RISK_FILL, 5: RISK_FILL},
+    )
+
     add_h1(doc, "Controlled Contact Authorization")
     add_para(
         doc,
@@ -427,12 +446,13 @@ def build_vehicle_funding_close_packet():
         condensed_funding.append([row[1], row[3], row[4], row[6], row[9]])
     add_table(doc, condensed_funding, [1.25, 1.0, 1.95, 1.0, 1.3])
 
+    doc.add_page_break()
     add_h1(doc, "Quote Intake Scorecard")
     score_rows = read_csv_rows("52_Vehicle_Funding_Quote_Intake_Scorecard_2026-08-02.csv")
-    condensed_score = [["Priority", "Target", "Status", "Proof needed", "Next action"]]
+    condensed_score = [["Priority", "Target", "Status", "Proof needed"]]
     for row in score_rows[1:]:
-        condensed_score.append([row[0], row[2], row[6], row[4], row[13]])
-    add_table(doc, condensed_score, [0.55, 1.45, 1.0, 2.1, 1.4])
+        condensed_score.append([row[0], row[2], row[6], row[4]])
+    add_table(doc, condensed_score, [0.55, 1.55, 1.1, 3.3])
 
     doc.add_page_break()
     add_h1(doc, "Public Vehicle Shortlist")
