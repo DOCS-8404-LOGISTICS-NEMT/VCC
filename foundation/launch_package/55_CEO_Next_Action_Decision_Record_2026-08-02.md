@@ -22,7 +22,7 @@ The current file is prepared but not proven. The next useful action is controlle
 
 | Option | Decision | Covered Work | Best Use | Still Not Authorized |
 |---|---|---|---|---|
-| A | Approve controlled contact and draft maintenance | WYDOT authority questions; insurance eligibility questions; vehicle rental, lease, and purchase availability questions; WyoMicro preliminary financing fit questions; United Access availability questions; creation of replacement Chamber and Platte County Economic Development drafts using `54_Gmail_Replacement_Draft_Manifest_2026-08-02.md` | Recommended if VCC wants August 9 funding evidence and August 15 vehicle-control evidence | Applications, credit pulls, deposits, reservations, leases, rentals, purchases, insurance binding, filings, stale draft sends, replacement sponsor draft sends, invoices, restricted funds, sponsor recognition, service claims |
+| A | Approve controlled contact and draft maintenance | WYDOT authority questions; insurance eligibility questions; vehicle rental, lease, and purchase availability questions; WyoMicro preliminary financing fit questions; United Access availability questions; creation of replacement Chamber and Platte County Economic Development drafts using `54_Gmail_Replacement_Draft_Manifest_2026-08-02.md`; use `62_August_3_Exact_Controlled_Contact_Approval_Packet_2026-08-03.md` for the no-obligation proof-collection scope | Recommended if VCC wants August 9 funding evidence and August 15 vehicle-control evidence | Applications, credit pulls, deposits, reservations, leases, rentals, purchases, insurance binding, filings, stale draft sends, replacement sponsor draft sends, invoices, restricted funds, sponsor recognition, service claims |
 | B | Approve compliance and vehicle contact only | WYDOT, insurance, vehicle rental, vehicle quote, and vehicle lease questions | Use if VCC wants authority, insurance, and vehicle facts before any funding or sponsor outreach | Financing outreach, sponsor outreach, draft replacement, applications, deposits, reservations, agreements, binds, filings |
 | C | Hold all external contact | No outside calls, emails, forms, quote requests, draft replacement, or sends | Use if VCC wants to wait before creating any external record | The August 9 and August 15 targets become less realistic because proof cannot be collected |
 
@@ -68,7 +68,7 @@ I approve Option C in 55_CEO_Next_Action_Decision_Record_2026-08-02.md. Hold all
 
 ## Same-Day Execution Order If Option A Is Approved
 
-Use `57_Option_A_Same_Day_Proof_Collection_Runbook_2026-08-02.md` as the active same-day operating checklist.
+Use `62_August_3_Exact_Controlled_Contact_Approval_Packet_2026-08-03.md` for the exact no-obligation approval text, then use `57_Option_A_Same_Day_Proof_Collection_Runbook_2026-08-02.md` as the active same-day operating checklist.
 
 1. Confirm WYDOT authority path before implying paid-service readiness.
 2. Confirm insurance bindability before treating any vehicle as launch-capable.

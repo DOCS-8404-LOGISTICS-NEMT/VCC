@@ -15,7 +15,7 @@ The vehicle funding close packet was regenerated after the original Gmail sponso
 Current local vehicle close packet:
 
 - `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx`
-- Local size: `47,521` bytes
+- Local size: `47,577` bytes
 - Current role: generated vehicle funding close packet for August 9 funding, August 15 vehicle-possession proof, minimum cash triggers, controlled-contact authorization, and quote intake scoring.
 
 Current local partner packet:

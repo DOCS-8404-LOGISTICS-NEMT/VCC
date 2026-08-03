@@ -409,7 +409,7 @@ def build_vehicle_funding_close_packet():
     add_h1(doc, "Controlled Contact Authorization")
     add_para(
         doc,
-        "Use 51_Controlled_Contact_Authorization_Record_2026-08-02.md as the source-controlled approval record before any external call, email, form submission, quote request, insurance discussion, financing inquiry, or sponsor approach.",
+        "Use 62_August_3_Exact_Controlled_Contact_Approval_Packet_2026-08-03.md for exact no-obligation proof-collection approval text, and use 51_Controlled_Contact_Authorization_Record_2026-08-02.md as the source-controlled approval record before any external call, email, form submission, quote request, insurance discussion, financing inquiry, or sponsor approach.",
     )
     add_table(
         doc,

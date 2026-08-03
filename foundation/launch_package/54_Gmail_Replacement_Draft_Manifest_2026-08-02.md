@@ -15,7 +15,7 @@ The existing Chamber and Economic Development Gmail sponsor drafts have stale at
 Current attachment for replacement drafts:
 
 - File: `C:\Users\alawn\OneDrive\Documents\VCC\output\docx\VCC_Vehicle_Funding_Close_Packet_DRAFT.docx`
-- Expected size at audit: `47,521` bytes
+- Expected size at audit: `47,577` bytes
 - Recheck size before replacement because the packet may be regenerated again.
 
 ## Replacement Draft 1

@@ -3,3 +3,5 @@ dist/
 *.log
 .codex/
 tmp/
+__pycache__/
+*.pyc

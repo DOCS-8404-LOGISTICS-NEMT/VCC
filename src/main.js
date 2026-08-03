@@ -178,7 +178,7 @@ const proofGateCards = [
     label: "Controlled Contact",
     status: "Needs exact CEO approval",
     detail:
-      "Review 56_August_2_Public_Source_Refresh_2026-08-02.md, approve an option in 55_CEO_Next_Action_Decision_Record_2026-08-02.md, then use 57_Option_A_Same_Day_Proof_Collection_Runbook_2026-08-02.md if Option A is approved.",
+      "Use 62_August_3_Exact_Controlled_Contact_Approval_Packet_2026-08-03.md for no-obligation proof approval, then use 57_Option_A_Same_Day_Proof_Collection_Runbook_2026-08-02.md if Option A is approved.",
   },
   {
     label: "Vehicle Proof",
@@ -942,7 +942,7 @@ app.innerHTML = `
       <h3 class="block-title">Immediate actions ranked by impact</h3>
       <div class="action-list">${renderPriorityActions()}</div>
       <div class="notice strong">
-        Current close status: the August 9 funding and August 15 vehicle goals remain possible but unproven. The next evidence-producing step is controlled contact for quote, fit, timing, and planning information only.
+        Current close status: the August 9 funding and August 15 vehicle goals remain possible but unproven. The next evidence-producing step is approval of the August 3 no-obligation contact packet for quote, fit, timing, and planning proof only.
       </div>
       <div class="grid four proof-grid">
         ${proofGateCards
