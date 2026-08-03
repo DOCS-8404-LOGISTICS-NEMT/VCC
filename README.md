@@ -64,6 +64,7 @@ The application provides a complete startup operations workspace for executive o
 - `foundation/launch_package/62_August_3_Exact_Controlled_Contact_Approval_Packet_2026-08-03.md` - exact no-obligation approval packet for authority, insurance, rental, lease, vehicle, and preliminary funding proof contacts
 - `foundation/launch_package/63_Approved_Contact_Response_Intake_Worksheet_2026-08-03.csv` - first-capture worksheet for approved contact responses, stop rules, countability, and next approvals
 - `foundation/launch_package/64_August_3_Public_Source_Vehicle_Funding_Reality_Update_2026-08-03.md` - current public-source reality update for one-week funding and August 15 vehicle-control realism
+- `foundation/launch_package/65_August_Proof_Clock_Tracker_2026-08-03.csv` - dated proof-clock tracker for August 5 vehicle proof, August 7 insurance/authority proof, August 9/10 funding proof, August 12 obligation approval, and August 15 vehicle-control gates
 - `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx` - generated review packet for August 9 funding, vehicle, authority, insurance, and approval controls
 - `VCC Funding/` - funding control lane for grants, sponsors, anchor partners, lender readiness, evidence, and approval gates
 - `.github/workflows/proof-html.yml` - Vite production build validation
@@ -114,6 +115,7 @@ The August 3, 2026 workspace includes six command centers:
 - Use the August 3 exact controlled contact approval packet before making any no-obligation authority, insurance, rental, lease, vehicle, or preliminary funding contact.
 - Use the approved contact response intake worksheet as the first capture point after any approved call, email, or form response, then reconcile into the evidence log and quote scorecard before counting proof.
 - Use the August 3 public-source reality update as the current answer: rental bridge remains the fastest vehicle lane, grants are not one-week cash, and public listings still do not count without written or dated response proof.
+- Use the August proof-clock tracker to make the August 5, August 7, August 9/10, August 12, and August 15 continue/pivot/hold decisions from evidence instead of intent.
 - Prioritize rental bridge first after authority and insurance screens because current purchase leads still need vendor-confirmed release timing.
 - Complete corporate, insurance, operating authority, pilot vehicle, and driver readiness gates before launch.
 - Preserve legal controls so VCC does not create obligations before executive authorization.

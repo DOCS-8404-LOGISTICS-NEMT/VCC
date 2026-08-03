@@ -54,6 +54,8 @@ The public source refresh strengthens the urgency of the controlled-contact plan
 
 ## Hard Decision Rules
 
+Use `65_August_Proof_Clock_Tracker_2026-08-03.csv` as the dated tracker for these rules.
+
 1. If no written rental/vehicle/partner-capacity proof exists by August 5, 2026, stop treating August 15 possession as likely and pivot to partner vehicle or demo-only planning.
 2. If no insurance bindability path exists by August 7, 2026, do not approve a rental, lease, or purchase for paid passenger readiness.
 3. If no credible funding proof exists by August 9, 2026, treat the one-week funding goal as not met.

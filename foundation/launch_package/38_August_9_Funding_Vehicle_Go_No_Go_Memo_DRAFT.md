@@ -24,6 +24,8 @@ Grant cash by August 9 remains unrealistic. Grants should support scale-up, matc
 
 Current refinement: the fastest fundable path is now rental bridge first, commercial lease second, low-cost used purchase third, and higher-cost purchase only if financing and sponsor support move quickly. Use `61_Minimum_Funding_Stack_And_Cash_Trigger_Memo_2026-08-02.md` to decide whether a funding path is specific enough to count.
 
+Current proof clock: Use `65_August_Proof_Clock_Tracker_2026-08-03.csv` to track the August 5 vehicle proof gate, August 7 insurance/authority gates, August 9/10 funding gates, August 12 exact obligation gate, and August 15 vehicle-control gate.
+
 ## Required Evidence Before Go
 
 | Evidence | Minimum Standard | Current Status |
@@ -120,6 +122,9 @@ These are the next approval gates, not automatic authorizations:
 - `58_Bridge_Readiness_Funding_Authorization_DRAFT_2026-08-02.md`
 - `59_Exact_Obligation_Approval_Memo_DRAFT_2026-08-02.md`
 - `60_August_2_Vehicle_Lead_Triage_Update_2026-08-02.md`
+- `63_Approved_Contact_Response_Intake_Worksheet_2026-08-03.csv`
+- `64_August_3_Public_Source_Vehicle_Funding_Reality_Update_2026-08-03.md`
+- `65_August_Proof_Clock_Tracker_2026-08-03.csv`
 - Written vehicle/rental quotes when received.
 - Insurance quote notes when received.
 - WYDOT call notes when received.

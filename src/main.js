@@ -154,7 +154,7 @@ const dashboardCards = [
   {
     label: "Vehicle Target",
     value: "Aug 15",
-    detail: "Pilot vehicle possession target; paid service still waits for authority, insurance, driver, and policy gates.",
+    detail: "Pilot vehicle control target; August 5 vehicle proof and August 7 insurance/authority proof decide whether this stays likely.",
   },
   {
     label: "Immediate Revenue",
@@ -178,7 +178,7 @@ const proofGateCards = [
     label: "Controlled Contact",
     status: "Needs exact CEO approval",
     detail:
-      "Use 62_August_3_Exact_Controlled_Contact_Approval_Packet_2026-08-03.md for no-obligation proof approval, then log first responses in 63_Approved_Contact_Response_Intake_Worksheet_2026-08-03.csv before updating the evidence log and scorecard.",
+      "Use 62_August_3_Exact_Controlled_Contact_Approval_Packet_2026-08-03.md for no-obligation proof approval, then use 65_August_Proof_Clock_Tracker_2026-08-03.csv and log first responses in 63 before scoring proof.",
   },
   {
     label: "Vehicle Proof",
@@ -207,8 +207,9 @@ const closeScorecard = [
   ["4", "Cash trigger memo", "Prepared", "Count $5k-$8k rental bridge only with written rental proof; use higher lease or purchase triggers only with written quote/preapproval"],
   ["5", "Response intake worksheet", "Prepared", "Use the August 3 worksheet as first capture for approval source, stop rule, countability, and next approval before scoring any response"],
   ["6", "August 3 source refresh", "Prepared", "Rental bridge remains fastest; grants are not one-week cash; public listings still do not count without written or dated response proof"],
-  ["7", "MobilityWorks KR692569A", "Coming Soon lead", "Release timing, quote, title, inspection, warranty, and commercial-use permission still need vendor response"],
-  ["8", "WyoMicro / sponsor funding", "Source refreshed", "Preliminary fit, sponsor readiness interest, pledge path, and written terms still need outside response"],
+  ["7", "August proof clock", "Prepared", "August 5 vehicle proof, August 7 insurance/authority proof, August 9/10 cash proof, August 12 obligation approval, and August 15 vehicle-control gates are tracked in 65"],
+  ["8", "MobilityWorks KR692569A", "Coming Soon lead", "Release timing, quote, title, inspection, warranty, and commercial-use permission still need vendor response"],
+  ["9", "WyoMicro / sponsor funding", "Source refreshed", "Preliminary fit, sponsor readiness interest, pledge path, and written terms still need outside response"],
 ];
 
 const workspaceReadiness = [
@@ -944,7 +945,7 @@ app.innerHTML = `
       <h3 class="block-title">Immediate actions ranked by impact</h3>
       <div class="action-list">${renderPriorityActions()}</div>
       <div class="notice strong">
-        Current close status: the August 9 funding and August 15 vehicle goals remain possible but unproven. The August 3 public-source update keeps rental bridge as the fastest lane, but every response still must be captured first in the August 3 intake worksheet before it is counted.
+        Current close status: the August 9 funding and August 15 vehicle goals remain possible but unproven. The proof clock now forces dated continue/pivot decisions on August 5, August 7, August 9/10, August 12, and August 15.
       </div>
       <div class="grid four proof-grid">
         ${proofGateCards
