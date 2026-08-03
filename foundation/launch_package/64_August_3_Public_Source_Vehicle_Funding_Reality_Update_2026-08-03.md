@@ -62,6 +62,8 @@ Use `65_August_Proof_Clock_Tracker_2026-08-03.csv` as the dated tracker for thes
 4. If a vendor, lender, insurer, agency, sponsor, or partner requires a deposit, credit pull, application, bind, filing, reservation, invoice, restricted-fund term, public recognition, or service claim, stop and use `59_Exact_Obligation_Approval_Memo_DRAFT_2026-08-02.md`.
 5. Count public sources only as triage evidence. Count launch proof only after it is captured in `63_Approved_Contact_Response_Intake_Worksheet_2026-08-03.csv`, reconciled into `49_External_Response_Evidence_Log_2026-08-02.csv`, and scored in `52_Vehicle_Funding_Quote_Intake_Scorecard_2026-08-02.csv`.
 
+If rental, lease, purchase, insurance, authority, or funding proof slips, use `66_Partner_Vehicle_Pivot_Packet_2026-08-03.md` and `67_Partner_Vehicle_Capacity_Target_Register_2026-08-03.csv` to screen partner-vehicle and transportation-resource options without creating obligations.
+
 ## Next Approval To Move The Goal
 
 Use the approval text in `62_August_3_Exact_Controlled_Contact_Approval_Packet_2026-08-03.md` if VCC wants to convert this public-source evidence into dated responses without creating obligations.

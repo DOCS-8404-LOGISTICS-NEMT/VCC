@@ -125,6 +125,8 @@ These are the next approval gates, not automatic authorizations:
 - `63_Approved_Contact_Response_Intake_Worksheet_2026-08-03.csv`
 - `64_August_3_Public_Source_Vehicle_Funding_Reality_Update_2026-08-03.md`
 - `65_August_Proof_Clock_Tracker_2026-08-03.csv`
+- `66_Partner_Vehicle_Pivot_Packet_2026-08-03.md`
+- `67_Partner_Vehicle_Capacity_Target_Register_2026-08-03.csv`
 - Written vehicle/rental quotes when received.
 - Insurance quote notes when received.
 - WYDOT call notes when received.

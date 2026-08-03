@@ -41,6 +41,17 @@ Current control result:
 - Generated tracked PDFs under `output/pdf/` returned no RV, recreational-vehicle, motorhome, camper, retired-vehicle, or private-party RV references.
 - The active launch vocabulary remains accessible passenger vehicle, ADA/specialty mobility vehicle, approved partner vehicle, and rental bridge only.
 
+## August 3, 2026 Final Archive Lock
+
+CEO direction: archive any and all RV mentions. No RV-related reference may be restored, linked, summarized, quoted, or used in active launch, funding, vehicle, partner, website, Gmail, Google Workspace, public packet, authority, insurance, grant, or operating materials.
+
+Control rule:
+
+- RV wording may remain only inside `archive/retired-projects/` for historical recordkeeping.
+- Active source files and active filenames must remain free of RV, recreational-vehicle, motorhome, camper, private-party RV, retired-vehicle, retired-project, and archive-link references.
+- If new RV-related material appears outside `archive/retired-projects/`, it must be moved into the retired-project archive or rewritten into approved active launch vocabulary before any release, packet, contact, or publication.
+- Approved active launch vocabulary remains accessible passenger vehicle, ADA/specialty mobility vehicle, approved partner vehicle, rental bridge, and partner vehicle.
+
 ## Approval Gate
 
 Archived retired-vehicle materials do not authorize purchase, deposit, financing application, title transfer, insurance bind, lease, pledge, grant representation, passenger-service launch, public claim, or outreach use.

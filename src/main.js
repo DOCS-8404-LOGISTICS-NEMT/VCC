@@ -184,7 +184,7 @@ const proofGateCards = [
     label: "Vehicle Proof",
     status: "Missing",
     detail:
-      "Count only written rental, lease, purchase, or partner-vehicle confirmation with timing, total due, permitted use, and vehicle class or VIN.",
+      "Count only written rental, lease, purchase, or partner-vehicle confirmation with timing, total due or role, permitted use, insurance, authority, and vehicle class or VIN.",
   },
   {
     label: "Funding Proof",
@@ -208,8 +208,9 @@ const closeScorecard = [
   ["5", "Response intake worksheet", "Prepared", "Use the August 3 worksheet as first capture for approval source, stop rule, countability, and next approval before scoring any response"],
   ["6", "August 3 source refresh", "Prepared", "Rental bridge remains fastest; grants are not one-week cash; public listings still do not count without written or dated response proof"],
   ["7", "August proof clock", "Prepared", "August 5 vehicle proof, August 7 insurance/authority proof, August 9/10 cash proof, August 12 obligation approval, and August 15 vehicle-control gates are tracked in 65"],
-  ["8", "MobilityWorks KR692569A", "Coming Soon lead", "Release timing, quote, title, inspection, warranty, and commercial-use permission still need vendor response"],
-  ["9", "WyoMicro / sponsor funding", "Source refreshed", "Preliminary fit, sponsor readiness interest, pledge path, and written terms still need outside response"],
+  ["8", "Partner vehicle pivot", "Prepared", "Use 66 and 67 to screen Platte ParaTransit, Services for Seniors, and other resource partners if rental, lease, purchase, insurance, authority, or cash proof slips"],
+  ["9", "MobilityWorks KR692569A", "Coming Soon lead", "Release timing, quote, title, inspection, warranty, and commercial-use permission still need vendor response"],
+  ["10", "WyoMicro / sponsor funding", "Source refreshed", "Preliminary fit, sponsor readiness interest, pledge path, and written terms still need outside response"],
 ];
 
 const workspaceReadiness = [
@@ -424,7 +425,7 @@ const vehicleStatus = [
   {
     item: "Backup transportation capacity",
     status: "Partner",
-    gate: "MOUs with vetted providers for surge, maintenance downtime, and emergency continuity.",
+    gate: "Partner-vehicle pivot packet prepared; Platte ParaTransit and Services for Seniors must still provide written proof before any capacity claim.",
   },
   {
     item: "Equipment kit",
@@ -945,7 +946,7 @@ app.innerHTML = `
       <h3 class="block-title">Immediate actions ranked by impact</h3>
       <div class="action-list">${renderPriorityActions()}</div>
       <div class="notice strong">
-        Current close status: the August 9 funding and August 15 vehicle goals remain possible but unproven. The proof clock now forces dated continue/pivot decisions on August 5, August 7, August 9/10, August 12, and August 15.
+        Current close status: the August 9 funding and August 15 vehicle goals remain possible but unproven. The proof clock now forces dated continue/pivot decisions, and the partner-vehicle pivot packet is prepared if rental, lease, purchase, insurance, authority, or cash proof slips.
       </div>
       <div class="grid four proof-grid">
         ${proofGateCards

@@ -8,6 +8,8 @@ Pilot: Wheatland / Platte County, Wyoming
 
 Status: Internal fallback option map. This document does not authorize contact, reservation, payment, application, lease, rental, purchase, partner agreement, public-use representation, or paid passenger service.
 
+Current partner-vehicle pivot: Use `66_Partner_Vehicle_Pivot_Packet_2026-08-03.md` and `67_Partner_Vehicle_Capacity_Target_Register_2026-08-03.csv` for the local partner-capacity fallback path if rental, lease, purchase, insurance, authority, or funding proof slips.
+
 ## Why This Exists
 
 The August 15 vehicle target is not credible if it depends on one vendor or one vehicle. The sprint now needs fallback options that can produce the same proof standard:
