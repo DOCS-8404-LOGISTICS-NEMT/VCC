@@ -32,6 +32,7 @@ Open these records before the first call:
 
 - `36_Vehicle_Funding_Sprint_Call_Sheet_2026-08-02.md`
 - `47_Web_Form_And_Call_Payloads_2026-08-02.md`
+- `63_Approved_Contact_Response_Intake_Worksheet_2026-08-03.csv`
 - `49_External_Response_Evidence_Log_2026-08-02.csv`
 - `52_Vehicle_Funding_Quote_Intake_Scorecard_2026-08-02.csv`
 - `55_CEO_Next_Action_Decision_Record_2026-08-02.md`
@@ -135,11 +136,12 @@ Use these short codes in call notes and the response log:
 
 At the end of the same business day:
 
-1. Enter each result in `49_External_Response_Evidence_Log_2026-08-02.csv`.
-2. Score each result in `52_Vehicle_Funding_Quote_Intake_Scorecard_2026-08-02.csv`.
-3. Mark each lane as `C1`, `C2`, `B2`, `B1`, `A0`, `A1`, `X1`, or `X2`.
-4. Draft a short update to `38_August_9_Funding_Vehicle_Go_No_Go_Memo_DRAFT.md`.
-5. Do not proceed to any obligation until the exact next obligation is separately approved.
+1. Enter each result first in `63_Approved_Contact_Response_Intake_Worksheet_2026-08-03.csv`, including approval source, stop rule, countability, and next approval needed.
+2. Reconcile each result into `49_External_Response_Evidence_Log_2026-08-02.csv`.
+3. Score each result in `52_Vehicle_Funding_Quote_Intake_Scorecard_2026-08-02.csv`.
+4. Mark each lane as `C1`, `C2`, `B2`, `B1`, `A0`, `A1`, `X1`, or `X2`.
+5. Draft a short update to `38_August_9_Funding_Vehicle_Go_No_Go_Memo_DRAFT.md`.
+6. Do not proceed to any obligation until the exact next obligation is separately approved.
 
 ## Same-Day Recommendation Rule
 

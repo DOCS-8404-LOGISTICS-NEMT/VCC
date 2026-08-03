@@ -32,7 +32,7 @@ I approve the August 3 exact controlled contact packet in 62_August_3_Exact_Cont
 
 This approval authorizes calls, emails, and public contact forms listed in Table A for quote, fit, timing, authority, insurance, rental, lease, vehicle, and preliminary funding information only.
 
-This approval authorizes logging responses in 49_External_Response_Evidence_Log_2026-08-02.csv and 52_Vehicle_Funding_Quote_Intake_Scorecard_2026-08-02.csv.
+This approval authorizes first-capture logging in 63_Approved_Contact_Response_Intake_Worksheet_2026-08-03.csv, then reconciliation into 49_External_Response_Evidence_Log_2026-08-02.csv and 52_Vehicle_Funding_Quote_Intake_Scorecard_2026-08-02.csv.
 
 This approval does not authorize creating replacement Gmail drafts, sending Gmail drafts, submitting applications, authorizing credit pulls, paying fees or deposits, reserving vehicles, signing rental/lease/purchase agreements, binding insurance, filing operating authority paperwork, issuing invoices, accepting restricted funds, promising sponsor recognition, making public launch claims, or representing that passenger service is active.
 ```
@@ -80,6 +80,7 @@ For each contact, record:
 - Date and time.
 - Person or department reached.
 - Phone/email/form route used.
+- Matching intake ID from `63_Approved_Contact_Response_Intake_Worksheet_2026-08-03.csv`.
 - Exact question asked.
 - Exact answer or voicemail result.
 - Whether the answer is written, call note, quote, term sheet, or no response.

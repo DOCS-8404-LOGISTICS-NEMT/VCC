@@ -178,7 +178,7 @@ const proofGateCards = [
     label: "Controlled Contact",
     status: "Needs exact CEO approval",
     detail:
-      "Use 62_August_3_Exact_Controlled_Contact_Approval_Packet_2026-08-03.md for no-obligation proof approval, then use 57_Option_A_Same_Day_Proof_Collection_Runbook_2026-08-02.md if Option A is approved.",
+      "Use 62_August_3_Exact_Controlled_Contact_Approval_Packet_2026-08-03.md for no-obligation proof approval, then log first responses in 63_Approved_Contact_Response_Intake_Worksheet_2026-08-03.csv before updating the evidence log and scorecard.",
   },
   {
     label: "Vehicle Proof",
@@ -205,8 +205,9 @@ const closeScorecard = [
   ["2", "Insurance bindability", "Source refreshed", "Wyoming NEMT/livery eligibility, limits, driver rules, and Form E support still need broker response"],
   ["3", "Frontier rental bridge", "Highest vehicle priority", "Cheyenne August 10-15 availability, total due, business-use rules, and insurance still need vendor response"],
   ["4", "Cash trigger memo", "Prepared", "Count $5k-$8k rental bridge only with written rental proof; use higher lease or purchase triggers only with written quote/preapproval"],
-  ["5", "MobilityWorks KR692569A", "Coming Soon lead", "Release timing, quote, title, inspection, warranty, and commercial-use permission still need vendor response"],
-  ["6", "WyoMicro / sponsor funding", "Source refreshed", "Preliminary fit, sponsor readiness interest, pledge path, and written terms still need outside response"],
+  ["5", "Response intake worksheet", "Prepared", "Use the August 3 worksheet as first capture for approval source, stop rule, countability, and next approval before scoring any response"],
+  ["6", "MobilityWorks KR692569A", "Coming Soon lead", "Release timing, quote, title, inspection, warranty, and commercial-use permission still need vendor response"],
+  ["7", "WyoMicro / sponsor funding", "Source refreshed", "Preliminary fit, sponsor readiness interest, pledge path, and written terms still need outside response"],
 ];
 
 const workspaceReadiness = [
@@ -942,7 +943,7 @@ app.innerHTML = `
       <h3 class="block-title">Immediate actions ranked by impact</h3>
       <div class="action-list">${renderPriorityActions()}</div>
       <div class="notice strong">
-        Current close status: the August 9 funding and August 15 vehicle goals remain possible but unproven. The next evidence-producing step is approval of the August 3 no-obligation contact packet for quote, fit, timing, and planning proof only.
+        Current close status: the August 9 funding and August 15 vehicle goals remain possible but unproven. The next evidence-producing step is approval of the August 3 no-obligation contact packet, with every response captured first in the August 3 intake worksheet before it is counted.
       </div>
       <div class="grid four proof-grid">
         ${proofGateCards
