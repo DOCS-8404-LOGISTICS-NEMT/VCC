@@ -3,7 +3,7 @@ import { VCC_CONFIG, VCC_ANALYTICS_CONTEXT } from "./config.js";
 import "./styles.css";
 
 const INIT_FLAG = "__VCC_AMPLITUDE_INITIALIZED__";
-const reviewDate = "August 2, 2026";
+const reviewDate = "August 3, 2026";
 
 const app = document.querySelector("#app");
 
@@ -163,8 +163,8 @@ const dashboardCards = [
   },
   {
     label: "Grant Window",
-    value: "38 days",
-    detail: "ICAM window measured from August 2, 2026 to September 9, 2026.",
+    value: "37 days",
+    detail: "ICAM window measured from August 3, 2026 to September 9, 2026.",
   },
   {
     label: "Launch Gate",
@@ -190,7 +190,7 @@ const proofGateCards = [
     label: "Funding Proof",
     status: "Missing",
     detail:
-      "Count only signed pledge, received funds, approved bridge authorization, lender/lease preapproval, or written term sheet; apply 61_Minimum_Funding_Stack_And_Cash_Trigger_Memo_2026-08-02.md before calling a path funded.",
+      "Count only signed pledge, received funds, approved bridge authorization, lender/lease preapproval, or written term sheet; use 64_August_3_Public_Source_Vehicle_Funding_Reality_Update_2026-08-03.md and 61_Minimum_Funding_Stack_And_Cash_Trigger_Memo_2026-08-02.md before calling a path funded.",
   },
   {
     label: "Launch Permission",
@@ -206,8 +206,9 @@ const closeScorecard = [
   ["3", "Frontier rental bridge", "Highest vehicle priority", "Cheyenne August 10-15 availability, total due, business-use rules, and insurance still need vendor response"],
   ["4", "Cash trigger memo", "Prepared", "Count $5k-$8k rental bridge only with written rental proof; use higher lease or purchase triggers only with written quote/preapproval"],
   ["5", "Response intake worksheet", "Prepared", "Use the August 3 worksheet as first capture for approval source, stop rule, countability, and next approval before scoring any response"],
-  ["6", "MobilityWorks KR692569A", "Coming Soon lead", "Release timing, quote, title, inspection, warranty, and commercial-use permission still need vendor response"],
-  ["7", "WyoMicro / sponsor funding", "Source refreshed", "Preliminary fit, sponsor readiness interest, pledge path, and written terms still need outside response"],
+  ["6", "August 3 source refresh", "Prepared", "Rental bridge remains fastest; grants are not one-week cash; public listings still do not count without written or dated response proof"],
+  ["7", "MobilityWorks KR692569A", "Coming Soon lead", "Release timing, quote, title, inspection, warranty, and commercial-use permission still need vendor response"],
+  ["8", "WyoMicro / sponsor funding", "Source refreshed", "Preliminary fit, sponsor readiness interest, pledge path, and written terms still need outside response"],
 ];
 
 const workspaceReadiness = [
@@ -943,7 +944,7 @@ app.innerHTML = `
       <h3 class="block-title">Immediate actions ranked by impact</h3>
       <div class="action-list">${renderPriorityActions()}</div>
       <div class="notice strong">
-        Current close status: the August 9 funding and August 15 vehicle goals remain possible but unproven. The next evidence-producing step is approval of the August 3 no-obligation contact packet, with every response captured first in the August 3 intake worksheet before it is counted.
+        Current close status: the August 9 funding and August 15 vehicle goals remain possible but unproven. The August 3 public-source update keeps rental bridge as the fastest lane, but every response still must be captured first in the August 3 intake worksheet before it is counted.
       </div>
       <div class="grid four proof-grid">
         ${proofGateCards
@@ -1182,7 +1183,7 @@ app.innerHTML = `
     <section aria-labelledby="source-title">
       ${renderCommandIntro(
         "Source-backed operating references",
-        "Verified references used for the August 2, 2026 workspace",
+        "Verified references used for the August 3, 2026 workspace",
         "Final decisions still require current agency guidance, insurer review, and Wyoming counsel before VCC signs or files anything.",
       )}
       <div class="grid three">

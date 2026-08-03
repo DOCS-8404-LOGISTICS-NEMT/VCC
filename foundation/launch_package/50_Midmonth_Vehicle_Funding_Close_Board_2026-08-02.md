@@ -10,6 +10,8 @@ Pilot: Wheatland / Platte County, Wyoming
 
 Status: Internal execution and proof board. This document does not authorize external outreach, applications, credit pulls, deposits, reservations, leases, rentals, purchases, filings, insurance binding, invoices, restricted-fund acceptance, sponsor recognition, or paid passenger service.
 
+Current refresh: Use `64_August_3_Public_Source_Vehicle_Funding_Reality_Update_2026-08-03.md` as the latest public-source reality update before continuing, pivoting, or holding the sprint.
+
 ## CEO Answer
 
 Funding within one week is realistic only as a proof-based close: signed sponsor/readiness commitment, received payment, approved bridge authorization, lender or lease preapproval, or written term sheet. Use `61_Minimum_Funding_Stack_And_Cash_Trigger_Memo_2026-08-02.md` to decide the minimum cash target for the chosen vehicle path.
