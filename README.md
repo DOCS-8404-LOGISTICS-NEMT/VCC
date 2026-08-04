@@ -6,7 +6,7 @@
 
 This repository supports VILIGANS COMMAND CORPORATION (VCC) and DOCS NREMT & Logistics, a Wyoming-based non-emergency medical transportation (NEMT), logistics, and rural health access initiative.
 
-The application provides a working Vite dashboard for executive operations, grant strategy, compliance readiness, RV acquisition governance, revenue development, Amplitude analytics, Codex-assisted repository maintenance, and GitHub Actions validation.
+The application provides a working Vite dashboard for executive operations, grant strategy, compliance readiness, transportation launch governance, revenue development, Amplitude analytics, Codex-assisted repository maintenance, and GitHub Actions validation.
 
 ## Corporate identity
 
@@ -63,7 +63,6 @@ The current workspace includes:
 - Immediate action list ranked by estimated impact
 - Open and actionable funding pipeline for ICAM, ATTAIN, WYDOT transit funding, and local service contracts
 - Wyoming compliance requirements and business risk notes
-- Private-party RV purchase risk gate and asset acquisition plan
 - Revenue opportunity tracker for county, clinic, employer, and sponsor channels
 - Partnership pipeline for WYDOT, counties, clinics, senior/disability organizations, employers, and civic groups
 - 90-day launch plan for the Wyoming rural special-needs transportation pilot
