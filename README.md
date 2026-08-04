@@ -71,11 +71,13 @@ The application provides a complete startup operations workspace for executive o
 - `foundation/launch_package/69_Corporate_Email_Agent_Send_Batch_Register_2026-08-03.csv` - priority send/readiness board for authority, insurance, rental bridge, partner vehicle, financing, and sponsor packet actions
 - `foundation/launch_package/70_August_4_First_Proof_Activation_Packet_2026-08-04.md` - exact August 4 approval packet for publishing the corporate email agent and activating first proof contacts without obligations
 - `foundation/launch_package/71_Batch_A_CEO_Approval_Checklist_2026-08-04.md` - generated CEO checklist for Batch A proof contact and optional separate Gmail draft approvals
+- `foundation/launch_package/72_Batch_A_Response_Capture_Worksheet_2026-08-04.csv` - generated first-capture worksheet for Batch A authority, insurance, rental bridge, and partner-vehicle responses
 - `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx` - generated review packet for August 9 funding, vehicle, authority, insurance, and approval controls
 - `VCC Funding/` - funding control lane for grants, sponsors, anchor partners, lender readiness, evidence, and approval gates
 - `.github/workflows/proof-html.yml` - Vite production build validation
 - `.env.example` - optional local environment override template
 - `tools/generate-proof-activation-checklist.mjs` - local generator for refreshing the Batch A CEO approval checklist from the corporate email send batch register
+- `tools/generate-batch-a-response-worksheet.mjs` - local generator for refreshing the Batch A response worksheet from the corporate email send batch register
 
 ## Local development
 
@@ -127,6 +129,7 @@ The August 3, 2026 workspace includes six command centers:
 - Use the VCC Corporate Email Approval Agent runbook and send batch register to review drafts, replace stale packet drafts, and send only exact CEO-approved official corporate emails.
 - Use the August 4 first proof activation packet to approve Batch A proof contact, or treat the August 5 vehicle proof gate as unlikely and pivot accordingly.
 - Refresh the Batch A CEO approval checklist with `npm run proof:activation-checklist` after changing the send batch register.
+- Refresh the Batch A response worksheet with `npm run proof:batch-a-response-worksheet` after changing the send batch register, then reconcile any approved response into 63, 49, 52, and 65.
 - Prioritize rental bridge first after authority and insurance screens because current purchase leads still need vendor-confirmed release timing.
 - Complete corporate, insurance, operating authority, pilot vehicle, and driver readiness gates before launch.
 - Preserve legal controls so VCC does not create obligations before executive authorization.

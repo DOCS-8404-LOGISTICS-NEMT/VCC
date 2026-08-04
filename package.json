@@ -8,6 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "proof:activation-checklist": "node tools/generate-proof-activation-checklist.mjs",
+    "proof:batch-a-response-worksheet": "node tools/generate-batch-a-response-worksheet.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
