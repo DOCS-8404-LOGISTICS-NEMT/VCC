@@ -75,6 +75,7 @@ The application provides a complete startup operations workspace for executive o
 - `foundation/launch_package/73_Launch_Automation_Agent_Roster_2026-08-04.md` - recommended automation-agent roster for launch gates, proof intake, authority, insurance, funding, partner capacity, grants, workspace security, and compliance binder controls
 - `foundation/launch_package/74_August_4_Current_Reality_And_Approval_Lock_2026-08-04.md` - current realism answer, public-source refresh, DNS/DKIM status, and exact Batch A approval lock
 - `foundation/launch_package/75_Daily_Launch_Gate_Report_2026-08-04.md` - generated daily gate report from the proof clock and Batch A response worksheet
+- `foundation/launch_package/76_Batch_A_No_Obligation_Contact_Run_Sheet_2026-08-04.md` - generated no-obligation contact run sheet for the seven Batch A proof targets
 - `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx` - generated review packet for August 9 funding, vehicle, authority, insurance, and approval controls
 - `VCC Funding/` - funding control lane for grants, sponsors, anchor partners, lender readiness, evidence, and approval gates
 - `.github/workflows/proof-html.yml` - Vite production build validation
@@ -82,6 +83,7 @@ The application provides a complete startup operations workspace for executive o
 - `tools/generate-proof-activation-checklist.mjs` - local generator for refreshing the Batch A CEO approval checklist from the corporate email send batch register
 - `tools/generate-batch-a-response-worksheet.mjs` - local generator for refreshing the Batch A response worksheet from the corporate email send batch register
 - `tools/generate-daily-launch-gate-report.mjs` - local generator for refreshing the daily launch gate report from the proof clock and Batch A response worksheet
+- `tools/generate-batch-a-contact-run-sheet.mjs` - local generator for refreshing the Batch A no-obligation contact run sheet from the response worksheet
 
 ## Local development
 
@@ -137,6 +139,7 @@ The August 3, 2026 workspace includes six command centers:
 - Use the launch automation agent roster to create internal-only agents first, then add external-contact or finance-aware agents only with exact CEO approval and write-action guardrails.
 - Use the August 4 current reality packet before deciding whether to activate Batch A proof contact; it confirms the rental bridge is still the strongest mid-month vehicle lane and that website SSL and DKIM remain unresolved.
 - Refresh the daily launch gate report with `npm run proof:daily-gate-report` after proof-clock or Batch A response changes.
+- Refresh the Batch A contact run sheet with `npm run proof:batch-a-contact-run-sheet` after proof worksheet changes, then use it only after exact contact approval.
 - Prioritize rental bridge first after authority and insurance screens because current purchase leads still need vendor-confirmed release timing.
 - Complete corporate, insurance, operating authority, pilot vehicle, and driver readiness gates before launch.
 - Preserve legal controls so VCC does not create obligations before executive authorization.
