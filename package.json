@@ -11,6 +11,7 @@
     "proof:batch-a-response-worksheet": "node tools/generate-batch-a-response-worksheet.mjs",
     "proof:daily-gate-report": "node tools/generate-daily-launch-gate-report.mjs",
     "proof:batch-a-contact-run-sheet": "node tools/generate-batch-a-contact-run-sheet.mjs",
+    "proof:batch-a-reconciliation-map": "node tools/generate-batch-a-reconciliation-map.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

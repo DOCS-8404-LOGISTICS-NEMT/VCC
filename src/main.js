@@ -214,11 +214,12 @@ const closeScorecard = [
   ["11", "August 4 reality lock", "Prepared", "Use 74 for the current answer: rental bridge is the strongest mid-month vehicle lane, grant cash is not one-week cash, and DNS/DKIM remain unresolved"],
   ["12", "Daily gate report", "Generated", "Use 75 to refresh the current proof counts from 65 and 72 before deciding whether August 15 vehicle control and August 9/10 funding remain realistic"],
   ["13", "Batch A contact run sheet", "Generated", "Use 76 after exact approval to run authority, insurance, rental bridge, and partner-capacity screens without authorizing obligations"],
-  ["14", "August 3 source refresh", "Prepared", "Rental bridge remains fastest; grants are not one-week cash; public listings still do not count without written or dated response proof"],
-  ["15", "August proof clock", "Prepared", "August 5 vehicle proof, August 7 insurance/authority proof, August 9/10 cash proof, August 12 obligation approval, and August 15 vehicle-control gates are tracked in 65"],
-  ["16", "Partner vehicle pivot", "Prepared", "Use 66 and 67 to screen Platte ParaTransit, Services for Seniors, and other resource partners if rental, lease, purchase, insurance, authority, or cash proof slips"],
-  ["17", "MobilityWorks KR692569A", "Coming Soon lead", "Release timing, quote, title, inspection, warranty, and commercial-use permission still need vendor response"],
-  ["18", "WyoMicro / sponsor funding", "Source refreshed", "Preliminary fit, sponsor readiness interest, pledge path, and written terms still need outside response"],
+  ["14", "Batch A reconciliation map", "Generated", "Use 77 before counting any response; partner-capacity targets need downstream rows before they can support August 15 vehicle-control proof"],
+  ["15", "August 3 source refresh", "Prepared", "Rental bridge remains fastest; grants are not one-week cash; public listings still do not count without written or dated response proof"],
+  ["16", "August proof clock", "Prepared", "August 5 vehicle proof, August 7 insurance/authority proof, August 9/10 cash proof, August 12 obligation approval, and August 15 vehicle-control gates are tracked in 65"],
+  ["17", "Partner vehicle pivot", "Prepared", "Use 66 and 67 to screen Platte ParaTransit, Services for Seniors, and other resource partners if rental, lease, purchase, insurance, authority, or cash proof slips"],
+  ["18", "MobilityWorks KR692569A", "Coming Soon lead", "Release timing, quote, title, inspection, warranty, and commercial-use permission still need vendor response"],
+  ["19", "WyoMicro / sponsor funding", "Source refreshed", "Preliminary fit, sponsor readiness interest, pledge path, and written terms still need outside response"],
 ];
 
 const workspaceReadiness = [
