@@ -92,6 +92,7 @@ These files are not executed records. They should not be represented as final co
 | `71_Batch_A_CEO_Approval_Checklist_2026-08-04.md` | Generated CEO checklist from the send batch register for Batch A proof contact, existing draft send approvals, and stale-draft replacement approvals. |
 | `72_Batch_A_Response_Capture_Worksheet_2026-08-04.csv` | Generated first-capture worksheet for Batch A authority, insurance, rental bridge, and partner-vehicle responses before reconciliation into the main intake, evidence log, scorecard, and proof clock. |
 | `73_Launch_Automation_Agent_Roster_2026-08-04.md` | Recommended automation-agent roster for proof intake, launch gating, authority, insurance, funding, partner capacity, grants, workspace security, and compliance binder controls. |
+| `74_August_4_Current_Reality_And_Approval_Lock_2026-08-04.md` | Current August 4 realism answer, public-source refresh, DNS/DKIM status, and exact approval lock for Batch A no-obligation proof collection. |
 
 ## Generated Packet Outputs
 
@@ -135,14 +136,15 @@ Active launch materials must use accessible passenger vehicle, ADA/specialty mob
 26. Run `npm run proof:activation-checklist` after any send-register change, then use `71_Batch_A_CEO_Approval_Checklist_2026-08-04.md` as the current Batch A approval surface.
 27. Run `npm run proof:batch-a-response-worksheet` after any send-register change, then use `72_Batch_A_Response_Capture_Worksheet_2026-08-04.csv` for first capture after approved Batch A contacts.
 28. Use `73_Launch_Automation_Agent_Roster_2026-08-04.md` to create only the internal automation agents that preserve proof, send, filing, funding, insurance, payment, DNS/admin, and PHI approval gates.
-29. Publish the VCC Corporate Email Approval Agent only after CEO approval, then use `68_Corporate_Email_Agent_And_Send_Approval_Runbook_2026-08-03.md` and `69_Corporate_Email_Agent_Send_Batch_Register_2026-08-03.csv` to prepare exact Gmail send approvals without unapproved obligations.
-30. Choose Option A, B, or C in `55_CEO_Next_Action_Decision_Record_2026-08-02.md` before any outside contact or draft replacement.
-31. If Option A is approved, use `57_Option_A_Same_Day_Proof_Collection_Runbook_2026-08-02.md` for the same-day proof collection order.
-32. If a rental, vehicle, insurance, sponsor, lender, or partner-vehicle proof item appears, use `58_Bridge_Readiness_Funding_Authorization_DRAFT_2026-08-02.md` before any bridge/readiness funds are committed.
-33. Use `59_Exact_Obligation_Approval_Memo_DRAFT_2026-08-02.md` before approving any specific deposit, rental, lease, purchase, insurance bind, filing, credit pull, invoice, funds acceptance, or partner-vehicle obligation.
-33. Verify recipient emails and use the Gmail packet queue to prepare approved drafts.
-34. Send partner, vehicle, and funding outreach only after final approval.
-35. Convert approved summary/capability statement into PDF.
+29. Review `74_August_4_Current_Reality_And_Approval_Lock_2026-08-04.md` for the current realism answer, public-source refresh, unresolved website/DKIM evidence, and exact Batch A approval lock.
+30. Publish the VCC Corporate Email Approval Agent only after CEO approval, then use `68_Corporate_Email_Agent_And_Send_Approval_Runbook_2026-08-03.md` and `69_Corporate_Email_Agent_Send_Batch_Register_2026-08-03.csv` to prepare exact Gmail send approvals without unapproved obligations.
+31. Choose Option A, B, or C in `55_CEO_Next_Action_Decision_Record_2026-08-02.md` before any outside contact or draft replacement.
+32. If Option A is approved, use `57_Option_A_Same_Day_Proof_Collection_Runbook_2026-08-02.md` for the same-day proof collection order.
+33. If a rental, vehicle, insurance, sponsor, lender, or partner-vehicle proof item appears, use `58_Bridge_Readiness_Funding_Authorization_DRAFT_2026-08-02.md` before any bridge/readiness funds are committed.
+34. Use `59_Exact_Obligation_Approval_Memo_DRAFT_2026-08-02.md` before approving any specific deposit, rental, lease, purchase, insurance bind, filing, credit pull, invoice, funds acceptance, or partner-vehicle obligation.
+35. Verify recipient emails and use the Gmail packet queue to prepare approved drafts.
+36. Send partner, vehicle, and funding outreach only after final approval.
+37. Convert approved summary/capability statement into PDF.
 
 ## Approval Required Before Execution
 

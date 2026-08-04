@@ -73,6 +73,7 @@ The application provides a complete startup operations workspace for executive o
 - `foundation/launch_package/71_Batch_A_CEO_Approval_Checklist_2026-08-04.md` - generated CEO checklist for Batch A proof contact and optional separate Gmail draft approvals
 - `foundation/launch_package/72_Batch_A_Response_Capture_Worksheet_2026-08-04.csv` - generated first-capture worksheet for Batch A authority, insurance, rental bridge, and partner-vehicle responses
 - `foundation/launch_package/73_Launch_Automation_Agent_Roster_2026-08-04.md` - recommended automation-agent roster for launch gates, proof intake, authority, insurance, funding, partner capacity, grants, workspace security, and compliance binder controls
+- `foundation/launch_package/74_August_4_Current_Reality_And_Approval_Lock_2026-08-04.md` - current realism answer, public-source refresh, DNS/DKIM status, and exact Batch A approval lock
 - `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx` - generated review packet for August 9 funding, vehicle, authority, insurance, and approval controls
 - `VCC Funding/` - funding control lane for grants, sponsors, anchor partners, lender readiness, evidence, and approval gates
 - `.github/workflows/proof-html.yml` - Vite production build validation
@@ -132,6 +133,7 @@ The August 3, 2026 workspace includes six command centers:
 - Refresh the Batch A CEO approval checklist with `npm run proof:activation-checklist` after changing the send batch register.
 - Refresh the Batch A response worksheet with `npm run proof:batch-a-response-worksheet` after changing the send batch register, then reconcile any approved response into 63, 49, 52, and 65.
 - Use the launch automation agent roster to create internal-only agents first, then add external-contact or finance-aware agents only with exact CEO approval and write-action guardrails.
+- Use the August 4 current reality packet before deciding whether to activate Batch A proof contact; it confirms the rental bridge is still the strongest mid-month vehicle lane and that website SSL and DKIM remain unresolved.
 - Prioritize rental bridge first after authority and insurance screens because current purchase leads still need vendor-confirmed release timing.
 - Complete corporate, insurance, operating authority, pilot vehicle, and driver readiness gates before launch.
 - Preserve legal controls so VCC does not create obligations before executive authorization.
