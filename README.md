@@ -67,6 +67,8 @@ The application provides a complete startup operations workspace for executive o
 - `foundation/launch_package/65_August_Proof_Clock_Tracker_2026-08-03.csv` - dated proof-clock tracker for August 5 vehicle proof, August 7 insurance/authority proof, August 9/10 funding proof, August 12 obligation approval, and August 15 vehicle-control gates
 - `foundation/launch_package/66_Partner_Vehicle_Pivot_Packet_2026-08-03.md` - partner-vehicle fallback packet if rental, lease, purchase, insurance, authority, or funding proof slips
 - `foundation/launch_package/67_Partner_Vehicle_Capacity_Target_Register_2026-08-03.csv` - target register for local partner-vehicle capacity screens and transportation-resource partners
+- `foundation/launch_package/68_Corporate_Email_Agent_And_Send_Approval_Runbook_2026-08-03.md` - Gmail-connected VCC Corporate Email Approval Agent runbook and exact approval language
+- `foundation/launch_package/69_Corporate_Email_Agent_Send_Batch_Register_2026-08-03.csv` - priority send/readiness board for authority, insurance, rental bridge, partner vehicle, financing, and sponsor packet actions
 - `output/docx/VCC_Vehicle_Funding_Close_Packet_DRAFT.docx` - generated review packet for August 9 funding, vehicle, authority, insurance, and approval controls
 - `VCC Funding/` - funding control lane for grants, sponsors, anchor partners, lender readiness, evidence, and approval gates
 - `.github/workflows/proof-html.yml` - Vite production build validation
@@ -119,6 +121,7 @@ The August 3, 2026 workspace includes six command centers:
 - Use the August 3 public-source reality update as the current answer: rental bridge remains the fastest vehicle lane, grants are not one-week cash, and public listings still do not count without written or dated response proof.
 - Use the August proof-clock tracker to make the August 5, August 7, August 9/10, August 12, and August 15 continue/pivot/hold decisions from evidence instead of intent.
 - Use the partner-vehicle pivot packet and capacity target register if the rental, lease, purchase, insurance, authority, or funding lanes miss their proof gates.
+- Use the VCC Corporate Email Approval Agent runbook and send batch register to review drafts, replace stale packet drafts, and send only exact CEO-approved official corporate emails.
 - Prioritize rental bridge first after authority and insurance screens because current purchase leads still need vendor-confirmed release timing.
 - Complete corporate, insurance, operating authority, pilot vehicle, and driver readiness gates before launch.
 - Preserve legal controls so VCC does not create obligations before executive authorization.
