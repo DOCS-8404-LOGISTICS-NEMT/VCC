@@ -1,1 +1,7 @@
 node_modules/
+dist/
+*.log
+.codex/
+tmp/
+__pycache__/
+*.pyc
