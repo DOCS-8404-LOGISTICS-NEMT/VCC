@@ -17,6 +17,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      VITE_AMPLITUDE_API_KEY: ${{ vars.VITE_AMPLITUDE_API_KEY }}
+      VITE_AMPLITUDE_SESSION_REPLAY_SAMPLE_RATE: ${{ vars.VITE_AMPLITUDE_SESSION_REPLAY_SAMPLE_RATE }}
 
     steps:
       - name: Check out repository
@@ -30,6 +33,13 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Verify analytics configuration
+        shell: bash
+        run: |
+          if [ -z "$VITE_AMPLITUDE_API_KEY" ]; then
+            echo "::warning::VITE_AMPLITUDE_API_KEY is not configured; the site will deploy with analytics disabled."
+          fi
 
       - name: Build VCC website
         run: npm run build
