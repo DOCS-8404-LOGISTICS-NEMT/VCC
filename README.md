@@ -173,7 +173,18 @@ Each event includes the shared VCC company, division, corporate email, website c
 
 ## Environment configuration
 
-The browser SDK may read `VITE_AMPLITUDE_API_KEY` from `.env.local`. The Amplitude project API key is client-visible by design; passwords, GitHub tokens, OpenAI API keys, and other private credentials must never be committed.
+The browser SDK reads `VITE_AMPLITUDE_API_KEY` from the Vite environment and remains disabled when the key is absent. The Amplitude project API key is client-visible by design; passwords, GitHub tokens, OpenAI API keys, and other private credentials must never be committed.
+
+Set `VITE_AMPLITUDE_SESSION_REPLAY_SAMPLE_RATE` to a value from `0` to `1`. Development defaults to `1`; production defaults to `0.01`.
+
+### Analytics data guardrails
+
+- Keep `src/main.js` as the only Amplitude initialization path.
+- Use custom VCC events for business actions; do not enable generic form, element, file-download, network, or frustration autocapture without a reviewed tracking requirement.
+- Never send rider names, medical or disability information, Medicaid data, trip purpose, addresses, phone numbers, payment data, credentials, or free-text form/search contents to Amplitude.
+- Review Session Replay masking, consent, retention, and privacy disclosures before increasing the production sample rate.
+- Use organization and division identifiers in shared event context; do not attach the corporate email address to every event.
+- Validate event names and allowed properties before adding or changing production tracking.
 
 ## Repository status
 

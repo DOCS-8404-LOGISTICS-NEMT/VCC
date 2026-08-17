@@ -858,7 +858,13 @@ function renderCommandIntro(kicker, title, body) {
   `;
 }
 
+let analyticsReady = false;
+
 function track(eventName, properties = {}) {
+  if (!analyticsReady) {
+    return;
+  }
+
   amplitude.track(eventName, {
     ...VCC_ANALYTICS_CONTEXT,
     page_title: document.title,
@@ -866,6 +872,43 @@ function track(eventName, properties = {}) {
     review_date: reviewDate,
     ...properties,
   });
+}
+
+async function initializeAmplitude() {
+  if (window[INIT_FLAG]) {
+    analyticsReady = Boolean(await window[INIT_FLAG]);
+    return analyticsReady;
+  }
+
+  if (!VCC_CONFIG.amplitude.apiKey) {
+    console.warn(
+      "Amplitude is disabled: VITE_AMPLITUDE_API_KEY is not configured.",
+    );
+    return false;
+  }
+
+  const initialization = (async () => {
+    try {
+      await amplitude.initAll(VCC_CONFIG.amplitude.apiKey, {
+        analytics: { autocapture: VCC_CONFIG.amplitude.autocapture },
+        sessionReplay: {
+          sampleRate: VCC_CONFIG.amplitude.sessionReplaySampleRate,
+        },
+        engagement: { skip: true },
+      });
+
+      analyticsReady = true;
+      track("VCC Page Viewed");
+      return true;
+    } catch (error) {
+      console.warn("Amplitude initialization failed.", error);
+      delete window[INIT_FLAG];
+      return false;
+    }
+  })();
+
+  window[INIT_FLAG] = initialization;
+  return initialization;
 }
 
 app.innerHTML = `
@@ -1212,17 +1255,7 @@ app.innerHTML = `
   </main>
 `;
 
-if (!window[INIT_FLAG]) {
-  amplitude.initAll(VCC_CONFIG.amplitude.apiKey, {
-    analytics: { autocapture: VCC_CONFIG.amplitude.autocapture },
-    sessionReplay: {
-      sampleRate: VCC_CONFIG.amplitude.sessionReplaySampleRate,
-    },
-  });
-
-  window[INIT_FLAG] = true;
-  track("VCC Page Viewed");
-}
+void initializeAmplitude();
 
 document.querySelectorAll("[data-vcc-event]").forEach((element) => {
   element.addEventListener("click", () => {
