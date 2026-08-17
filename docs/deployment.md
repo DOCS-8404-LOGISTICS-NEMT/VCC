@@ -17,11 +17,18 @@ This project is configured to build and deploy the VCC website through GitHub Pa
 4. GitHub Pages publishes the production artifact.
 5. Amplitude tracks browser-side website behavior after the page loads.
 
-## Required GitHub Setting
+## Required GitHub Settings
 
 In the GitHub repository settings, Pages should use:
 
 - Source: GitHub Actions
+
+Add these repository-level Actions variables under **Settings → Secrets and variables → Actions → Variables**:
+
+- `VITE_AMPLITUDE_API_KEY` — the client-visible Amplitude project key.
+- `VITE_AMPLITUDE_SESSION_REPLAY_SAMPLE_RATE` — optional production rate from `0` to `1`; use `0.01` as the default.
+
+The deployment remains successful when the API-key variable is absent, but browser analytics stays disabled and the workflow emits a warning.
 
 ## Required DNS Setting
 
