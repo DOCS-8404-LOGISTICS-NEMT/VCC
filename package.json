@@ -7,14 +7,19 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "proof:activation-checklist": "node tools/generate-proof-activation-checklist.mjs",
+    "proof:batch-a-response-worksheet": "node tools/generate-batch-a-response-worksheet.mjs",
+    "proof:daily-gate-report": "node tools/generate-daily-launch-gate-report.mjs",
+    "proof:batch-a-contact-run-sheet": "node tools/generate-batch-a-contact-run-sheet.mjs",
+    "proof:batch-a-reconciliation-map": "node tools/generate-batch-a-reconciliation-map.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@amplitude/unified": "latest",
+    "@amplitude/unified": "1.1.20",
     "@primer/css": "17.0.1"
   },
   "devDependencies": {
-    "vite": "latest"
+    "vite": "8.1.5"
   },
   "license": "MIT"
 }

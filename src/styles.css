@@ -154,12 +154,26 @@ h3 {
   overflow-wrap: anywhere;
 }
 
+.identity-grid strong {
+  display: block;
+  margin-top: 8px;
+  overflow-wrap: anywhere;
+}
+
+.command-nav,
 .button-row {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
 
+.command-nav {
+  margin: 18px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.command-nav a,
 .button-row a,
 .button-row button {
   min-height: 42px;
