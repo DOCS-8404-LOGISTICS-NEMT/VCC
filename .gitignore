@@ -3,5 +3,6 @@ dist/
 *.log
 .codex/
 tmp/
+archive/retired-projects/signature-packets-archived-*/
 __pycache__/
 *.pyc

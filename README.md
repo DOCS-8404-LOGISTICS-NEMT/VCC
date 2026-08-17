@@ -6,7 +6,7 @@
 
 This repository supports VILIGANS COMMAND CORPORATION (VCC) and DOCS NREMT & Logistics, a Wyoming-based non-emergency medical transportation (NEMT), logistics, and rural health access initiative.
 
-The application provides a complete startup operations workspace for executive operations, funding, legal strategy, contract control, marketing, pilot vehicle acquisition governance, Wyoming compliance, and the first rural special-needs mobility pilot.
+The application provides a working Vite dashboard for executive operations, grant strategy, compliance readiness, transportation launch governance, revenue development, Amplitude analytics, Codex-assisted repository maintenance, and GitHub Actions validation.
 
 ## Corporate identity
 
@@ -171,6 +171,18 @@ The application currently emits:
 
 Each event includes the shared VCC company, division, corporate email, website context, and current review date.
 
+## Executive operations workspace
+
+The current workspace includes:
+
+- July 30, 2026 executive operations review
+- Immediate action list ranked by estimated impact
+- Open and actionable funding pipeline for ICAM, ATTAIN, WYDOT transit funding, and local service contracts
+- Wyoming compliance requirements and business risk notes
+- Revenue opportunity tracker for county, clinic, employer, and sponsor channels
+- Partnership pipeline for WYDOT, counties, clinics, senior/disability organizations, employers, and civic groups
+- 90-day launch plan for the Wyoming rural special-needs transportation pilot
+
 ## Environment configuration
 
 The browser SDK reads `VITE_AMPLITUDE_API_KEY` from the Vite environment and remains disabled when the key is absent. The Amplitude project API key is client-visible by design; passwords, GitHub tokens, OpenAI API keys, and other private credentials must never be committed.
@@ -179,12 +191,11 @@ Set `VITE_AMPLITUDE_SESSION_REPLAY_SAMPLE_RATE` to a value from `0` to `1`. Deve
 
 ### Analytics data guardrails
 
-- Keep `src/main.js` as the only Amplitude initialization path.
-- Use custom VCC events for business actions; do not enable generic form, element, file-download, network, or frustration autocapture without a reviewed tracking requirement.
-- Never send rider names, medical or disability information, Medicaid data, trip purpose, addresses, phone numbers, payment data, credentials, or free-text form/search contents to Amplitude.
-- Review Session Replay masking, consent, retention, and privacy disclosures before increasing the production sample rate.
-- Use organization and division identifiers in shared event context; do not attach the corporate email address to every event.
-- Validate event names and allowed properties before adding or changing production tracking.
+1. Checks out the repository.
+2. Sets up Node.js 22.
+3. Installs npm dependencies with `npm install`.
+4. Runs `npm run build`.
+5. Confirms that `dist/index.html` exists.
 
 ## Repository status
 
