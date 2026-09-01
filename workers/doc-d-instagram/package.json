@@ -1,0 +1,11 @@
+{
+  "name": "@vcc/doc-d-instagram-publisher",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "dev": "npx wrangler@4.37.0 dev",
+    "deploy": "npx wrangler@4.37.0 deploy"
+  }
+}
