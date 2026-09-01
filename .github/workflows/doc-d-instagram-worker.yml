@@ -1,0 +1,54 @@
+name: DOC D Instagram Worker Checks
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "workers/doc-d-instagram/**"
+      - ".github/workflows/doc-d-instagram-worker.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "workers/doc-d-instagram/**"
+      - ".github/workflows/doc-d-instagram-worker.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: workers/doc-d-instagram
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Test approval and publishing controls
+        run: npm test
+
+  deploy:
+    if: github.event_name == 'workflow_dispatch'
+    needs: test
+    runs-on: ubuntu-latest
+    environment: doc-d-instagram-production
+    defaults:
+      run:
+        working-directory: workers/doc-d-instagram
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Deploy only after protected environment approval
+        run: npx wrangler@4.37.0 deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
