@@ -1,0 +1,20 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "doc-d-instagram-publisher",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-01",
+  "vars": {
+    "META_GRAPH_API_VERSION": "v24.0",
+    "ALLOWED_MEDIA_HOSTS": "viliganscommandcorp.com,www.viliganscommandcorp.com"
+  },
+  "secrets": {
+    "required": ["PUBLISH_API_KEY", "META_ACCESS_TOKEN", "INSTAGRAM_ACCOUNT_ID"]
+  },
+  "kv_namespaces": [
+    {
+      "binding": "PUBLISHED_APPROVALS",
+      "id": "REPLACE_WITH_PRODUCTION_KV_NAMESPACE_ID",
+      "preview_id": "REPLACE_WITH_PREVIEW_KV_NAMESPACE_ID"
+    }
+  ]
+}
