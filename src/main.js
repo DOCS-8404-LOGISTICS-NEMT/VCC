@@ -4,6 +4,7 @@ import "./styles.css";
 
 const INIT_FLAG = "__VCC_AMPLITUDE_INITIALIZED__";
 const reviewDate = "July 30, 2026";
+const PLATTE_COUNTY_QUESTIONNAIRE_URL = "https://form.typeform.com/to/zItkYeCT";
 
 const app = document.querySelector("#app");
 
@@ -291,8 +292,37 @@ app.innerHTML = `
       <div class="button-row">
         <a href="${VCC_CONFIG.website}" data-vcc-event="VCC Website Clicked">Company Website</a>
         <a href="mailto:${VCC_CONFIG.corporateEmail}" data-vcc-event="VCC Contact Intent">Email VCC</a>
+        <a href="${PLATTE_COUNTY_QUESTIONNAIRE_URL}" target="_blank" rel="noreferrer" data-vcc-event="Platte County Questionnaire Opened" data-label="Hero questionnaire CTA">Platte County Questionnaire</a>
         <button type="button" data-vcc-event="VCC Funding Interest">Track Funding Interest</button>
         <button type="button" data-vcc-event="VCC Service Area Interest">Track Service Area Interest</button>
+      </div>
+    </section>
+
+    <section aria-labelledby="platte-county-questionnaire">
+      <div class="section-heading">
+        <p class="eyebrow">Platte County pre-launch community input</p>
+        <h2 id="platte-county-questionnaire">Help document rural transportation needs</h2>
+      </div>
+      <div class="card">
+        <h3>Platte County Transportation Gap Questionnaire</h3>
+        <p>
+          VILIGANS COMMAND CORPORATION is gathering community input before any transportation service launch.
+          The questionnaire helps document where scheduled, non-emergency rural transportation gaps may exist,
+          what kinds of trips are being delayed or missed, and where coordination with existing Platte County
+          providers and community organizations may be useful.
+        </p>
+        <p>
+          We explain why each question is asked so respondents can understand how their answers support
+          pre-launch demand and coordination analysis. Responses are retained for that planning purpose.
+        </p>
+        <p class="note">
+          <strong>Planning notice:</strong> This questionnaire is not a ride request or reservation, does not create
+          a customer relationship, and is not a representation or guarantee that transportation service is currently
+          operating or will launch. Do not use the questionnaire for emergencies.
+        </p>
+        <div class="button-row">
+          <a href="${PLATTE_COUNTY_QUESTIONNAIRE_URL}" target="_blank" rel="noreferrer" data-vcc-event="Platte County Questionnaire Opened" data-label="Pre-launch questionnaire CTA">Share Your Experience</a>
+        </div>
       </div>
     </section>
 
