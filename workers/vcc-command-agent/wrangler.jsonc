@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "vcc-command-agent",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-31",
+  "compatibility_flags": ["nodejs_compat"],
+  "kv_namespaces": [
+    {
+      "binding": "VCC_AUDIT",
+      "id": "REPLACE_WITH_VCC_AUDIT_KV_ID"
+    }
+  ],
+  "vars": {
+    "VCC_COMMAND_POSTURE": "PLANNING_ONLY"
+  }
+}
