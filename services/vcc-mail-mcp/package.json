@@ -1,0 +1,14 @@
+{
+  "name": "vcc-mail-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.mjs",
+    "check": "node --check src/server.mjs"
+  },
+  "dependencies": {
+    "imapflow": "^1.0.190",
+    "nodemailer": "^7.0.6"
+  }
+}
