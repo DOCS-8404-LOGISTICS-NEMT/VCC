@@ -1,0 +1,13 @@
+[project]
+name = "vcc-launch-command-agent"
+version = "0.1.0"
+description = "Planning-only VCC Launch command and evidence agent"
+requires-python = ">=3.11"
+dependencies = [
+  "openai-agents>=0.2.0",
+  "fastapi>=0.115.0",
+  "uvicorn>=0.30.0",
+]
+
+[tool.uv]
+package = false
