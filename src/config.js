@@ -14,9 +14,10 @@ function sessionReplaySampleRate() {
 
 export const VCC_CONFIG = Object.freeze({
   company: "VILIGANS COMMAND CORPORATION",
-  division: "DOCS NREMT & Logistics",
+  division: "Platte County Pre-Launch Planning",
   corporateEmail: "aldavis@viliganscommandcorp.com",
-  website: "https://viliganscommandcorp.com",
+  website: "https://www.viliganscommandcorp.com",
+  reservedApex: "https://viliganscommandcorp.com",
   amplitude: Object.freeze({
     apiKey: envApiKey || "",
     autocapture: Object.freeze({
