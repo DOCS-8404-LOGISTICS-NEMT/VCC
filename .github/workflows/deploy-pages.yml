@@ -1,65 +1,18 @@
-name: Deploy Website
+name: Legacy GitHub Pages Deployment Disabled
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
 
 jobs:
-  build:
+  disabled:
     runs-on: ubuntu-latest
-    env:
-      VITE_AMPLITUDE_API_KEY: ${{ vars.VITE_AMPLITUDE_API_KEY }}
-      VITE_AMPLITUDE_SESSION_REPLAY_SAMPLE_RATE: ${{ vars.VITE_AMPLITUDE_SESSION_REPLAY_SAMPLE_RATE }}
-
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Verify analytics configuration
-        shell: bash
+      - name: Confirm deployment hold
         run: |
-          if [ -z "$VITE_AMPLITUDE_API_KEY" ]; then
-            echo "::warning::VITE_AMPLITUDE_API_KEY is not configured; the site will deploy with analytics disabled."
-          fi
-
-      - name: Build VCC website
-        run: npm run build
-
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload website artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          echo "GitHub Pages deployment is disabled."
+          echo "www.viliganscommandcorp.com remains the active pre-launch site."
+          echo "The apex is reserved for a future Doc D AI deployment."
+          echo "This workflow does not build, publish, deploy, or change DNS."
