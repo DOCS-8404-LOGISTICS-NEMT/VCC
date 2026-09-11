@@ -1,170 +1,106 @@
-![Auto Assign](https://github.com/DOCS-8404-LOGISTICS-NEMT/demo-repository/actions/workflows/auto-assign.yml/badge.svg)
-
-![Vite Build](https://github.com/DOCS-8404-LOGISTICS-NEMT/demo-repository/actions/workflows/proof-html.yml/badge.svg)
+![Vite Build](https://github.com/DOCS-8404-LOGISTICS-NEMT/VCC/actions/workflows/proof-html.yml/badge.svg)
 
 # VILIGANS COMMAND CORPORATION (VCC)
 
-This repository supports VILIGANS COMMAND CORPORATION (VCC), a Wyoming corporation developing business infrastructure, automation systems, and a proposed Platte County rural special-needs transportation pilot.
+This private repository supports VILIGANS COMMAND CORPORATION (VCC), a Wyoming corporation developing business infrastructure, automation systems, and a proposed Platte County rural special-needs transportation pilot.
 
-The transportation initiative remains in **PRE-LAUNCH / PLANNING** status. VCC is evaluating documented transportation gaps, regulatory requirements, partnerships, funding pathways, insurance, vehicle configuration, driver qualifications, and operational controls before determining whether passenger operations may begin.
+The transportation initiative remains in **PRE-LAUNCH / PLANNING** status. VCC is evaluating transportation gaps, regulatory requirements, partnerships, funding pathways, insurance, vehicle configuration, driver qualifications, and operational controls before deciding whether passenger operations may begin.
 
-Nothing in this repository should be interpreted as representing that VCC currently provides passenger transportation, NEMT, ambulance, emergency medical transportation, or other regulated transportation services.
+Nothing in this repository represents that VCC currently provides passenger transportation, NEMT, ambulance service, emergency medical transportation, or another regulated transportation service.
 
-## Corporate identity
+## Corporate identity and web architecture
 
-- Website: https://viliganscommandcorp.com
-- Corporate email: aldavis@viliganscommandcorp.com
 - Company: VILIGANS COMMAND CORPORATION
 - Current public-facing entity: VILIGANS COMMAND CORPORATION
-- Pilot location: Platte County, Wyoming
-- Pilot posture: Proposed, scheduled, pre-booked, non-emergency rural special-needs transportation
+- Corporate email: aldavis@viliganscommandcorp.com
+- Active pre-launch evidence-gathering site: https://www.viliganscommandcorp.com
+- Reserved future Doc D AI domain: https://viliganscommandcorp.com
+- Proposed pilot location: Platte County, Wyoming
+- Proposed service scope: scheduled, pre-booked, non-emergency, non-ambulance rural special-needs transportation
+- Excluded scope: school/work transportation, oxygen transport, hazardous materials, emergency response, and ambulance-level service
+
+The apex domain is reserved for a future Doc D AI deployment after grant funding and final pilot authorization. It is outside the current launch scope. This repository is not presumed to be the deployment source for the live pre-launch website until provider-native source and version evidence confirms that relationship.
 
 ## Authorization and operating posture
 
-VCC currently operates under a controlled **CONTINUE PLANNING / HOLD OPERATIONS** posture for the transportation pilot.
+VCC operates under **CONTINUE PLANNING / HOLD OPERATIONS** for the proposed transportation pilot.
 
 Planning, research, controlled simulations, evidence collection, qualification-matrix development, readiness testing, and corrective-action analysis may proceed within approved scope.
 
-Passenger operations and financial or contractual commitments remain prohibited until applicable readiness gates are supported by verified evidence and a separate written executive authorization activates operations.
+Passenger operations and reserved actions remain prohibited until the applicable readiness gates are supported by verified evidence and separate written executive authorization activates operations.
 
-Repository code, documentation, dashboards, simulations, or technical readiness do **not** independently constitute authorization to:
+Repository code, documentation, dashboards, simulations, builds, analytics, or technical readiness do **not** independently authorize VCC to:
 
-- transport passengers;
-- represent transportation service as currently available;
+- transport passengers or represent rides as available;
+- claim licensing, insurance, funding, Medicaid enrollment, certification, or executed partnerships;
 - bind insurance;
 - purchase, lease, finance, or take possession of a vehicle;
 - execute contracts or incur financial obligations;
-- accept paid transportation engagements; or
-- close a launch gate without supporting evidence and required authorization.
+- accept paid transportation engagements;
+- process public-intake responses without separate authorization; or
+- close a launch gate without qualifying evidence and required authority.
+
+Gate 10 and the final launch decision remain exclusively with the President/CEO.
 
 ## Application structure
 
-- `index.html` - Vite bootstrap page
-- `src/main.js` - command center UI, operating data, and Amplitude events
-- `src/config.js` - centralized VCC and analytics configuration
-- `src/styles.css` - responsive operations workspace styling
-- `AGENTS.md` - Codex operating instructions
-- `foundation/google-workspace-foundation.md` - Google Workspace domain, email, Drive, and security foundation
-- `.github/workflows/proof-html.yml` - Vite production build validation
-- `.env.example` - optional local environment override template
+- `index.html` — Vite bootstrap page and planning-stage metadata
+- `src/main.js` — pre-launch planning UI and guarded analytics initialization
+- `src/config.js` — centralized VCC and analytics configuration
+- `src/styles.css` — responsive presentation
+- `AGENTS.md` — controlled Codex instructions
+- `foundation/google-workspace-foundation.md` — proposed Workspace foundation
+- `.github/workflows/proof-html.yml` — Vite build validation
+- `.github/workflows/deploy-pages.yml` — disabled legacy Pages workflow
+- `.env.example` — optional local environment template
 
-## Local development
+## Local validation
 
 ```bash
 npm install
-npm run dev
-```
-
-Vite will print a local URL, normally `http://localhost:5173`.
-
-## Production build
-
-```bash
 npm run build
 npm run preview
 ```
 
-The production output is written to `dist/`.
+The production build output is written to `dist/`. A successful build proves only that the repository source compiles; it does not establish deployment, production hosting, analytics receipt, intake approval, or launch readiness.
 
-## Startup operations workspace
+## Current pre-launch priorities
 
-The workspace includes six command centers:
-
-- **Google Workspace Foundation:** domain, corporate email, sender authentication, role groups, Shared Drives, and security/compliance guardrails.
-- **Executive Dashboard:** funding pipeline, readiness evidence, compliance tasks, outreach status, and vehicle/insurance planning.
-- **Grant Command Center:** grant tracker, application calendar, required-document checklist, funding opportunities, match strategy, and eligible-applicant pathways.
-- **Legal & Contract Center:** corporate records, draft contract controls, vehicle-acquisition planning documents, and risk assessment tracking.
-- **Marketing & Growth Center:** community-demand outreach, partnership pipeline, public-information controls, survey activity, and social-media planning.
-- **Pilot Launch Command Center:** launch-gate evidence, Platte County demand analysis, compliance readiness, vehicle/accessibility requirements, driver/safety qualification controls, simulations, and proposed pilot economics.
-
-## Current operating priorities
-
-- Build the documented Platte County unmet-demand and non-duplication case.
-- Establish the appropriate WYDOT/transit funding, applicant, coordination, procurement, and local-match pathways.
-- Obtain written regulatory and operating-authority determinations applicable to the proposed service model.
-- Obtain nonbinding passenger-transportation insurance planning evidence before any binding decision.
+- Build attributable Platte County unmet-demand and non-duplication evidence.
+- Establish the applicable WYDOT funding, eligible-applicant, coordination, procurement, and local-match pathways.
+- Obtain written regulatory and operating-authority determinations for the proposed service model.
+- Obtain nonbinding passenger-transportation insurance requirements and planning costs.
 - Define and validate the proposed vehicle and accessibility configuration.
-- Complete driver qualification, background-check, competency, training, and driver-file requirements before operations.
-- Test dispatch, inspection, winter-weather, emergency, incident, complaint, and corrective-action systems through controlled simulations.
-- Develop partner referral, sponsored-ride, healthcare-access, veteran-access, and community-coordination pathways without representing that service is currently available.
-- Preserve corporate and authorization controls so VCC does not create operational, contractual, or financial obligations before executive authorization.
-- Maintain evidence sufficient for an objective GO / HOLD / NO-GO launch decision.
+- Complete driver qualification, background-check, competency, training, and driver-file requirements.
+- Test dispatch, inspection, winter-weather, incident, complaint, emergency, and corrective-action systems through controlled simulations.
+- Develop proposed partner, referral, sponsored-ride, healthcare-access, veteran-access, and community-coordination pathways without implying an executed relationship or available service.
+- Maintain evidence sufficient for an objective GO / HOLD / NO-GO decision.
 
-## Pre-launch evidence and metrics
+## Public intake control
 
-Until passenger operations are separately authorized, VCC measures **readiness and demonstrated need**, not operating performance.
+The questionnaire is currently treated as unavailable in this repository while privacy, retention, deletion, access, partial-response, and authorization controls are evaluated.
 
-Current pre-launch measures include:
+The separate CEO decision between temporary disablement and an expressly approved interim collection rule remains outstanding. Existing responses must not be opened, exported, summarized, scored, contacted, or otherwise processed without separate authorization.
 
-- transportation-gap survey responses;
-- documented unmet or denied transportation demand;
-- qualifying human and stakeholder responses;
-- partner and referral interest;
-- healthcare, veteran, senior, disability, and rural-access evidence where available;
-- stakeholder coverage and response rates;
-- support, coordination, or non-duplication evidence;
-- regulatory determinations received;
-- insurance planning evidence;
-- vehicle/accessibility readiness evidence;
-- driver and safety qualification evidence;
-- controlled simulation and CAPA results;
-- funding and eligible-applicant pathway status; and
-- launch-gate status and unresolved blockers.
+Questionnaire traffic, aggregate response-count metadata, or response contents may be used only within their separately approved collection and processing authority. They do not by themselves prove unmet demand or close a launch gate.
 
-Operational metrics such as completed trips, passenger revenue, cost per completed trip, safety incidents during service, and operating denials become applicable only after passenger operations are separately authorized.
+## Amplitude status
 
-## Launch controls
+The current source contains guarded client-side instrumentation intended to emit `VCC Page Viewed` after successful initialization.
 
-The proposed pilot may not transition to passenger operations solely because software, outreach, funding research, a vehicle, insurance quote, or individual readiness documents exist.
+Production configuration, event receipt, deployed-source identity, and the required smoke test remain independently verifiable controls. The source code alone is not proof that production analytics are working.
 
-Before operational activation, VCC requires objective evidence supporting the applicable launch gates, including regulatory authority, insurance, vehicle/accessibility readiness, driver qualifications, tested operating and safety systems, and final written executive authorization.
+The browser SDK may read `VITE_AMPLITUDE_API_KEY` from `.env.local` or the build environment. The Amplitude project API key is client-visible by design. Passwords, GitHub tokens, OpenAI API keys, OAuth secrets, signing keys, and other credentials must never be committed.
 
-Until then, public communications must accurately identify the program as **proposed**, **pre-launch**, or **under evaluation** and must not imply that rides are currently available.
-
-## Google Workspace foundation
-
-Use `aldavis@viliganscommandcorp.com` as the designated corporate admin/officer identity for project metadata, corporate communications, grant-readiness planning, and Workspace configuration once the account and required services are verified operational.
-
-Keep the Workspace runbook in `foundation/google-workspace-foundation.md` and the launch-package draft in `foundation/launch_package/16_Google_Workspace_Admin_Foundation_DRAFT.md`.
-
-Domain DNS, MX routing, SPF, DKIM, DMARC, account/server connectivity, Shared Drives, access controls, and any applicable medical-adjacent privacy safeguards must be **verified rather than assumed** before the corresponding capability is treated as production-ready.
-
-Do not store or transmit protected or sensitive rider information through systems that have not been approved and configured for the applicable privacy and security requirements.
-
-## Amplitude events
-
-The application currently emits:
-
-- `VCC Page Viewed`
-- `VCC Website Clicked`
-- `VCC Contact Intent`
-- `VCC Service Area Interest`
-- `VCC Funding Interest`
-- `VCC Command Center Opened`
-- `VCC Funding Opportunity Viewed`
-- `VCC Source Opened`
-
-Each event includes the configured VCC company, corporate email, website context, and current review context where implemented.
-
-Analytics events measure digital interaction and interest. Traffic, clicks, form activity, or analytics events do **not** by themselves prove unmet transportation demand, regulatory compliance, partner commitment, funding eligibility, or launch-gate completion.
-
-## Environment configuration
-
-The browser SDK may read `VITE_AMPLITUDE_API_KEY` from `.env.local`. The Amplitude project API key is client-visible by design; passwords, GitHub tokens, OpenAI API keys, OAuth client secrets, private signing keys, and other credentials must never be committed to the repository.
-
-## Repository status
-
-The repository remains private while VCC develops internal business and technical infrastructure. Private visibility does not prevent browser-side Amplitude event ingestion, but GitHub, Codex, deployment, and other integrations require explicit repository access and appropriate authorization.
+Analytics measure digital interaction. They do not prove demand, regulatory compliance, partner commitment, funding eligibility, operational readiness, or gate completion.
 
 ## Source and claim control
 
-Repository documentation should distinguish among:
+Repository materials must distinguish:
 
-1. **Verified facts** supported by current evidence;
+1. **Verified facts** supported by attributable current evidence;
 2. **Planning assumptions** used for analysis or simulation;
 3. **Proposed capabilities** that have not been activated; and
-4. **Authorized operations** supported by completed readiness requirements and executive authorization.
+4. **Authorized operations** supported by verified readiness requirements and written executive authorization.
 
-When a statement could imply that VCC currently possesses an approval, certification, insurance policy, operational capability, funding commitment, partnership, or transportation authority, verify the supporting evidence before publishing or relying on that statement.
-
-
+Draft and historical launch-package files may contain superseded assumptions. They must not override the current mission ledger, authenticated CEO directives, current agency evidence, or this repository’s controlled pre-launch posture.
