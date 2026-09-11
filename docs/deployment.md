@@ -1,57 +1,42 @@
-# VCC Website Deployment
+# VCC Website Source and Deployment Control
 
-This project is configured to build and deploy the VCC website through GitHub Pages.
+## Authoritative architecture
 
-## Corporate Identity
-
-- Company: VILIGANS COMMAND CORPORATION
-- Website: https://viliganscommandcorp.com
+- Active pre-launch evidence-gathering site: https://www.viliganscommandcorp.com
+- Reserved future Doc D AI domain: https://viliganscommandcorp.com
+- Current public-facing entity: VILIGANS COMMAND CORPORATION
 - Corporate email: aldavis@viliganscommandcorp.com
-- Public site app: DOCS NREMT & Logistics launch dashboard
 
-## Deployment Flow
+The live `www` site may be ChatGPT-hosted. GitHub Pages is not presumed or required as the production host. The apex is reserved for a future Doc D AI deployment after grant funding and final pilot authorization and is outside current launch scope.
 
-1. Codex updates the source files.
-2. GitHub stores the approved source of truth.
-3. GitHub Actions builds the Vite website.
-4. GitHub Pages publishes the production artifact.
-5. Amplitude tracks browser-side website behavior after the page loads.
+## Repository role
 
-## Required GitHub Settings
+This repository stores planning-stage source and validates that the Vite project builds. It is not treated as the live deployment source until provider-native source/version evidence and independent destination readback establish that relationship.
 
-In the GitHub repository settings, Pages should use:
+`.github/workflows/proof-html.yml` runs build validation. `.github/workflows/deploy-pages.yml` is retained as a disabled legacy control and does not deploy.
 
-- Source: GitHub Actions
+## Deployment authority
 
-Add these repository-level Actions variables under **Settings → Secrets and variables → Actions → Variables**:
+No push, build, workflow, document, or technical result independently authorizes:
 
-- `VITE_AMPLITUDE_API_KEY` — the client-visible Amplitude project key.
-- `VITE_AMPLITUDE_SESSION_REPLAY_SAMPLE_RATE` — optional production rate from `0` to `1`; use `0.01` as the default.
+- a production deployment;
+- DNS or custom-domain changes;
+- repointing `www` or the apex;
+- public-claim changes;
+- public-intake changes or response processing; or
+- passenger operations.
 
-The deployment remains successful when the API-key variable is absent, but browser analytics stays disabled and the workflow emits a warning.
+Any future production mutation requires exact authenticated authority, a defined target, pre-action readback, provider-native version evidence, a rollback point, and post-action destination verification.
 
-## Required DNS Setting
+## Analytics variables
 
-The repository includes `public/CNAME` for:
+The build may read:
 
-```text
-viliganscommandcorp.com
-```
+- `VITE_AMPLITUDE_API_KEY`
+- `VITE_AMPLITUDE_SESSION_REPLAY_SAMPLE_RATE`
 
-To make the corporate domain point to GitHub Pages, update DNS at the domain provider:
+A successful build with those variables does not prove production instrumentation or event receipt. Verify analytics independently and do not expose credentials.
 
-```text
-viliganscommandcorp.com     A      185.199.108.153
-viliganscommandcorp.com     A      185.199.109.153
-viliganscommandcorp.com     A      185.199.110.153
-viliganscommandcorp.com     A      185.199.111.153
-www                         CNAME  docs-8404-logistics-nemt.github.io
-```
+## Historical material
 
-Current known DNS still points the public domain toward Google-hosted infrastructure, so pushing this repository does not by itself update the live public site until DNS is changed or the Google Site is manually updated.
-
-## Publication Guardrails
-
-- Do not publish draft legal, grant, lending, insurance, or regulatory materials as final.
-- Do not expose private keys, passwords, API secrets, SAM.gov credentials, or bank information.
-- Keep VCC and DOCS NREMT & Logistics as the active business identity.
+Earlier GitHub Pages and DNS instructions are superseded for current deployment decisions. Historical records may be retained as provenance but must not be executed as current instructions.
