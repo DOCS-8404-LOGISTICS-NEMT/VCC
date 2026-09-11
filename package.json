@@ -1,8 +1,8 @@
 {
-  "name": "vcc-docs-nremt-logistics",
+  "name": "vcc-prelaunch-planning",
   "version": "0.3.0",
   "private": true,
-  "description": "VILIGANS COMMAND CORPORATION application for DOCS NREMT & Logistics, Amplitude analytics, and Codex-assisted automation.",
+  "description": "VILIGANS COMMAND CORPORATION pre-launch planning application with guarded Amplitude analytics and Codex-assisted automation.",
   "type": "module",
   "scripts": {
     "dev": "vite",
