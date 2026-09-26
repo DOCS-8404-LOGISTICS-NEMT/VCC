@@ -2,7 +2,7 @@
 
 # VILIGANS COMMAND CORPORATION (VCC)
 
-This private repository supports VILIGANS COMMAND CORPORATION (VCC), a Wyoming corporation developing business infrastructure, automation systems, and a proposed Platte County rural special-needs transportation pilot.
+This public repository supports VILIGANS COMMAND CORPORATION (VCC), a Wyoming corporation developing business infrastructure, automation systems, and a proposed Platte County rural special-needs transportation pilot.
 
 The transportation initiative remains in **PRE-LAUNCH / PLANNING** status. VCC is evaluating transportation gaps, regulatory requirements, partnerships, funding pathways, insurance, vehicle configuration, driver qualifications, and operational controls before deciding whether passenger operations may begin.
 
@@ -14,12 +14,12 @@ Nothing in this repository represents that VCC currently provides passenger tran
 - Current public-facing entity: VILIGANS COMMAND CORPORATION
 - Corporate email: aldavis@viliganscommandcorp.com
 - Active pre-launch evidence-gathering site: https://www.viliganscommandcorp.com
-- Reserved future Doc D AI domain: https://viliganscommandcorp.com
-- Proposed pilot location: Platte County, Wyoming
+- Owned apex domain: https://viliganscommandcorp.com (registrar forwarding configured toward `www`; live redirect verification pending)
+- Selected pilot launch location: Wheatland, Platte County, Wyoming
 - Proposed service scope: scheduled, pre-booked, non-emergency, non-ambulance rural special-needs transportation
 - Excluded scope: school/work transportation, oxygen transport, hazardous materials, emergency response, and ambulance-level service
 
-The apex domain is reserved for a future Doc D AI deployment after grant funding and final pilot authorization. It is outside the current launch scope. This repository is not presumed to be the deployment source for the live pre-launch website until provider-native source and version evidence confirms that relationship.
+The apex domain belongs to VCC. Registrar forwarding to the `www` VCC site has been configured, but live apex-to-`www` readback remains unverified. The former Doc D entity is shelved and is not part of the current VCC launch structure. This repository is not presumed to be the deployment source for the live pre-launch website until provider-native source and version evidence confirms that relationship.
 
 ## Authorization and operating posture
 
@@ -27,14 +27,14 @@ VCC operates under **CONTINUE PLANNING / HOLD OPERATIONS** for the proposed tran
 
 Planning, research, controlled simulations, evidence collection, qualification-matrix development, readiness testing, and corrective-action analysis may proceed within approved scope.
 
-Passenger operations and reserved actions remain prohibited until the applicable readiness gates are supported by verified evidence and separate written executive authorization activates operations.
+CEO-authorized VCC-only capital and vehicle procurement work may proceed under the September 26 Wheatland directive. Passenger operations require verified operating prerequisites and a separate explicit CEO activation.
 
 Repository code, documentation, dashboards, simulations, builds, analytics, or technical readiness do **not** independently authorize VCC to:
 
 - transport passengers or represent rides as available;
 - claim licensing, insurance, funding, Medicaid enrollment, certification, or executed partnerships;
 - bind insurance;
-- purchase, lease, finance, or take possession of a vehicle;
+- treat a vehicle inquiry, quote, application, or build as proof of completed purchase, financing, or possession;
 - execute contracts or incur financial obligations;
 - accept paid transportation engagements;
 - process public-intake responses without separate authorization; or
@@ -65,6 +65,8 @@ npm run preview
 The production build output is written to `dist/`. A successful build proves only that the repository source compiles; it does not establish deployment, production hosting, analytics receipt, intake approval, or launch readiness.
 
 ## Current pre-launch priorities
+
+The CEO's September 26 order ranks capital first; a pilot vehicle with fully remote corporate financing, contracts, title/registration, and Wheatland delivery second; founder stock capitalization third; and Wefunder completion fourth. Safety protocols, SAM.gov registration readiness, Wyoming VSO coordination, and eligible property funding advance alongside those priorities. Inquiries and applications do not establish funding, registration, purchase, or operating authority.
 
 - Build attributable Platte County unmet-demand and non-duplication evidence.
 - Establish the applicable WYDOT funding, eligible-applicant, coordination, procurement, and local-match pathways.
