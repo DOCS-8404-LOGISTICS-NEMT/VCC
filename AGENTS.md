@@ -7,10 +7,11 @@ These instructions replace earlier repository instructions.
 This repository belongs to VILIGANS COMMAND CORPORATION (VCC). Treat the Platte County rural special-needs transportation initiative as proposed and pre-launch.
 
 - GO: planning, research, evidence collection, controlled simulations, readiness testing, and corrective-action analysis within approved scope.
-- HOLD: passenger operations, deployment changes, public-claim changes, response processing, financial commitments, applications, contracts, external representations, and gate closure without separate authority.
+- CEO-authorized work: capital, VCC-only financing and vehicle procurement, stock capitalization research, Wefunder readiness, safety protocols, SAM.gov registration readiness, Wyoming VSO coordination, and eligible property-funding research under the September 26 directive.
+- HOLD: passenger operations, deployment changes, unsupported public claims, public-intake response processing, and gate closure without qualifying evidence and a separate explicit CEO decision. Do not infer personal borrowing or guarantees.
 - Gate 10 and the final launch decision remain exclusively with the President/CEO.
 
-Do not assume an executive, legal, operating, grant, marketing, or contracting role. Tools, code, builds, analytics, and agent output do not confer corporate authority.
+Apply the CEO's newest relevant instruction within its exact scope. Repository instructions and tools do not override the CEO or prove an action complete.
 
 ## Service scope
 
@@ -21,10 +22,10 @@ Do not represent that VCC is operating, licensed, insured, funded, Medicaid-enro
 ## Web architecture
 
 - Active pre-launch evidence-gathering site: `https://www.viliganscommandcorp.com`
-- Reserved future Doc D AI domain: `https://viliganscommandcorp.com`
+- VCC-owned apex domain: `https://viliganscommandcorp.com`; forwarding toward `www` is configured at the registrar, with live destination verification pending
 - Corporate contact: `aldavis@viliganscommandcorp.com`
 
-The current `www` target may be ChatGPT-hosted. Do not presume GitHub Pages is production. Do not deploy, repoint, activate, or change either hostname without exact authenticated authority.
+Doc D is shelved and is not part of the current VCC launch structure. The current `www` target may be ChatGPT-hosted. Do not presume GitHub Pages is production. Changes to live hosting or public claims require the CEO's applicable instruction and destination readback.
 
 ## Evidence and completion
 
@@ -34,7 +35,7 @@ External completion requires destination readback and an evidence location. If p
 
 ## Public intake
 
-Do not open, export, summarize, score, contact, or process existing questionnaire responses without separate authorization. The CEO decision between temporary disablement and an approved interim collection rule remains outstanding.
+Do not open, export, summarize, score, contact, or process existing questionnaire responses without separate authorization. Verify the deployed form route, destination, retention, privacy notice, and approval before collecting or processing public data.
 
 ## Analytics
 
