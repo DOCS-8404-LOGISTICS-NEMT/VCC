@@ -1,0 +1,1 @@
+import{freeze}from"./schema.js";export function evidence(refs){if(!Array.isArray(refs)||!refs.length)throw new TypeError("evidence required");refs.forEach(r=>["sourceDocumentId","sourceVersion","locator"].forEach(k=>{if(!r[k])throw new TypeError("evidence missing "+k)}));return freeze(refs.map(r=>({...r})))}
