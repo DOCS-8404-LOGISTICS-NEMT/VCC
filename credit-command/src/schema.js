@@ -1,0 +1,5 @@
+export const BUREAUS=Object.freeze(["equifax","experian","transunion"]);
+export const OUTCOMES=Object.freeze(["corrected","deleted","unchanged","verified","reinserted","migrated_transferred","sold_rereported"]);
+const F=["id","bureau","furnisher","maskedAccountId","responsibility","accountType","openedAt","closedAt","firstDelinquencyAt","lastPaymentAt","status","balance","pastDue","originalOrHighBalance","chargeOffAmount","paymentHistory","remarks","expectedRemovalAt","sourceDocumentId","sourceVersion"];
+export function freeze(v){if(v&&typeof v==="object"&&!Object.isFrozen(v)){Object.freeze(v);Object.values(v).forEach(freeze)}return v}
+export function assertTradeline(t){F.forEach(k=>{if(!(k in t))throw new TypeError("missing "+k)});if(!BUREAUS.includes(t.bureau))throw new TypeError("unknown bureau");if(!/^\*{2,}/.test(t.maskedAccountId||""))throw new TypeError("masked identifier required");if(t.accountType==="collection")["originalCreditor","assignmentAt","collectionAmount"].forEach(k=>{if(!(k in t))throw new TypeError("collection missing "+k)});return freeze({...t})}
