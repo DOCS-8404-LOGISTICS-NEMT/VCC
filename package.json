@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "test:credit-command": "node --test credit-command/test/*.test.js",
     "proof:activation-checklist": "node tools/generate-proof-activation-checklist.mjs",
     "proof:batch-a-response-worksheet": "node tools/generate-batch-a-response-worksheet.mjs",
     "proof:daily-gate-report": "node tools/generate-daily-launch-gate-report.mjs",
