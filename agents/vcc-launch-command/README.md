@@ -35,3 +35,23 @@ POST JSON to `/command`:
 
 ## Deployment
 When separately authorized, deploy this directory through the OpenAI Agents SDK Deployment Manager. Local deployment is not evidence of VCC transportation readiness.
+
+
+## Sentinel evaluation and coding contract (0.3.0)
+Every response passes a separate structured evaluator for Autonomy, Verification,
+Retention and Precision. A failed review triggers correction, with at most three
+reviewed drafts. Exhaustion or malformed evaluation rejects delivery; HTTP returns
+503 and CLI exits nonzero. Passing output includes the four checks and evidence.
+This adds up to six model calls and additional latency/cost per request.
+
+Coding instructions cover source inspection, diagnosis, patches and regression
+verification. This advisory runtime has no shell/filesystem/repository execution
+tools. Those actions require the connected coding workspace; prompts do not grant tools.
+Supply relevant source, prior corrections and attributable results in each request;
+this version does not persist cross-request memory. Model review cannot independently
+verify external evidence or guarantee factual accuracy.
+
+`/health` reports configuration only, never readiness from key presence. A configured
+runtime reports `unverified` and `evaluation=not_probed`. Live evaluation still requires
+an approved bound credential. Run `python -m pytest tests` for mocked offline checks.
+Rollback: revert this change; no deployment or launch authority is granted.

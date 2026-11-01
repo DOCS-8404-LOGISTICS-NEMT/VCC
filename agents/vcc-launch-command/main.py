@@ -9,8 +9,9 @@ from pydantic import BaseModel
 import uvicorn
 
 from agent import run_agent
+from evaluation import EvaluationFailed
 
-app = FastAPI(title="VCC Launch Command Agent", version="0.2.0")
+app = FastAPI(title="VCC Launch Command Agent", version="0.3.0")
 logger = logging.getLogger("vcc_launch_command")
 
 
@@ -26,9 +27,10 @@ def runtime_configured() -> bool:
 @app.get("/health")
 async def health() -> dict[str, str]:
     return {
-        "status": "ready" if runtime_configured() else "degraded",
+        "status": "unverified" if runtime_configured() else "degraded",
         "posture": "CONTINUE PLANNING / HOLD OPERATIONS",
         "runtime": "configured" if runtime_configured() else "credential_unbound",
+        "evaluation": "not_probed",
     }
 
 
@@ -51,8 +53,13 @@ async def command(request: CommandRequest) -> dict[str, str]:
 
     try:
         output = await run_agent(request.input)
+    except EvaluationFailed:
+        raise HTTPException(status_code=503, detail={
+            "code": "agent_output_rejected", "reason": "self_evaluation_failed",
+            "request_id": request_id,
+        }) from None
     except Exception as error:
-        logger.exception(
+        logger.error(
             "command_failed request_id=%s error_type=%s",
             request_id,
             type(error).__name__,
@@ -77,7 +84,10 @@ def cli() -> None:
         parser.error("--input is required when PORT is not set")
     if not runtime_configured():
         parser.error("agent runtime unavailable: credential_unbound")
-    print(asyncio.run(run_agent(args.input)))
+    try:
+        print(asyncio.run(run_agent(args.input)))
+    except EvaluationFailed:
+        parser.exit(1, "agent output rejected: self_evaluation_failed\n")
 
 
 if __name__ == "__main__":
@@ -86,3 +96,4 @@ if __name__ == "__main__":
         uvicorn.run(app, host="0.0.0.0", port=int(port))
     else:
         cli()
+
