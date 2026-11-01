@@ -1,0 +1,19 @@
+name: Sentinel evaluation checks
+on:
+  pull_request:
+    paths:
+      - 'agents/vcc-launch-command/**'
+      - '.github/workflows/sentinel-checks.yml'
+  workflow_dispatch:
+jobs:
+  offline-checks:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -c "import subprocess, sys, tomllib; deps = tomllib.load(open('agents/vcc-launch-command/pyproject.toml', 'rb'))['project']['dependencies']; subprocess.check_call([sys.executable, '-m', 'pip', 'install', *deps, 'pytest', 'httpx'])"
+      - run: python -m pytest agents/vcc-launch-command/tests -q
