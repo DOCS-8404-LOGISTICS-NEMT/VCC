@@ -1,0 +1,1 @@
+export const CR_0001_OUTCOME_FIXTURE=Object.freeze([{experimentId:"exp-001",tradelineId:"collection-a",baselineBalance:488,actualOutcome:"deleted"},{experimentId:"exp-002",tradelineId:"collection-b",baselineBalance:241,actualOutcome:"deleted"},{experimentId:"exp-003",tradelineId:"collection-c",baselineBalance:320,actualOutcome:"unchanged"}]);

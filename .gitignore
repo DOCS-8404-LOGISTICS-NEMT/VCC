@@ -6,3 +6,8 @@ tmp/
 archive/retired-projects/signature-packets-archived-*/
 __pycache__/
 *.pyc
+
+# Credit Command may only use synthetic fixtures in this repository.
+credit-command/private/
+credit-command/imports/
+credit-command/evidence/
