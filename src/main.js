@@ -4,7 +4,7 @@ import "./styles.css";
 
 const INIT_FLAG = "__VCC_AMPLITUDE_INITIALIZED__";
 const reviewDate = "September 16, 2026";
-const PLATTE_COUNTY_QUESTIONNAIRE_URL = "/gap-survey";
+const VCC_CONTACT_URL = "mailto:aldavis@viliganscommandcorp.com?subject=VCC%20Private%20Partnership%20Inquiry";
 const app = document.querySelector("#app");
 
 if (!app) {
@@ -71,34 +71,34 @@ app.innerHTML = `
         licensed, insured, funded, Medicaid-enrolled, partnered, or operationally ready.
       </p>
       <div class="button-row">
-        <a href="${PLATTE_COUNTY_QUESTIONNAIRE_URL}" data-vcc-event="Platte County Questionnaire Opened" data-label="Hero questionnaire CTA">Take the Platte County Transportation Gap Questionnaire</a>
+        <a href="${VCC_CONTACT_URL}" data-vcc-event="VCC Partnership Contact Opened" data-label="Hero questionnaire CTA">Discuss a Private Partnership</a>
       </div>
     </section>
 
     <section aria-labelledby="platte-county-questionnaire">
       <div class="section-heading">
         <p class="eyebrow">Community input</p>
-        <h2 id="platte-county-questionnaire">Help document Platte County transportation gaps</h2>
+        <h2 id="platte-county-questionnaire">Discuss the Platte County transportation opportunity</h2>
       </div>
       <div class="card">
-        <h3>Platte County Transportation Gap Questionnaire</h3>
+        <h3>Planning-stage partnership discussion</h3>
         <p>
-          This short questionnaire gathers planning information about transportation challenges, missed or delayed
+          The transportation-needs questionnaire is temporarily closed while privacy, retention, and integration controls are reviewed. VCC is evaluating transportation challenges, missed or delayed
           essential trips, barriers, and possible coordination needs. It is intended for Platte County residents,
           seniors, veterans, caregivers, people with disabilities, and other rural residents who encounter transportation barriers.
         </p>
         <p>
-          VCC is using community input to understand potential unmet demand and avoid duplicating existing services.
+          No questionnaire responses are being collected from this page. VCC is seeking private organizational guidance on potential unmet demand and ways to complement existing services.
           The proposed pilot scope remains scheduled, pre-booked, non-emergency and non-ambulance transportation;
           school/work trips, oxygen transport, hazardous materials, emergencies, and ambulance service are excluded.
         </p>
         <p class="note">
-          <strong>What this is not:</strong> The questionnaire is not a ride request, reservation, eligibility decision,
+          <strong>What this is not:</strong> This contact option is not a questionnaire, ride request, reservation, eligibility decision,
           customer relationship, or promise of future service. Do not submit medical records, Social Security numbers,
           financial-account information, or other sensitive personal information. For emergencies, call 911.
         </p>
         <div class="button-row">
-          <a href="${PLATTE_COUNTY_QUESTIONNAIRE_URL}" data-vcc-event="Platte County Questionnaire Opened" data-label="Questionnaire section CTA">Share Your Transportation Experience</a>
+          <a href="${VCC_CONTACT_URL}" data-vcc-event="VCC Partnership Contact Opened" data-label="Questionnaire section CTA">Request a Private Planning Conversation</a>
         </div>
       </div>
     </section>
